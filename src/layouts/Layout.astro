@@ -1,0 +1,92 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const siteName = "CricBreakdown";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/images/mark.svg" />
+    <title>{title} · {siteName}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} · ${siteName}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={siteName} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} · ${siteName}`} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- TODO: replace with your real AdSense snippet once approved -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="border-b border-pitch-2/10 bg-cream/95 backdrop-blur sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-5 md:px-8 flex items-center justify-between h-20">
+        <a href="/" class="flex items-center" aria-label="CricBreakdown home">
+          <img src="/images/logo.svg" alt="CricBreakdown" class="h-8 md:h-9 w-auto" />
+        </a>
+        <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-ink/80">
+          <a href="/articles" class="hover:text-leather transition-colors">Breakdowns</a>
+          <a href="/category/ipl" class="hover:text-leather transition-colors">IPL</a>
+          <a href="/category/stats" class="hover:text-leather transition-colors">Stats</a>
+          <a href="/category/history" class="hover:text-leather transition-colors">History</a>
+          <a href="/about" class="hover:text-leather transition-colors">About</a>
+        </nav>
+        <a href="/articles" class="md:hidden text-sm font-semibold text-leather">Breakdowns →</a>
+      </div>
+      <div class="seam"></div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="bg-pitch text-cream/80 mt-24">
+      <div class="max-w-6xl mx-auto px-5 md:px-8 py-14 grid gap-10 md:grid-cols-4">
+        <div class="md:col-span-2">
+          <img src="/images/logo.svg" alt="CricBreakdown" class="h-8 w-auto mb-4 brightness-0 invert opacity-90" />
+          <p class="text-sm leading-relaxed max-w-sm text-cream/60">
+            Cricket, taken apart. Stat breakdowns, team deep-dives and history
+            for readers who want more than a scoreline. Unofficial fan content —
+            not affiliated with the BCCI, ICC, or any franchise.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-display text-sm tracking-wide text-willow mb-4">Explore</h3>
+          <ul class="space-y-2 text-sm text-cream/70">
+            <li><a href="/articles" class="hover:text-cream transition-colors">All breakdowns</a></li>
+            <li><a href="/category/ipl" class="hover:text-cream transition-colors">IPL</a></li>
+            <li><a href="/category/stats" class="hover:text-cream transition-colors">Stats</a></li>
+            <li><a href="/category/history" class="hover:text-cream transition-colors">History</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-display text-sm tracking-wide text-willow mb-4">Site</h3>
+          <ul class="space-y-2 text-sm text-cream/70">
+            <li><a href="/about" class="hover:text-cream transition-colors">About</a></li>
+            <li><a href="/contact" class="hover:text-cream transition-colors">Contact</a></li>
+            <li><a href="/privacy-policy" class="hover:text-cream transition-colors">Privacy policy</a></li>
+            <li><a href="/terms" class="hover:text-cream transition-colors">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-cream/10 py-5 text-center text-xs text-cream/40">
+        © {new Date().getFullYear()} CricBreakdown. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
