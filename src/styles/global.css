@@ -59,16 +59,22 @@ body {
 
 .stats-table {
   width: 100%;
+  max-width: 100%;
   margin: 2rem 0;
   border-collapse: separate;
   border-spacing: 0;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
   border: 1px solid #e3e7ee;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0 1px 3px rgba(20, 33, 61, 0.08);
   font-size: 0.9rem;
-  table-layout: fixed;
+  table-layout: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
 }
 
 .stats-table th {
@@ -80,6 +86,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .stats-table td {
@@ -90,20 +97,34 @@ body {
   text-align: center;
   vertical-align: middle;
   height: 64px;
+  white-space: nowrap;
 }
 
 .stats-table th:first-child,
 .stats-table td:first-child {
   width: 34%;
+  min-width: 170px;
   text-align: left;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.stats-table th:first-child {
+  z-index: 2;
+  background: var(--color-pitch);
+}
+
+.stats-table td:first-child {
+  background: #fff;
 }
 
 .stats-table tbody tr:nth-child(even) td { background: #f4f6f9; }
+.stats-table tbody tr:nth-child(even) td:first-child { background: #f4f6f9; }
 
 .stats-table td:first-child {
   color: var(--color-ink);
   font-weight: 700;
-  white-space: nowrap;
 }
 
 .stats-table td:first-child img {
@@ -117,12 +138,21 @@ body {
 }
 
 @media (max-width: 480px) {
-  .stats-table { font-size: 0.78rem; }
+  .stats-table {
+    font-size: 0.78rem;
+    margin: 1.5rem 0;
+  }
+
   .stats-table th,
   .stats-table td { padding: 0.45rem 0.3rem; }
   .stats-table td { height: 54px; }
+
   .stats-table th:first-child,
-  .stats-table td:first-child { width: 35%; }
+  .stats-table td:first-child {
+    width: 35%;
+    min-width: 155px;
+  }
+
   .stats-table td:first-child img {
     width: 42px;
     height: 42px;
