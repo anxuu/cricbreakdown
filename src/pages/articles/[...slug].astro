@@ -24,10 +24,9 @@ const siteUrl = 'https://cricbreakdown.com';
 const canonicalUrl = new URL(`/articles/${article.id}/`, siteUrl).href;
 const authorUrl = `${siteUrl}/author/${article.data.authorSlug}/`;
 const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-const updatedDate = article.data.updatedDate?.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
-const articleText = JSON.stringify(article.body ?? '').replace(/\\n/g, ' ');
-const readTime = Math.max(1, Math.ceil(articleText.split(/\\s+/).filter(Boolean).length / 220));
+const articleText = article.body ?? '';
+const readTime = Math.max(1, Math.ceil(articleText.split(/\s+/).filter(Boolean).length / 220));
 
 const faq = [
   {
@@ -154,18 +153,6 @@ const jsonLd = {
     <div class="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-pitch prose-a:text-leather prose-strong:text-pitch" itemprop="articleBody">
       <Content />
     </div>
-
-    <section aria-labelledby="faq-heading" class="mt-14 pt-10 border-t border-pitch-2/10">
-      <h2 id="faq-heading" class="font-display text-2xl font-bold text-pitch">FAQ</h2>
-      <div class="mt-6 space-y-6">
-        {faq.map(item => (
-          <article>
-            <h3 class="font-display text-lg font-semibold text-pitch">{item.question}</h3>
-            <p class="mt-2 text-ink/70 leading-relaxed">{item.answer}</p>
-          </article>
-        ))}
-      </div>
-    </section>
 
     <footer class="mt-14 pt-8 border-t border-pitch-2/10">
       <ul class="flex flex-wrap gap-2" aria-label="Article tags">
