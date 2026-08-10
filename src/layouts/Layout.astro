@@ -4,10 +4,44 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description: string;
+  canonical?: string;
+  type?: 'website' | 'article';
+  author?: string;
+  authorUrl?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  category?: string;
+  keywords?: string[];
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  readTime?: number;
 }
 
-const { title, description } = Astro.props;
-const siteName = "CricBreakdown";
+const {
+  title,
+  description,
+  canonical,
+  type = 'website',
+  author,
+  authorUrl,
+  publishedTime,
+  modifiedTime,
+  category,
+  keywords = [],
+  image,
+  imageAlt,
+  imageWidth,
+  imageHeight,
+  readTime,
+} = Astro.props;
+
+const siteName = 'CricBreakdown';
+const siteUrl = 'https://cricbreakdown.com';
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).href;
+const absoluteImage = image ? new URL(image, siteUrl).href : undefined;
+const fullTitle = `${title} · ${siteName}`;
 ---
 <!doctype html>
 <html lang="en">
@@ -15,20 +49,37 @@ const siteName = "CricBreakdown";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/images/mark.svg" />
-    <title>{title} · {siteName}</title>
+    <link rel="canonical" href={canonicalUrl} />
+    <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
+    {author && <meta name="author" content={author} />}
+    {authorUrl && <link rel="author" href={authorUrl} />}
+    {category && <meta property="article:section" content={category} />}
+    {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={`${title} · ${siteName}`} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:site_name" content={siteName} />
+    {author && <meta property="article:author" content={author} />}
+    {absoluteImage && <meta property="og:image" content={absoluteImage} />}
+    {absoluteImage && imageAlt && <meta property="og:image:alt" content={imageAlt} />}
+    {absoluteImage && imageWidth && <meta property="og:image:width" content={String(imageWidth)} />}
+    {absoluteImage && imageHeight && <meta property="og:image:height" content={String(imageHeight)} />}
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={`${title} · ${siteName}`} />
+    <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
+    {absoluteImage && <meta name="twitter:image" content={absoluteImage} />}
+    {absoluteImage && imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
+
+    {readTime !== undefined && <meta name="article:reading_time" content={`${readTime} minutes`} />}
 
     <!-- TODO: replace with your real AdSense snippet once approved -->
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
@@ -39,7 +90,7 @@ const siteName = "CricBreakdown";
         <a href="/" class="flex items-center" aria-label="CricBreakdown home">
           <img src="/images/logo.svg" alt="CricBreakdown" class="h-8 md:h-9 w-auto" />
         </a>
-        <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-ink/80">
+        <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-ink/80" aria-label="Primary navigation">
           <a href="/articles" class="hover:text-leather transition-colors">Breakdowns</a>
           <a href="/category/ipl" class="hover:text-leather transition-colors">IPL</a>
           <a href="/category/stats" class="hover:text-leather transition-colors">Stats</a>
@@ -66,7 +117,7 @@ const siteName = "CricBreakdown";
           </p>
         </div>
         <div>
-          <h3 class="font-display text-sm tracking-wide text-willow mb-4">Explore</h3>
+          <h2 class="font-display text-sm tracking-wide text-willow mb-4">Explore</h2>
           <ul class="space-y-2 text-sm text-cream/70">
             <li><a href="/articles" class="hover:text-cream transition-colors">All breakdowns</a></li>
             <li><a href="/category/ipl" class="hover:text-cream transition-colors">IPL</a></li>
@@ -75,7 +126,7 @@ const siteName = "CricBreakdown";
           </ul>
         </div>
         <div>
-          <h3 class="font-display text-sm tracking-wide text-willow mb-4">Site</h3>
+          <h2 class="font-display text-sm tracking-wide text-willow mb-4">Site</h2>
           <ul class="space-y-2 text-sm text-cream/70">
             <li><a href="/about" class="hover:text-cream transition-colors">About</a></li>
             <li><a href="/contact" class="hover:text-cream transition-colors">Contact</a></li>
