@@ -9,9 +9,15 @@ const articles = defineCollection({
     category: z.enum(['ipl', 'stats', 'history', 'teams']),
     tags: z.array(z.string()).default([]),
     author: z.string().default('Ansar'),
+    authorSlug: z.string().default('ansar'),
     pubDate: z.date(),
     updatedDate: z.date().optional(),
     featured: z.boolean().default(false),
+    metaTitle: z.string().optional(),
+    metaDescription: z.string().optional(),
+    cover: z.string().optional(),
+    coverAlt: z.string().optional(),
+    categoryLabel: z.string().optional(),
   }),
 });
 
