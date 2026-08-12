@@ -38,7 +38,7 @@ const {
 } = Astro.props;
 
 const siteName = 'CricBreakdown';
-const siteUrl = 'https://cricbreakdown.com';
+const siteUrl = 'https://www.cricbreakdown.com';
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).href;
 const absoluteImage = image ? new URL(image, siteUrl).href : undefined;
 const fullTitle = `${title} · ${siteName}`;
