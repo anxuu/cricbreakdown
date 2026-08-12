@@ -20,7 +20,7 @@ const categoryLabels: Record<string, string> = {
   teams: 'Teams',
 };
 
-const siteUrl = 'https://cricbreakdown.com';
+const siteUrl = 'https://www.cricbreakdown.com';
 const canonicalUrl = new URL(`/articles/${article.id}/`, siteUrl).href;
 const authorUrl = `${siteUrl}/author/${article.data.authorSlug}/`;
 const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -28,7 +28,7 @@ const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 
 const articleText = article.body ?? '';
 const readTime = Math.max(1, Math.ceil(articleText.split(/\s+/).filter(Boolean).length / 220));
 
-const faq = [
+const faq = article.data.faq ?? [
   {
     question: 'How many players can RCB retain in IPL 2027?',
     answer: 'Since 2027 is a mini-auction, not a fresh mega-auction, RCB doesn’t get a new round of retentions. Their existing squad stays intact by default, and the only changes come from players they choose to release before the auction.',
