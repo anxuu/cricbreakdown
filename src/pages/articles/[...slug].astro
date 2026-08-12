@@ -21,8 +21,8 @@ const categoryLabels: Record<string, string> = {
 };
 
 const siteUrl = 'https://www.cricbreakdown.com';
-const canonicalUrl = new URL(`/articles/${article.id}/`, siteUrl).href;
-const authorUrl = `${siteUrl}/author/${article.data.authorSlug}/`;
+const canonicalUrl = new URL(`/articles/${article.id}`, siteUrl).href;
+const authorUrl = `${siteUrl}/author/${article.data.authorSlug}`;
 const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
 const articleText = article.body ?? '';
@@ -76,7 +76,7 @@ const jsonLd = {
       '@id': `${canonicalUrl}#breadcrumb`,
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-        { '@type': 'ListItem', position: 2, name: categoryLabels[article.data.category] ?? article.data.category, item: `${siteUrl}/category/${article.data.category}/` },
+        { '@type': 'ListItem', position: 2, name: categoryLabels[article.data.category] ?? article.data.category, item: `${siteUrl}/category/${article.data.category}` },
         { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
       ],
     },
