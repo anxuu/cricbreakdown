@@ -39,7 +39,7 @@ Hardik’s spokesperson has also clarified that the player has **not directly sp
 
 Despite this, several **trade and swap possibilities are being discussed by cricket experts and in reports**. Since franchises generally avoid revealing their plans too early, these remain rumours for now. Let’s look at the major **Hardik Pandya trade possibilities** and what each deal could look like.
 
-# Why Is the CSK Hardik Pandya Trade Complicated?
+## Why Is the CSK Hardik Pandya Trade Complicated?
 
 The CSK Hardik Pandya trade has been the most talked-about link in this window, and Chennai’s interest is easy to understand.
 
@@ -47,11 +47,11 @@ The CSK Hardik Pandya trade has been the most talked-about link in this window, 
 
 **Why Hardik fits:** he fills two gaps at once. He can score quickly in the middle order and bowl a full four overs in the middle and at the death. That gives Chennai the balance they have been missing, and his value goes up even more if the Impact Player rule is removed. On top of that, he brings captaincy experience and huge brand pull, which matters for a franchise like CSK- although the leadership question does get slightly awkward with MS Dhoni around.
 
-**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shivam Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
+**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shiv Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
 
 It is the same wall KKR have run into. So for now, the Hardik Pandya CSK trade is still just interest, not an actual negotiation. Nothing in the current news suggests Chennai are ready to pay Mumbai’s price.
 
-# KKR Hardik Pandya IPL Trade
+## KKR Hardik Pandya IPL Trade
 
 The KKR Hardik Pandya IPL trade is the link most people expect to actually happen, and Kolkata’s interest is easy to understand.
 
@@ -63,7 +63,7 @@ The KKR Hardik Pandya IPL trade is the link most people expect to actually happe
 
 KKR’s old habit of protecting their core is exactly where the Hardik Pandya KKR trade stalls. You cannot sign a player of his profile while keeping your entire first-choice XI. Kolkata may still be the front-runners, but until they put a real player on the table, this remains interest rather than a completed deal.
 
-# Which Other Teams Are in the Hardik Pandya Trade Race?
+## Which Other Teams Are in the Hardik Pandya Trade Race?
 
 **Gujarat Titans- already rejected.** The most interesting update is that a return to GT was actually discussed. According to the Indian Express, Hardik made the move conditional on getting the captaincy back, and Gujarat turned it down. Shubman Gill is their captain, and the franchise was not willing to disturb that. So the emotional favourite in this race is out.
 
@@ -75,13 +75,13 @@ KKR’s old habit of protecting their core is exactly where the Hardik Pandya KK
 
 **RCB- not in the race.** Bangalore are the one big franchise showing no interest, and it makes sense. They have the strongest and most settled squad in the league right now and are eyeing a three-peat. When your combination is already working, you do not break it for a name. We’ve covered their squad-building plans in detail in[ RCB’s IPL 2027 auction strategy](https://www.cricbreakdown.com/articles/rcb-ipl-2027-auction-strategy), and a Hardik-sized trade does not fit anywhere in it. 
 
-# Final Verdict
+## Final Verdict
 
 The Hardik Pandya IPL trade is still talk. KKR look like the front-runners with the captaincy slot open after Ajinkya Rahane and reported interest from Shah Rukh Khan, but nothing is signed. CSK’s move stalled over Ayush Mhatre; GT rejected a return because Hardik wanted the captaincy back; DC, RR and LSG have been floated in swap talk around Axar Patel, Yashasvi Jaiswal and Nicholas Pooran; and RCB are not involved at all.
 
 The one constant in all the Hardik Pandya trade news is Mumbai’s stance. They want a frontline pacer and a top-order batter- cash fixes neither. Until a franchise gives up a player it genuinely does not want to lose, the Hardik Pandya MI trade stays a rumour.
 
-# FAQ
+## FAQ
 
 ** **
 
