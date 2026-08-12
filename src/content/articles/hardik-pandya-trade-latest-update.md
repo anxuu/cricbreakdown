@@ -43,11 +43,11 @@ Despite this, several **trade and swap possibilities are being discussed by cric
 
 The CSK Hardik Pandya trade has been the most talked-about link in this window, and Chennai’s interest is easy to understand.
 
-**What CSK needs:** a proper seam-bowling all-rounder. Right now that role belongs to Shiv Dube. He is one of the best middle-order hitters in the league, but he can only bowl about two overs, sometimes less. So Chennai are always one bowling option short and have to squeeze in an extra specialist to cover it. That leaves them with very little flexibility in their XI.
+**What CSK needs:** a proper seam-bowling all-rounder. Right now that role belongs to Shivam Dube. He is one of the best middle-order hitters in the league, but he can only bowl about two overs, sometimes less. So Chennai are always one bowling option short and have to squeeze in an extra specialist to cover it. That leaves them with very little flexibility in their XI.
 
 **Why Hardik fits:** he fills two gaps at once. He can score quickly in the middle order and bowl a full four overs in the middle and at the death. That gives Chennai the balance they have been missing, and his value goes up even more if the Impact Player rule is removed. On top of that, he brings captaincy experience and huge brand pull, which matters for a franchise like CSK- although the leadership question does get slightly awkward with MS Dhoni around.
 
-**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shiv Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
+**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shivam Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
 
 It is the same wall KKR have run into. So for now, the Hardik Pandya CSK trade is still just interest, not an actual negotiation. Nothing in the current news suggests Chennai are ready to pay Mumbai’s price.
 
