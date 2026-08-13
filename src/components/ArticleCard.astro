@@ -11,25 +11,33 @@ const { slug, title, description, category, pubDate, featured = false } = Astro.
 
 const categoryLabels: Record<string, string> = {
   ipl: "IPL",
+  international: "International",
   stats: "Stats",
-  history: "History",
+  history: "Cricket Chronicles",
   teams: "Teams",
+};
+
+const categoryBadge: Record<string, string> = {
+  ipl: "badge-ipl",
+  international: "badge-international",
+  history: "badge-history",
+  stats: "badge-stats",
 };
 
 const formattedDate = pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 ---
-<a href={`/articles/${slug}`} class={`group block rounded-lg border border-pitch-2/10 bg-white/50 hover:bg-white transition-colors ${featured ? 'p-7' : 'p-6'}`}>
+<a href={`/articles/${slug}`} class={`group block rounded-lg border border-pitch-2/10 bg-white/50 hover:bg-white hover:border-[#E94560] transition-colors ${featured ? 'p-7' : 'p-6'}`}>
   <div class="flex items-center gap-3 mb-3">
-    <span class="stat-chip text-[11px] uppercase tracking-wider text-leather bg-leather/10 px-2 py-1 rounded">
+    <span class={`stat-chip text-[11px] uppercase tracking-wider px-2 py-1 rounded ${categoryBadge[category] ?? 'badge-default'}`}>
       {categoryLabels[category] ?? category}
     </span>
     <span class="text-xs text-ink/40">{formattedDate}</span>
   </div>
-  <h3 class={`font-display font-semibold text-pitch group-hover:text-leather transition-colors leading-snug ${featured ? 'text-2xl md:text-3xl mb-3' : 'text-lg mb-2'}`}>
+  <h3 class={`font-display font-semibold text-pitch group-hover:text-[#E94560] transition-colors leading-snug ${featured ? 'text-2xl md:text-3xl mb-3' : 'text-lg mb-2'}`}>
     {title}
   </h3>
   <p class={`text-ink/60 leading-relaxed ${featured ? 'text-base' : 'text-sm'}`}>
     {description}
   </p>
-  <span class="inline-block mt-4 text-sm font-medium text-leather">Read the breakdown →</span>
+  <span class="inline-block mt-4 text-sm font-medium text-[#E94560]">Read the breakdown →</span>
 </a>

@@ -27,6 +27,7 @@ In this blog, we’re going to cover where RCB’s real concerns lie heading int
 
 Heading into IPL 2026, one question kept coming up around RCB’s squad: did they actually have a genuine wicket-taking spinner, the attacking threat teams have, like Yuzvendra Chahal, Kuldeep Yadav, or Varun Chakravarthy bring to their sides?
 
+<div class="stats-table-wrapper">
 <table class="stats-table">
   <thead>
     <tr><th scope="col">Player</th><th scope="col">Year</th><th scope="col">Matches</th><th scope="col">Wkts</th><th scope="col">Economy</th></tr>
@@ -36,6 +37,7 @@ Heading into IPL 2026, one question kept coming up around RCB’s squad: did the
     <tr><td><img alt="Suyash Sharma" src="https://documents.iplt20.com/ipl/IPLHeadshot2026/1932.png" width="38" height="38" loading="lazy" decoding="async"> Suyash Sharma</td><td>2026</td><td>12</td><td>9</td><td>9.21</td></tr>
   </tbody>
 </table>
+</div>
 
 **Suyash Sharma** is a different story. He’s meant to be RCB’s attacking spinner, the one who takes wickets in the middle overs, not just contains. Last season, Suyash picked up 9 wickets at an economy of 9.21 and an average of 41.78, numbers that fall well below what a champion side needs from that role. More than once, when Rajat Patidar needed an economical, wicket-taking spell in the middle overs, Suyash didn’t deliver; he leaked runs at exactly the moments RCB could least afford it. The stats back it up, and by Rajat’s own reading of the situation, this is a genuine gap in the squad.
 
@@ -45,6 +47,7 @@ Jitesh Sharma and Romario Shepherd’s finishing abilities came under a lot of s
 
 But 2026 told a different story. **Jitesh** managed just 116 runs at a strike rate of 122, and Shepherd scored only 83 runs at a strike rate of 125, a massive drop from their 2025 numbers, where Jitesh had struck 261 runs at a strike rate of 176, and Shepherd had racked up 70 runs at an eye-watering strike rate of 291.
 
+<div class="stats-table-wrapper">
 <table class="stats-table">
   <thead>
     <tr><th scope="col">Player</th><th scope="col">Year</th><th scope="col">Matches</th><th scope="col">Runs</th><th scope="col">SR</th></tr>
@@ -54,6 +57,7 @@ But 2026 told a different story. **Jitesh** managed just 116 runs at a strike ra
     <tr><td><img alt="Romario Shepherd" src="https://documents.iplt20.com/ipl/IPLHeadshot2026/371.png" width="38" height="38" loading="lazy" decoding="async"> Romario Shepherd</td><td>2026</td><td>15</td><td>83</td><td>125</td></tr>
   </tbody>
 </table>
+</div>
 
 **Shepherd’s** role means he often comes in with very little batting time left, so the runs on the board were always going to be modest, but the strike rate is what defines a finisher, and that’s exactly where both players fell short last year. Jitesh, in particular, is a hugely talented player, but talent means nothing without consistency in that role. To his credit, he found some form again in the 2026 final and carried that into strong performances in domestic cricket afterward.
 
@@ -65,6 +69,7 @@ Still, this remains a real concern for RCB, and it’s not limited to the bat. S
 
 **Venkatesh Iyer’s** arrival in 2026 has turned RCB’s opening slot into a genuine selection headache, the good kind ,In 2024, **Phil Salt** was outstanding at the top, striking at 175 and scoring 403 runs. That kind of start gave Virat Kohli exactly the platform he needed time to settle in at the other end, while Salt played with total freedom, which is precisely the template RCB’s management wants from their opener. But Salt was a little inconsistent in 2026 and missed time with a finger injury. **That’s when management moved Venkatesh Iyer up the order, another left-hander, and it turned out to be an upgrade rather than a stopgap.** Iyer scored 209 runs at a strike rate of 186, and did it consistently, showing up in knockouts and the final. He settled into that role almost immediately.
 
+<div class="stats-table-wrapper">
 <table class="stats-table">
   <thead>
     <tr><th scope="col">Player</th><th scope="col">Year</th><th scope="col">Matches</th><th scope="col">Runs</th><th scope="col">SR</th></tr>
@@ -74,6 +79,7 @@ Still, this remains a real concern for RCB, and it’s not limited to the bat. S
     <tr><td><img alt="V Iyer" src="https://documents.iplt20.com/ipl/IPLHeadshot2026/584.png" width="38" height="38" loading="lazy" decoding="async"> V Iyer</td><td>2026</td><td>7</td><td>209</td><td>186</td></tr>
   </tbody>
 </table>
+</div>
 
 So heading into 2027, with Salt fully recovered, RCB actually has a problem most teams would love to have: who opens alongside Kohli? Salt remains a brilliant English attacker who plays fearless, modern cricket, and he’s earned his spot back on current form. But Iyer’s 2026 numbers make a real case of his own. And it doesn’t stop there; **Jordan Cox** and Jacob Bethell, both Englishmen, give RCB even more options at the top.
 

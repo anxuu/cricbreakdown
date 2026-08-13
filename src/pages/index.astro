@@ -10,9 +10,9 @@ const featured = allArticles.find(a => a.data.featured) ?? allArticles[0];
 const rest = allArticles.filter(a => a.id !== featured.id).slice(0, 6);
 
 const categories = [
-  { key: 'ipl', label: 'IPL', desc: 'Season breakdowns, auction economics, team-by-team form.' },
-  { key: 'stats', label: 'Stats', desc: 'Numbers-first analysis — no narrative without the data behind it.' },
-  { key: 'history', label: 'History', desc: 'Retrospectives, great innings, and cricket\u2019s long memory.' },
+  { key: 'ipl', label: 'IPL', desc: 'Season breakdowns, auction economics, player trades and team-by-team form.' },
+  { key: 'international', label: 'International', desc: 'Series reviews, Test and T20 analysis across every format.' },
+  { key: 'history', label: 'Cricket Chronicles', desc: "Stories, retrospectives and great moments from cricket's long memory." },
 ];
 ---
 <Layout
@@ -21,20 +21,20 @@ const categories = [
 >
   <section class="max-w-6xl mx-auto px-5 md:px-8 pt-16 md:pt-24 pb-14">
     <div class="max-w-2xl">
-      <span class="stat-chip text-xs uppercase tracking-widest text-leather">No.11 · Est. 2026</span>
-      <h1 class="font-display font-black text-4xl md:text-6xl leading-[1.05] text-pitch mt-4">
-        Cricket,<br /><span class="text-leather">taken apart.</span>
+      <span class="stat-chip text-xs uppercase tracking-widest text-[#E94560]">No.11 · Est. 2026</span>
+      <h1 class="font-display font-black text-4xl md:text-6xl leading-[1.05] text-[#1A1A2E] mt-4">
+        Cricket,<br /><span class="text-[#E94560]">taken apart.</span>
       </h1>
       <p class="mt-6 text-lg text-ink/65 leading-relaxed max-w-lg">
         Scorecards tell you what happened. We dig into why — stat-led breakdowns
         of IPL teams, bowling attacks, auctions and the moments that actually
         decided the match.
       </p>
-      <div class="mt-8 flex gap-4">
-        <a href="/articles" class="inline-flex items-center bg-pitch text-cream px-6 py-3 rounded-md font-medium hover:bg-leather transition-colors">
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="/articles" class="inline-flex items-center bg-[#1A1A2E] text-cream px-6 py-3 rounded-md font-medium hover:bg-[#E94560] transition-colors">
           Read the breakdowns
         </a>
-        <a href="/about" class="inline-flex items-center px-6 py-3 rounded-md font-medium text-pitch border border-pitch/20 hover:border-leather hover:text-leather transition-colors">
+        <a href="/about" class="inline-flex items-center px-6 py-3 rounded-md font-medium text-[#1A1A2E] border border-[#1A1A2E]/20 hover:border-[#E94560] hover:text-[#E94560] transition-colors">
           About this site
         </a>
       </div>
@@ -44,7 +44,7 @@ const categories = [
   <div class="seam"></div>
 
   <section class="max-w-6xl mx-auto px-5 md:px-8 py-14">
-    <h2 class="font-display text-sm uppercase tracking-widest text-willow mb-6">Latest breakdown</h2>
+    <h2 class="font-display text-sm uppercase tracking-widest text-[#E94560] mb-6">Latest breakdown</h2>
     <ArticleCard
       slug={featured.id}
       title={featured.data.title}
@@ -57,11 +57,11 @@ const categories = [
 
   <section class="bg-pitch-2/5 py-14">
     <div class="max-w-6xl mx-auto px-5 md:px-8">
-      <h2 class="font-display text-sm uppercase tracking-widest text-willow mb-6">Explore by category</h2>
+      <h2 class="font-display text-sm uppercase tracking-widest text-[#E94560] mb-6">Explore by category</h2>
       <div class="grid md:grid-cols-3 gap-5">
         {categories.map(c => (
-          <a href={`/category/${c.key}`} class="block bg-white rounded-lg p-6 border border-pitch-2/10 hover:border-leather/40 transition-colors">
-            <h3 class="font-display text-xl font-semibold text-pitch mb-2">{c.label}</h3>
+          <a href={`/category/${c.key}`} class="block bg-white rounded-lg p-6 border border-pitch-2/10 hover:border-[#E94560] transition-colors">
+            <h3 class="font-display text-xl font-semibold text-[#1A1A2E] mb-2">{c.label}</h3>
             <p class="text-sm text-ink/60 leading-relaxed">{c.desc}</p>
           </a>
         ))}
@@ -71,8 +71,8 @@ const categories = [
 
   <section class="max-w-6xl mx-auto px-5 md:px-8 py-16">
     <div class="flex items-center justify-between mb-6">
-      <h2 class="font-display text-sm uppercase tracking-widest text-willow">More breakdowns</h2>
-      <a href="/articles" class="text-sm font-medium text-leather">View all →</a>
+      <h2 class="font-display text-sm uppercase tracking-widest text-[#E94560]">More breakdowns</h2>
+      <a href="/articles" class="text-sm font-medium text-[#E94560]">View all →</a>
     </div>
     <div class="grid md:grid-cols-3 gap-5">
       {rest.map(a => (
