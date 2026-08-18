@@ -37,6 +37,8 @@ const articles = (await getCollection('articles', a => a.data.category === categ
             description={a.data.description}
             category={a.data.category}
             pubDate={a.data.pubDate}
+            cover={a.data.cover}
+            coverAlt={a.data.coverAlt}
           />
         ))}
       </div>
