@@ -83,32 +83,41 @@ The Hardik Pandya IPL trade is still talk. KKR look like the front-runners with 
 
 The one constant in all the Hardik Pandya trade news is Mumbai’s stance. They want a frontline pacer and a top-order batter- cash fixes neither. Until a franchise gives up a player it genuinely does not want to lose, the Hardik Pandya MI trade stays a rumour.
 
-## FAQ
+<div class="blog-faq">
+<h2 class="blog-faq-title">FAQ</h2>
 
-**Is the Hardik Pandya trade confirmed?**
+<details class="blog-faq-item">
+  <summary><span>Is the Hardik Pandya trade confirmed?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>No. As of now, the Hardik Pandya trade is not confirmed. KKR and CSK have both been linked, but no franchise has made an official announcement.</p>
+</details>
 
-No. As of now, the Hardik Pandya trade is not confirmed. KKR and CSK have both been linked, but no franchise has made an official announcement.
+<details class="blog-faq-item">
+  <summary><span>Is Hardik Pandya leaving MI?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>It looks likely, but it is not final. The Hardik Pandya MI trade only goes through if another team meets Mumbai’s asking price in players, not cash.</p>
+</details>
 
-**Is Hardik Pandya leaving MI?**
+<details class="blog-faq-item">
+  <summary><span>Which team is closest to signing Hardik Pandya?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>KKR are currently seen as the front-runners because of the open captaincy role and reported ownership-level interest.</p>
+</details>
 
-It looks likely, but it is not final. The Hardik Pandya MI trade only goes through if another team meets Mumbai’s asking price in players, not cash.
+<details class="blog-faq-item">
+  <summary><span>Why did the CSK deal fall through?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>Mumbai asked for Ayush Mhatre. Chennai refused and offered Shivam Dube and Dewald Brevis instead, which Mumbai declined.</p>
+</details>
 
-**Which team is closest to signing Hardik Pandya?**
+<details class="blog-faq-item">
+  <summary><span>Is an all-cash deal possible?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>It has been discussed, but Mumbai are unlikely to accept one. They need a bowler and a top-order batter, and cash solves neither.</p>
+</details>
 
-KKR are currently seen as the front-runners because of the open captaincy role and reported ownership-level interest.
+<details class="blog-faq-item">
+  <summary><span>What is the latest Hardik Pandya IPL trade news?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>GT rejected a return after Hardik asked for the captaincy back. DC, RR and LSG have been mentioned in possible swap deals involving Axar Patel, Yashasvi Jaiswal and Nicholas Pooran.</p>
+</details>
 
-**Why did the CSK deal fall through?**
-
-Mumbai asked for Ayush Mhatre. Chennai refused and offered Shivam Dube and Dewald Brevis instead, which Mumbai declined.
-
-**Is an all-cash deal possible?**
-
-It has been discussed, but Mumbai are unlikely to accept one. They need a bowler and a top-order batter, and cash solves neither.
-
-**What is the latest Hardik Pandya IPL trade news?**
-
-GT rejected a return after Hardik asked for the captaincy back. DC, RR and LSG have been mentioned in possible swap deals involving Axar Patel, Yashasvi Jaiswal and Nicholas Pooran.
-
-**Will the Hardik Pandya trade in 2027 happen before the auction?**
-
-Any trade has to be completed within the official IPL trade window, so a decision is expected before the 2027 auction rather than during it.
+<details class="blog-faq-item">
+  <summary><span>Will the Hardik Pandya trade in 2027 happen before the auction?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>Any trade has to be completed within the official IPL trade window, so a decision is expected before the 2027 auction rather than during it.</p>
+</details>
+</div>
