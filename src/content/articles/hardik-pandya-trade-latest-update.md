@@ -16,6 +16,8 @@ featured: true
 metaTitle: "Hardik Pandya Trade: Latest IPL 2027 Update"
 metaDescription: "Hardik Pandya trade latest update: KKR, CSK, DC, RR and LSG have been linked with the MI all-rounder. Here are the latest trade possibilities and reports."
 categoryLabel: "IPL"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1787055395/cricbreakdown/covers/e8bwdpm233cqpz2fcn2i.png"
+coverAlt: "Hardik Pandya Trade: What Is the Latest Update? cricket update"
 faq:
   - question: "Is the Hardik Pandya trade confirmed?"
     answer: "No. As of now, the Hardik Pandya trade is not confirmed. KKR and CSK have both been linked, but no franchise has made an official announcement."
@@ -32,6 +34,8 @@ faq:
   - question: "Will the Hardik Pandya trade in 2027 happen before the auction?"
     answer: "Any trade has to be completed within the official IPL trade window, so a decision is expected before the 2027 auction rather than during it."
 ---
+
+<figure class="blog-cover" style="max-width:840px;margin:24px auto;width:100%;aspect-ratio:1478/656;overflow:hidden;border-radius:24px;background:#0a1a1c;"><img src="https://res.cloudinary.com/g682uusu/image/upload/v1787055395/cricbreakdown/covers/e8bwdpm233cqpz2fcn2i.png" alt="Hardik Pandya Trade: What Is the Latest Update? cricket update" width="1478" height="656" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;" /></figure>
 
 Hardik Pandya’s future with Mumbai Indians has become a major talking point ahead of the upcoming IPL season, with **KKR, CSK, DC, RR and LSG** reportedly linked with the all-rounder. However, **MI are yet to decide whether Hardik will be made available for trade**, meaning there is no confirmed deal at this stage.
 
