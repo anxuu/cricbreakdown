@@ -166,6 +166,76 @@ body {
 @media (min-width: 640px)  { .rec-card { flex: 0 0 calc(50% - 0.5rem); } }
 @media (min-width: 1024px) { .rec-card { flex: 0 0 calc(33.33% - 0.67rem); } }
 
+.blog-faq {
+  margin: 3rem 0 0;
+  padding-top: 2rem;
+  border-top: 1px solid #e3e7ee;
+}
+
+.blog-faq-title {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--color-pitch);
+}
+
+.blog-faq-item {
+  margin: 0;
+  border-bottom: 1px solid #e3e7ee;
+}
+
+.blog-faq-item:first-of-type {
+  border-top: 1px solid #e3e7ee;
+}
+
+.blog-faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem 0.1rem;
+  cursor: pointer;
+  list-style: none;
+  color: var(--color-pitch);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.blog-faq-item summary::-webkit-details-marker { display: none; }
+.blog-faq-item summary::marker { display: none; content: ''; }
+.blog-faq-item summary:hover { color: var(--color-leather); }
+
+.faq-arrow {
+  flex: 0 0 auto;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #fff0f3;
+  color: var(--color-leather);
+  font-size: 0.8rem;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.blog-faq-item[open] .faq-arrow {
+  transform: rotate(180deg);
+  background: var(--color-leather);
+  color: #fff;
+}
+
+.blog-faq-item > p {
+  margin: 0;
+  padding: 0 2.9rem 1.2rem 0.1rem;
+  color: #5b6b8c;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
 @media (max-width: 480px) {
   .stats-table { font-size: 0.78rem; }
   .stats-table th,
@@ -178,6 +248,13 @@ body {
     height: 42px;
     margin-right: 0.35rem;
   }
+}
+
+@media (max-width: 640px) {
+  .blog-faq { margin-top: 2.5rem; }
+  .blog-faq-title { font-size: 1.5rem; }
+  .blog-faq-item summary { padding: 1rem 0; font-size: 0.95rem; }
+  .blog-faq-item > p { padding-right: 0.1rem; font-size: 0.9rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
