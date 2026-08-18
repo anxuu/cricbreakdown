@@ -6,8 +6,10 @@ interface Props {
   category: string;
   pubDate: Date;
   featured?: boolean;
+  cover?: string;
+  coverAlt?: string;
 }
-const { slug, title, description, category, pubDate, featured = false } = Astro.props;
+const { slug, title, description, category, pubDate, featured = false, cover, coverAlt } = Astro.props;
 
 const categoryLabels: Record<string, string> = {
   ipl: "IPL",
@@ -26,7 +28,19 @@ const categoryBadge: Record<string, string> = {
 
 const formattedDate = pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 ---
-<a href={`/articles/${slug}`} class={`group block rounded-lg border border-pitch-2/10 bg-white/50 hover:bg-white hover:border-[#E94560] transition-colors ${featured ? 'p-7' : 'p-6'}`}>
+<a href={`/articles/${slug}`} class={`group block overflow-hidden rounded-lg border border-pitch-2/10 bg-white/50 hover:bg-white hover:border-[#E94560] transition-colors ${featured ? 'p-7' : 'p-6'}`}>
+  {cover && (
+    <div class={`-mx-6 -mt-6 mb-5 overflow-hidden ${featured ? '-mx-7 -mt-7' : ''}`}>
+      <img
+        src={cover}
+        alt={coverAlt ?? title}
+        width="1478"
+        height="656"
+        loading="lazy"
+        class="block w-full aspect-[1478/656] object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+      />
+    </div>
+  )}
   <div class="flex items-center gap-3 mb-3">
     <span class={`stat-chip text-[11px] uppercase tracking-wider px-2 py-1 rounded ${categoryBadge[category] ?? 'badge-default'}`}>
       {categoryLabels[category] ?? category}
