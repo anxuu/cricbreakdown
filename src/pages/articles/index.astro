@@ -22,6 +22,8 @@ const allArticles = (await getCollection('articles')).sort(
           description={a.data.description}
           category={a.data.category}
           pubDate={a.data.pubDate}
+          cover={a.data.cover}
+          coverAlt={a.data.coverAlt}
         />
       ))}
     </div>
