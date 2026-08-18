@@ -35,8 +35,6 @@ faq:
     answer: "Any trade has to be completed within the official IPL trade window, so a decision is expected before the 2027 auction rather than during it."
 ---
 
-<figure class="blog-cover" style="max-width:840px;margin:24px auto;width:100%;aspect-ratio:1478/656;overflow:hidden;border-radius:24px;background:#0a1a1c;"><img src="https://res.cloudinary.com/g682uusu/image/upload/v1787055395/cricbreakdown/covers/e8bwdpm233cqpz2fcn2i.png" alt="Hardik Pandya Trade: What Is the Latest Update? cricket update" width="1478" height="656" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;" /></figure>
-
 Hardik Pandya’s future with Mumbai Indians has become a major talking point ahead of the upcoming IPL season, with **KKR, CSK, DC, RR and LSG** reportedly linked with the all-rounder. However, **MI are yet to decide whether Hardik will be made available for trade**, meaning there is no confirmed deal at this stage.
 
 Hardik’s spokesperson has also clarified that the player has **not directly spoken to any franchise** regarding a transfer or trade. Any approach, if made, would have to go through Mumbai Indians.
@@ -47,11 +45,11 @@ Despite this, several **trade and swap possibilities are being discussed by cric
 
 The CSK Hardik Pandya trade has been the most talked-about link in this window, and Chennai’s interest is easy to understand.
 
-**What CSK needs:** a proper seam-bowling all-rounder. Right now that role belongs to Shivam Dube. He is one of the best middle-order hitters in the league, but he can only bowl about two overs, sometimes less. So Chennai are always one bowling option short and have to squeeze in an extra specialist to cover it. That leaves them with very little flexibility in their XI.
+**What CSK needs:** a proper seam-bowling all-rounder. Right now that role belongs to Shiv Dube. He is one of the best middle-order hitters in the league, but he can only bowl about two overs, sometimes less. So Chennai are always one bowling option short and have to squeeze in an extra specialist to cover it. That leaves them with very little flexibility in their XI.
 
 **Why Hardik fits:** he fills two gaps at once. He can score quickly in the middle order and bowl a full four overs in the middle and at the death. That gives Chennai the balance they have been missing, and his value goes up even more if the Impact Player rule is removed. On top of that, he brings captaincy experience and huge brand pull, which matters for a franchise like CSK- although the leadership question does get slightly awkward with MS Dhoni around.
 
-**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shivam Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
+**The real problem is what Mumbai want back.** MI are not interested in cash, and they are not interested in squad fillers. Reports say Mumbai’s first ask was Shiv Dube and Ayush Mhatre, and that is where the talks stopped. Chennai were not willing to release Mhatre. According to journalist Rohit Juglan on his YouTube channel, CSK offered Dube and Dewald Brevis instead, and Mumbai turned it down. Mumbai’s stand is simple: no Mhatre, no deal.
 
 It is the same wall KKR have run into. So for now, the Hardik Pandya CSK trade is still just interest, not an actual negotiation. Nothing in the current news suggests Chennai are ready to pay Mumbai’s price.
 
@@ -73,11 +71,11 @@ KKR’s old habit of protecting their core is exactly where the Hardik Pandya KK
 
 **Delhi Capitals- a Hardik–Axar swap.** Cricbuzz reports that MI could be open to a straight swap involving Axar Patel. On paper it makes sense for both sides. Delhi get a bigger match-winner and a captaincy option, while Mumbai get a proven left-arm spin all-rounder who bats in the middle order- a like-for-like replacement rather than cash. The catch is that Axar is Delhi’s captain and one of their retained core players, so this is a heavy ask.
 
-**Rajasthan Royals- a Yashasvi Jaiswal–Hardik Pandya trade.** This is the deal Mumbai would probably love most. Jaiswal is exactly the top-order batter MI have been chasing, and he is a Mumbai boy. But Rajasthan releasing a player of his age and value, even for Hardik, would be a serious call. Realistically, a Yashasvi Jaiswal Hardik Pandya trade is the least likely of the lot. 
+**Rajasthan Royals- a Yashasvi Jaiswal–Hardik Pandya trade.** This is the deal Mumbai would probably love most. Jaiswal is exactly the top-order batter MI have been chasing, and he is a Mumbai boy. But Rajasthan releasing a player of his age and value, even for Hardik, would be a serious call. Realistically, a Yashasvi Jaiswal Hardik Pandya trade is the least likely of the lot.
 
 **Lucknow Super Giants- a Hardik–Pooran swap.** LSG’s name has quietly gained momentum, and Sanjiv Goenka is the kind of owner who values brand pull as much as cricketing fit. Nicholas Pooran going the other way would give Mumbai the overseas middle-order power they lack. The complication is that Pooran is central to LSG’s batting, so this one is harder than it looks on paper.
 
-**RCB- not in the race.** Bangalore are the one big franchise showing no interest, and it makes sense. They have the strongest and most settled squad in the league right now and are eyeing a three-peat. When your combination is already working, you do not break it for a name. We’ve covered their squad-building plans in detail in[ RCB’s IPL 2027 auction strategy](https://www.cricbreakdown.com/articles/rcb-ipl-2027-auction-strategy), and a Hardik-sized trade does not fit anywhere in it. 
+**RCB- not in the race.** Bangalore are the one big franchise showing no interest, and it makes sense. They have the strongest and most settled squad in the league right now and are eyeing a three-peat. When your combination is already working, you do not break it for a name. We’ve covered their squad-building plans in detail in [RCB’s IPL 2027 auction strategy](https://www.cricbreakdown.com/articles/rcb-ipl-2027-auction-strategy), and a Hardik-sized trade does not fit anywhere in it.
 
 ## Final Verdict
 
@@ -86,8 +84,6 @@ The Hardik Pandya IPL trade is still talk. KKR look like the front-runners with 
 The one constant in all the Hardik Pandya trade news is Mumbai’s stance. They want a frontline pacer and a top-order batter- cash fixes neither. Until a franchise gives up a player it genuinely does not want to lose, the Hardik Pandya MI trade stays a rumour.
 
 ## FAQ
-
-** **
 
 **Is the Hardik Pandya trade confirmed?**
 
