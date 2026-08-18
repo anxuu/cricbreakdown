@@ -121,24 +121,31 @@ The second priority: a pace-bowling all-rounder who can bowl a minimum of two ov
 
 And for Jitesh, give him a long rope. Even if the form doesn’t return immediately, RCB have Phil Salt as a wicketkeeping option to fall back on, so there’s no pressure to panic-release a player who’s shown what he’s capable of before.
 
-### FAQ
+<div class="blog-faq">
+<h2 class="blog-faq-title">FAQ</h2>
 
-**How many players can RCB retain in IPL 2027?**
+<details class="blog-faq-item">
+  <summary><span>How many players can RCB retain in IPL 2027?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>Since 2027 is a mini-auction, not a fresh mega-auction, RCB doesn’t get a new round of retentions. Their existing squad stays intact by default, and the only changes come from players they choose to release before the auction.</p>
+</details>
 
-Since 2027 is a mini-auction, not a fresh mega-auction, RCB doesn’t get a new round of retentions. Their existing squad stays intact by default, and the only changes come from players they choose to release before the auction.
+<details class="blog-faq-item">
+  <summary><span>Who will be the captain of RCB in 2027?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>Rajat Patidar is expected to continue as captain heading into 2027. He’s led RCB to back-to-back titles, and there’s no real signal from the franchise suggesting a change at the top. The bigger conversations are around squad gaps, not leadership.</p>
+</details>
 
-**Who will be the captain of RCB in 2027?**
+<details class="blog-faq-item">
+  <summary><span>Which RCB players are in talks to be released in 2027?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>The names being talked about most are Yash Dayal, Suyash Sharma, Romario, and Jitesh, mainly due to underwhelming stats last season rather than any lack of talent.</p>
+</details>
 
-Rajat Patidar is expected to continue as captain heading into 2027. He’s led RCB to back-to-back titles, and there’s no real signal from the franchise suggesting a change at the top. The bigger conversations are around squad gaps, not leadership.
+<details class="blog-faq-item">
+  <summary><span>Is Hardik Pandya coming to RCB in 2027?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>Unlikely. Reports suggest RCB have stayed out of the Hardik Pandya trade race, largely because his skillset overlaps with players they already have. Venkatesh Iyer, Krunal Pandya, Romario Shepherd, and Tim David all cover similar ground.</p>
+</details>
 
-**Which RCB players are in talks to be released in 2027?**
-
-The names being talked about most are Yash Dayal, Suyash Sharma, Romario, and Jitesh, mainly due to underwhelming stats last season rather than any lack of talent.
-
-**Is Hardik Pandya coming to RCB in 2027?**
-
-Unlikely. Reports suggest RCB have stayed out of the Hardik Pandya trade race, largely because his skillset overlaps with players they already have. Venkatesh Iyer, Krunal Pandya, Romario Shepherd, and Tim David all cover similar ground.
-
-**What will RCB’s 2027 jersey look like?**
-
-There’s no official confirmation yet on a full redesign for 2027. What’s certain is that the 2-star badge added after their back-to-back titles in 2025 and 2026 will carry over, marking their consecutive championships. Beyond that, treat any other jersey leaks or mockups circulating online as speculation until RCB makes an official announcement.
+<details class="blog-faq-item">
+  <summary><span>What will RCB’s 2027 jersey look like?</span><span class="faq-arrow">&#9662;</span></summary>
+  <p>There’s no official confirmation yet on a full redesign for 2027. What’s certain is that the 2-star badge added after their back-to-back titles in 2025 and 2026 will carry over, marking their consecutive championships. Beyond that, treat any other jersey leaks or mockups circulating online as speculation until RCB makes an official announcement.</p>
+</details>
+</div>
