@@ -15,6 +15,8 @@ featured: true
 metaTitle: "RCB IPL 2027 Auction Strategy: Players to Release & Targets"
 metaDescription: "Can RCB win IPL 2027 and complete a historic three-peat? A detailed look at squad gaps, strengths, purse permutations, release candidates and auction priorities."
 categoryLabel: "IPL"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1787058113/cricbreakdown/covers/jzd5rgdeq1gclkeiw8i9.png"
+coverAlt: "RCB IPL 2027 Auction Strategy: Players to Release and Targets"
 ---
 
 That’s the question every fan is asking after back-to-back titles. Sitting back and trusting the same squad to repeat itself rarely works out in this league, so this is the moment RCB’s management really has to get its calls right.
