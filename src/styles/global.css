@@ -121,8 +121,9 @@ body {
 /* All Markdown tables use the same responsive stats-table treatment. */
 .prose table {
   display: block;
-  width: 100%;
-  min-width: 480px;
+  width: max-content;
+  min-width: 0;
+  max-width: 100%;
   margin: 2rem 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
