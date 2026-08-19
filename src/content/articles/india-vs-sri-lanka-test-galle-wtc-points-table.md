@@ -20,11 +20,22 @@ author: "Ansar"
 pubDate: 2026-08-19
 updatedDate: 2026-08-19
 featured: false
-metaTitle: "India vs Sri Lanka Test: 165-Run Win, Suthar’s 10-For & WTC Points Table 2027"
+metaTitle: "India Beat Sri Lanka in Galle: What It Does to the WTC Points Table"
 metaDescription: "India beat Sri Lanka by 165 runs in Galle. Manav Suthar stats, Padikkal’s 167, Gill’s captaincy, and where India stand in the WTC points table 2026 to 2027."
 categoryLabel: "International"
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1787146144/cricbreakdown/covers/oyz6nkznkzhhec6cvfb7.png"
 coverAlt: "India Beat Sri Lanka in Galle: What It Does to the WTC Points Table"
+faq:
+  - question: "How many WTC titles has India won?"
+    answer: "None. India have reached two World Test Championship finals — 2021 against New Zealand and 2023 against Australia — and lost both. They are still looking for their first title."
+  - question: "Is India out of the WTC?"
+    answer: "No. India are fifth on 53.33% after Galle. It’s a difficult position, not a finished one — the qualification maths still works if they win consistently from here."
+  - question: "How can India qualify for the WTC final?"
+    answer: "Win in Colombo first, which lifts them to roughly 57.5% and fourth. After that, India need to win most of their remaining series, drop very few draws, and get some help — mainly Bangladesh and New Zealand losing points to the sides above them. Percentage, not total wins, is what decides it."
+  - question: "Is Manav Suthar a proper backup for Ashwin?"
+    answer: "He’s the closest thing India has found so far. Two five-fors and a ten-wicket match in two Tests is a real start, and his mix of pace and turn is rare. But he’s a left-arm fingerspinner, not an off-spinner, and two Tests isn’t a career. Treat him as a red-ball specialist to build around, not a like-for-like replacement."
+  - question: "Will Sarfaraz Khan return in Colombo?"
+    answer: "Unlikely. Padikkal’s 167 and Jurel’s fifty have shut that door for now. Sarfaraz gets in only if India go in with an extra batter on a dustbowl, or if someone fails again in the second Test."
 ---
 
 India won the first Test against Sri Lanka by 165 runs. It was India’s 600th Test. Their World Test Championship hopes are still alive.
@@ -35,12 +46,15 @@ One more hour of Sri Lankan batting and this is a draw. And a draw here would ha
 ## WTC 2027 points table: where India stand now
 
 Here is the WTC points table as it stood after the Galle Test.
-**Team**	**Points %**
-Australia	77.78
-South Africa	75.00
-New Zealand	72.22
-Bangladesh	66.67
-India	53.33
+
+| Team | Points % |
+| --- | ---: |
+| Australia | 77.78 |
+| South Africa | 75.00 |
+| New Zealand | 72.22 |
+| Bangladesh | 66.67 |
+| India | 53.33 |
+
 India is fifth at 53.33%. India’s WTC points table position is fixable, but only with results in the next two weeks.
 **The scenario that helps India:** win in Colombo (from 23 August) and hope Bangladesh lose to Australia (from 22 August). That combination pushes India to roughly 57.5% and up to fourth, with Bangladesh sliding to about 55%.
 **The scenario that hurts:** Bangladesh win again. They go to 72.22% and join New Zealand; Australia drop to 70% and fourth, and India’s climb gets a lot steeper.
@@ -50,9 +64,12 @@ So the WTC points table 2026 to 2027 doesn’t depend only on India. The Austral
 
 Ravichandran Ashwin has backed left-arm spinner Manav Suthar as a long-term prospect for India, pointing to his traditional action, his control of line and length, and the revolutions he puts on the ball.
 Two Manav Suthar stats from the match tracking explain most of it:
-**Metric**	**Suthar**
-Average speed	\~89 kmph — quicker than both Jadeja and Kuldeep in this match
-Balls turning more than 4.5°	\~81% — the most turn of any spinner on either side
+
+| Metric | Suthar |
+| --- | --- |
+| Average speed | ~89 kmph — quicker than both Jadeja and Kuldeep in this match |
+| Balls turning more than 4.5° | ~81% — the most turn of any spinner on either side |
+
 Those two numbers aren’t supposed to sit next to each other. The usual trade is simple: if you want more turn, you slow the ball down and give it air. Suthar is turning it more *while* bowling quicker.
 It comes down to his action. He’s very side-on, his body drives hard through the crease, and his back leg drags behind him. All that effort goes into spinning the ball rather than lobbing it up. That’s why it dips and grips at speeds where most fingerspinners get nothing off the pitch.
 People will compare him to Ashwin whether we like it or not, and the early numbers invite it — two five-fors and a ten-wicket match in his first two Tests. I’d rather enjoy a new bowler than measure him against a retired one. But the parallel is there, and it isn’t silly.
@@ -81,10 +98,11 @@ As for his runs: he hasn’t looked out of touch in a Test series since England.
 
 ## The batters who need Colombo
 
-**Player**	**What Colombo asks**
-Yashasvi Jaiswal	32 isn’t enough. He’s out of the other formats and nowhere near the T20 side — one long innings would settle a lot.
-Dhruv Jurel	51, then nothing. He has to keep scoring to hold off Sarfaraz Khan.
-KL Rahul	Steady rather than decisive. On a tougher surface, India need him to bat time, not just start well
+| Player | What Colombo asks |
+| --- | --- |
+| Yashasvi Jaiswal | 32 isn’t enough. He’s out of the other formats and nowhere near the T20 side — one long innings would settle a lot. |
+| Dhruv Jurel | 51, then nothing. He has to keep scoring to hold off Sarfaraz Khan. |
+| KL Rahul | Steady rather than decisive. On a tougher surface, India need him to bat time, not just start well |
 
 ## Rishabh Pant: three stories in one Test
 
@@ -112,18 +130,3 @@ While Galle was going on, Bangladesh beat Australia by nine wickets in Darwin �
 Give them the credit first. Upsets are normal in T20 because the short format shrinks the gap. Test cricket doesn’t. Over five days, the distance between Australia at home and a touring Bangladesh side is supposed to be too big to cross, and they crossed it anyway.
 Now the India angle. That result cost Australia points at the top, which pulls the whole table closer together and lowers the percentage India eventually need to reach the top two. India are chasing a moving target, and Bangladesh just dragged it down a little.
 The catch is that Bangladesh moved up while doing it. So the ideal outcome for India from here is simple: Bangladesh took points off Australia in the first Test, and now lose the second one from 22 August. India then win in Colombo and go past them.
-
-## FAQs
-
-**How many WTC titles has India won?** None. India have reached two World Test Championship finals — 2021 against New Zealand and 2023 against Australia — and lost both. They are still looking for their first title.
-**Is India out of the WTC?** No. India are fifth on 53.33% after Galle. It’s a difficult position, not a finished one — the qualification maths still works if they win consistently from here.
-**How can India qualify for the WTC final?** Win in Colombo first, which lifts them to roughly 57.5% and fourth. After that, India need to win most of their remaining series, drop very few draws, and get some help — mainly Bangladesh and New Zealand losing points to the sides above them. Percentage, not total wins, is what decides it.
-**Is Manav Suthar a proper backup for Ashwin?** He’s the closest thing India has found so far. Two five-fors and a ten-wicket match in two Tests is a real start, and his mix of pace and turn is rare. But he’s a left-arm fingerspinner, not an off-spinner, and two Tests isn’t a career. Treat him as a red-ball specialist to build around, not a like-for-like replacement.
-**Will Sarfaraz Khan return in Colombo?** Unlikely. Padikkal’s 167 and Jurel’s fifty have shut that door for now. Sarfaraz gets in only if India go in with an extra batter on a dustbowl, or if someone fails again in the second Test.
-
-## SEO metadata
-
-**Target keywords:** india versus sri lanka test, srilanka vs india, india sri lanka test series, wtc 2026 points table, wtc points table 2026, india wtc points table, wtc points table india, wtc points table 2027, wtc 2027 points table, points table wtc 2027, wtc test points table, manav suthar stats, wtc points table 2026 to 2027
-**Meta title:** India vs Sri Lanka Test: 165-Run Win, Suthar’s 10-For & WTC Points Table 2027
-**Meta description:** India beat Sri Lanka by 165 runs in Galle. Manav Suthar stats, Padikkal’s 167, Gill’s captaincy, and where India stand in the WTC points table 2026 to 2027.
-**Suggested URL slug:** /india-vs-sri-lanka-test-galle-wtc-points-table
