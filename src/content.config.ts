@@ -6,7 +6,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    category: z.enum(['ipl', 'stats', 'history', 'teams']),
+    category: z.enum(['ipl', 'international', 'stats', 'history', 'teams']),
     tags: z.array(z.string()).default([]),
     author: z.string().default('Ansar'),
     authorSlug: z.string().default('ansar'),
