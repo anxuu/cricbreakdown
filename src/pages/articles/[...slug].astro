@@ -30,32 +30,9 @@ const siteUrl = 'https://www.cricbreakdown.com';
 const canonicalUrl = new URL(`/articles/${article.id}`, siteUrl).href;
 const authorUrl = `${siteUrl}/author/${article.data.authorSlug}`;
 const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-
 const articleText = article.body ?? '';
 const readTime = Math.max(1, Math.ceil(articleText.split(/\s+/).filter(Boolean).length / 220));
-
-const faq = article.data.faq ?? [
-  {
-    question: 'How many players can RCB retain in IPL 2027?',
-    answer: 'Since 2027 is a mini-auction, not a fresh mega-auction, RCB doesn’t get a new round of retentions. Their existing squad stays intact by default, and the only changes come from players they choose to release before the auction.',
-  },
-  {
-    question: 'Who will be the captain of RCB in 2027?',
-    answer: 'Rajat Patidar is expected to continue as captain heading into 2027. He’s led RCB to back-to-back titles, and there’s no real signal from the franchise suggesting a change at the top. The bigger conversations are around squad gaps, not leadership.',
-  },
-  {
-    question: 'Which RCB players are in talks to be released in 2027?',
-    answer: 'The names being talked about most are Yash Dayal, Suyash Sharma, Romario, and Jitesh, mainly due to underwhelming stats last season rather than any lack of talent.',
-  },
-  {
-    question: 'Is Hardik Pandya coming to RCB in 2027?',
-    answer: 'Unlikely. Reports suggest RCB have stayed out of the Hardik Pandya trade race, largely because his skillset overlaps with players they already have. Venkatesh Iyer, Krunal Pandya, Romario Shepherd, and Tim David all cover similar ground.',
-  },
-  {
-    question: 'What will RCB’s 2027 jersey look like?',
-    answer: 'There’s no official confirmation yet on a full redesign for 2027. What’s certain is that the 2-star badge added after their back-to-back titles in 2025 and 2026 will carry over, marking their consecutive championships. Beyond that, treat any other jersey leaks or mockups circulating online as speculation until RCB makes an official announcement.',
-  },
-];
+const faq = article.data.faq ?? [];
 
 const organizationId = `${siteUrl}/#organization`;
 const personId = `${authorUrl}#person`;
@@ -63,54 +40,29 @@ const personId = `${authorUrl}#person`;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    { '@type': 'Organization', '@id': organizationId, name: 'CricBreakdown', url: siteUrl, logo: `${siteUrl}/images/logo.svg` },
+    { '@type': 'Person', '@id': personId, name: article.data.author, url: authorUrl, worksFor: { '@id': organizationId } },
     {
-      '@type': 'Organization',
-      '@id': organizationId,
-      name: 'CricBreakdown',
-      url: siteUrl,
-      logo: `${siteUrl}/images/logo.svg`,
-    },
-    {
-      '@type': 'Person',
-      '@id': personId,
-      name: article.data.author,
-      url: authorUrl,
-      worksFor: { '@id': organizationId },
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': `${canonicalUrl}#breadcrumb`,
-      itemListElement: [
+      '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`, itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
         { '@type': 'ListItem', position: 2, name: categoryLabels[article.data.category] ?? article.data.category, item: `${siteUrl}/category/${article.data.category}` },
         { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
       ],
     },
     {
-      '@type': 'BlogPosting',
-      '@id': `${canonicalUrl}#article`,
-      headline: article.data.title,
-      description: article.data.description,
-      url: canonicalUrl,
-      mainEntityOfPage: { '@id': canonicalUrl },
+      '@type': 'BlogPosting', '@id': `${canonicalUrl}#article`, headline: article.data.title,
+      description: article.data.description, url: canonicalUrl, mainEntityOfPage: { '@id': canonicalUrl },
       datePublished: article.data.pubDate.toISOString(),
       ...(article.data.updatedDate ? { dateModified: article.data.updatedDate.toISOString() } : {}),
-      author: { '@id': personId },
-      publisher: { '@id': organizationId },
+      author: { '@id': personId }, publisher: { '@id': organizationId },
       articleSection: categoryLabels[article.data.category] ?? article.data.category,
-      keywords: article.data.tags,
-      inLanguage: 'en',
+      keywords: article.data.tags, inLanguage: 'en',
       ...(article.data.cover ? { image: article.data.cover } : {}),
     },
-    {
-      '@type': 'FAQPage',
-      '@id': `${canonicalUrl}#faq`,
-      mainEntity: faq.map(item => ({
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: { '@type': 'Answer', text: item.answer },
-      })),
-    },
+    ...(faq.length > 0 ? [{
+      '@type': 'FAQPage', '@id': `${canonicalUrl}#faq`,
+      mainEntity: faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })),
+    }] : []),
   ],
 };
 ---
@@ -135,33 +87,37 @@ const jsonLd = {
     <header>
       <nav aria-label="Breadcrumb" class="mb-5 text-xs text-ink/50">
         <ol class="flex flex-wrap items-center gap-2">
-          <li><a href="/" class="hover:text-leather">Home</a></li>
-          <li aria-hidden="true">/</li>
-          <li><a href={`/category/${article.data.category}`} class="hover:text-leather">{categoryLabels[article.data.category] ?? article.data.category}</a></li>
-          <li aria-hidden="true">/</li>
+          <li><a href="/" class="hover:text-leather">Home</a></li><li aria-hidden="true">/</li>
+          <li><a href={`/category/${article.data.category}`} class="hover:text-leather">{categoryLabels[article.data.category] ?? article.data.category}</a></li><li aria-hidden="true">/</li>
           <li aria-current="page" class="text-ink/70">Article</li>
         </ol>
       </nav>
-
       <div class="flex flex-wrap items-center gap-3 mb-5">
         <span class={`stat-chip text-[11px] uppercase tracking-wider px-2 py-1 rounded ${article.data.category === 'ipl' ? 'badge-ipl' : article.data.category === 'international' ? 'badge-international' : article.data.category === 'history' ? 'badge-history' : article.data.category === 'stats' ? 'badge-stats' : 'badge-default'}`}>{categoryLabels[article.data.category] ?? article.data.category}</span>
         <time class="text-xs text-ink/40" datetime={article.data.pubDate.toISOString()} itemprop="datePublished">{formattedDate}</time>
         <span class="text-xs text-ink/40">· By <a href={authorUrl} rel="author" class="hover:text-leather" itemprop="author">{article.data.author}</a></span>
         <span class="text-xs text-ink/40">· {readTime} min read</span>
       </div>
-
       <h1 class="font-display font-bold text-3xl md:text-5xl leading-tight text-pitch mb-6" itemprop="headline">{article.data.title}</h1>
-
       <div class="seam mb-10" aria-hidden="true"></div>
-
-      {article.data.cover && (
-        <ArticleCover src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} />
-      )}
+      {article.data.cover && <ArticleCover src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} />}
     </header>
 
     <div class="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-pitch prose-a:text-leather prose-strong:text-pitch" itemprop="articleBody">
       <Content />
     </div>
+
+    {faq.length > 0 && (
+      <section class="blog-faq" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" class="blog-faq-title">FAQs</h2>
+        {faq.map(item => (
+          <details class="blog-faq-item">
+            <summary><span>{item.question}</span><span class="faq-arrow" aria-hidden="true">&#9662;</span></summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </section>
+    )}
 
     <footer class="mt-14 pt-8 border-t border-pitch-2/10">
       <ul class="flex flex-wrap gap-2" aria-label="Article tags">
@@ -177,12 +133,8 @@ const jsonLd = {
         <div class="rec-carousel">
           {recommendations.map(rec => (
             <a href={`/articles/${rec.id}`} class="rec-card">
-              <span class={`stat-chip text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold mb-2 inline-block badge-${rec.data.category}`}>
-                {categoryLabels[rec.data.category] ?? rec.data.category}
-              </span>
-              <h3 class="font-display font-semibold text-[#1A1A2E] text-base leading-snug mt-1 mb-2">
-                {rec.data.title}
-              </h3>
+              <span class={`stat-chip text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold mb-2 inline-block badge-${rec.data.category}`}>{categoryLabels[rec.data.category] ?? rec.data.category}</span>
+              <h3 class="font-display font-semibold text-[#1A1A2E] text-base leading-snug mt-1 mb-2">{rec.data.title}</h3>
               <p class="text-xs text-gray-500 leading-relaxed">{rec.data.description}</p>
               <span class="inline-block mt-3 text-xs font-semibold" style="color:#E94560;">Read →</span>
             </a>
