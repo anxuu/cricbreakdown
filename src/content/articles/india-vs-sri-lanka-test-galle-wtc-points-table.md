@@ -56,8 +56,15 @@ Here is the WTC points table as it stood after the Galle Test.
 | India | 53.33 |
 
 India is fifth at 53.33%. India’s WTC points table position is fixable, but only with results in the next two weeks.
-**The scenario that helps India:** win in Colombo (from 23 August) and hope Bangladesh lose to Australia (from 22 August). That combination pushes India to roughly 57.5% and up to fourth, with Bangladesh sliding to about 55%.
-**The scenario that hurts:** Bangladesh win again. They go to 72.22% and join New Zealand; Australia drop to 70% and fourth, and India’s climb gets a lot steeper.
+
+**The scenario that helps India:**
+
+Win in Colombo (from 23 August) and hope Bangladesh lose to Australia (from 22 August). That combination pushes India to roughly 57.5% and up to fourth, with Bangladesh sliding to about 55%.
+
+**The scenario that hurts:**
+
+Bangladesh win again. They go to 72.22% and join New Zealand; Australia drop to 70% and fourth, and India’s climb gets a lot steeper.
+
 So the WTC points table 2026 to 2027 doesn’t depend only on India. The Australia vs Bangladesh Test in Darwin matters just as much, because a Bangladesh win pushes them further out of India’s reach.
 
 ## What makes Manav Suthar so hard to face
@@ -73,7 +80,10 @@ Two Manav Suthar stats from the match tracking explain most of it:
 Those two numbers aren’t supposed to sit next to each other. The usual trade is simple: if you want more turn, you slow the ball down and give it air. Suthar is turning it more *while* bowling quicker.
 It comes down to his action. He’s very side-on, his body drives hard through the crease, and his back leg drags behind him. All that effort goes into spinning the ball rather than lobbing it up. That’s why it dips and grips at speeds where most fingerspinners get nothing off the pitch.
 People will compare him to Ashwin whether we like it or not, and the early numbers invite it: two five-fors and a ten-wicket match in his first two Tests. I’d rather enjoy a new bowler than measure him against a retired one. But the parallel is there, and it isn’t silly.
-**The open question is T20.** Everything that makes him good in Tests, the dip, the overspin, the effort on every ball, is the opposite of what short formats reward, where you bowl flatter and quicker and don’t invite the drive. That’s a problem for another day. India’s white-ball spin spots are full anyway. Red-ball specialist, for now, is exactly the right label.
+
+**The open question is T20:**
+
+Everything that makes him good in Tests, the dip, the overspin, the effort on every ball, is the opposite of what short formats reward, where you bowl flatter and quicker and don’t invite the drive. That’s a problem for another day. India’s white-ball spin spots are full anyway. Red-ball specialist, for now, is exactly the right label.
 
 ## Devdutt Padikkal’s 167: the innings that answered the bigger question
 
@@ -83,20 +93,30 @@ India had lost two of their last three series in spin-friendly conditions at hom
 
 ## The rest of the bowling
 
-**Kuldeep Yadav: the odd stat.** A wrist spinner finishing behind two fingerspinners on this pitch is strange. Sanjay Manjrekar made a point in commentary that stuck: Kuldeep is bowling faster than he used to. His slowest ball in the match was 78 kmph. A few years ago he’d have gone well below that.
+**Kuldeep Yadav: the odd stat:**
+
+A wrist spinner finishing behind two fingerspinners on this pitch is strange. Sanjay Manjrekar made a point in commentary that stuck: Kuldeep is bowling faster than he used to. His slowest ball in the match was 78 kmph. A few years ago he’d have gone well below that.
 The theory is that he isn’t getting regular games, so he’s in a hurry to take wickets whenever he plays. That urgency puts extra effort into the body, and the ball comes out quicker and flatter than it should. If that’s the reason, no technical fix helps. He needs a run of matches so he stops bowling like every spell is an audition. His form since the IPL hasn’t been good either, and that’s fair to hold against him. But if he isn’t backed on a pitch like this one, when will he be?
 
-**Ravindra Jadeja, quietly again.** 3-57 and 2-16. He’ll disappear behind Suthar’s ten-for, and that’s fine. The point about Jadeja now is that he doesn’t need to be the headline to be essential, four or five wickets a game, runs when they’re needed, and no selection question to answer.
+**Ravindra Jadeja, quietly again:**
 
-**Siraj and Prasidh.** Mohammed Siraj gave India the early breakthrough in both innings, which on a pitch like this is most of the seamer’s job. Prasidh Krishna backed him up in short bursts and kept the pressure honest. In these conditions, that’s all India needed from the quicks.
+3-57 and 2-16. He’ll disappear behind Suthar’s ten-for, and that’s fine. The point about Jadeja now is that he doesn’t need to be the headline to be essential, four or five wickets a game, runs when they’re needed, and no selection question to answer.
+
+**Siraj and Prasidh:**
+
+Mohammed Siraj gave India the early breakthrough in both innings, which on a pitch like this is most of the seamer’s job. Prasidh Krishna backed him up in short bursts and kept the pressure honest. In these conditions, that’s all India needed from the quicks.
 
 ## Shubman Gill: no runs, but his best match as captain
 
 Gill failed with the bat twice. He also captained better than he has in any Test so far. Two things stood out.
 
-**The fields.** In five days, India never dropped a chance to the ground because nobody was standing there. The slips stayed. Short leg stayed. Even when nothing was happening for an hour, he kept the catchers in, and that quiet hour is usually when captains panic and send everyone to the boundary.
+**The fields:**
 
-**The bowling changes.** He used Suthar with the second new ball. He brought Siraj and Prasidh back in short, sharp bursts instead of long defensive spells. He was thinking in phases of the game, not just getting through overs.
+In five days, India never dropped a chance to the ground because nobody was standing there. The slips stayed. Short leg stayed. Even when nothing was happening for an hour, he kept the catchers in, and that quiet hour is usually when captains panic and send everyone to the boundary.
+
+**The bowling changes:**
+
+He used Suthar with the second new ball. He brought Siraj and Prasidh back in short, sharp bursts instead of long defensive spells. He was thinking in phases of the game, not just getting through overs.
 
 People used to call Rohit’s captaincy clueless. Mostly what they meant was defensive. You can hide that in white-ball cricket, where the innings has a fixed end. Test cricket exposes it. Gill hasn’t been exposed.
 As for his runs: he hasn’t looked out of touch in a Test series since England. No technical problem, no mental problem. The runs didn’t arrive this week.
@@ -130,7 +150,10 @@ So the question stays open. If Colombo is a genuine dustbowl, and Sri Lanka, one
 
 The bowling isn’t the worry. Sri Lanka’s batting has been thin since their opening pair broke up, and India have shown they can take twenty wickets whenever the pitch offers a fair contest.
 The worry is whether India’s middle order can post a total on a pitch designed to make that difficult. That’s the entire second Test in one sentence.
-**Prediction:** India win it. And Sarfaraz still doesn’t play.
+
+**Prediction:**
+
+India win it. And Sarfaraz still doesn’t play.
 
 ## How Bangladesh’s win over Australia helps India
 
