@@ -1,0 +1,26 @@
+# CricBreakdown
+
+> Independent cricket analysis covering IPL, international cricket, statistics, team breakdowns, player trades, auctions and cricket history.
+
+## Main Sections
+
+- https://www.cricbreakdown.com/articles — All published cricket breakdowns and analysis.
+- https://www.cricbreakdown.com/category/ipl — IPL analysis, auction strategy, player trades, team breakdowns and form.
+- https://www.cricbreakdown.com/category/international — Test, ODI and T20 international cricket analysis.
+- https://www.cricbreakdown.com/category/history — Cricket Chronicles, retrospectives and notable moments.
+- https://www.cricbreakdown.com/category/stats — Numbers-first cricket analysis and statistical breakdowns.
+- https://www.cricbreakdown.com/about — About CricBreakdown and its editorial purpose.
+
+## Selected Articles
+
+- https://www.cricbreakdown.com/articles/india-vs-sri-lanka-test-galle-wtc-points-table — India vs Sri Lanka Test analysis, Manav Suthar, WTC points table and key takeaways from the Galle Test.
+- https://www.cricbreakdown.com/articles/hardik-pandya-trade-latest-update — Hardik Pandya trade analysis and the latest reported IPL trade possibilities.
+- https://www.cricbreakdown.com/articles/rcb-ipl-2027-auction-strategy — RCB IPL 2027 auction strategy, squad gaps, release candidates and auction priorities.
+
+## Site Description
+
+CricBreakdown publishes independent cricket analysis designed to explain the story behind scores and results. Coverage includes IPL auctions and trades, team strategy, player performances, international cricket, statistics and cricket history.
+
+## Editorial Note
+
+CricBreakdown is independent fan content and is not affiliated with the BCCI, ICC, or any cricket franchise.
