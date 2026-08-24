@@ -1,7 +1,7 @@
 ---
 title: "Sachin Tendulkar vs Virat Kohli: The Stats AB de Villiers Ignored"
 description: "Sachin Tendulkar vs Virat Kohli - who is better in overseas Tests? Compare their SENA records, averages, centuries & full stats to settle the debate."
-category: "stats"
+category: "international"
 tags:
   - "Sachin Tendulkar vs Virat Kohli"
   - "Sachin Tendulkar"
@@ -15,7 +15,7 @@ updatedDate: 2026-08-24
 featured: false
 metaTitle: "Sachin Tendulkar vs Virat Kohli: The Stats AB de Villiers Ignored"
 metaDescription: "Sachin Tendulkar vs Virat Kohli - who is better in overseas Tests? Compare their SENA records, averages, centuries & full stats to settle the debate."
-categoryLabel: "Stats"
+categoryLabel: "International"
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1787573133/cricbreakdown/covers/woqgmb0hr0vpw6sg1lkg.png"
 coverAlt: "Sachin Tendulkar vs Virat Kohli Test cricket comparison"
 faq:
