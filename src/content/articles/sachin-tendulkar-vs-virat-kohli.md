@@ -31,6 +31,8 @@ faq:
     answer: "It depends on the lens. As a pure Test batter, especially overseas, the stats favour Sachin Tendulkar. But in terms of overall on-field contribution - captaincy, fitness culture, and building India’s pace attack that won Test series abroad - Virat Kohli arguably contributed more to the team’s success. Both are greats of Indian Test cricket in their own eras."
 ---
 
+![Sachin vs Virat: Total Test Career Stats](https://res.cloudinary.com/g682uusu/image/upload/v1787573675/ChatGPT_Image_Aug_24_2026_05_44_11_PM.png)
+
 The Sachin Tendulkar vs Virat Kohli debate refuses to die. It flared up again when AB de Villiers said Virat Kohli was stronger and better than Sachin Tendulkar in overseas Test cricket. He credited Sachin for starting the trend of subcontinent batters succeeding in bouncy conditions, but felt Kohli raised the bar even higher. Ideally, two legends from two different eras shouldn’t be compared at all. But since the topic is out there, let’s see statistically where both stand.
 
 ## Sachin vs Virat: Total Test Career Stats
