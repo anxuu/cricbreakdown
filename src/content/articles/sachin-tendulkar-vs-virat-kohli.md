@@ -101,4 +101,4 @@ But if we look at overall on-field contribution - batting, captaincy, building a
 
 What do you think - do stats settle this debate, or does era context change everything?
 
-Also read: Check out our permutations on the Hardik Pandya IPL team.
+Also read: Check out our [Hardik Pandya trade update](https://www.cricbreakdown.com/articles/hardik-pandya-trade-latest-update).
