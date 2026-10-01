@@ -107,8 +107,6 @@ The ICC has pre-seeded India into the Super 7 pathway. These fixtures apply if t
 | Total tournament matches | 57 |
 | Tournament dates | 2 October to 21 November 2027 |
 
-## FAQ
-
 <div class="blog-faq">
 <h2 class="blog-faq-title">FAQ</h2>
 <details class="blog-faq-item">
