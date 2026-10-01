@@ -42,7 +42,7 @@ The Group Stage then begins on October 7, followed by the Super 7 phase from Oct
 
 ### How the Pre-Seeded Schedule Works
 
-The ICC has pre-seeded seven teams into Super 7 positions so fans can understand the likely fixture and venue pathways before the Group Stage is completed. The current positions are **A1: India, A2: Australia, A3: Pakistan, B1: New Zealand, B2: South Africa, B3: Sri Lanka and AB4: England**. If a non-seeded team qualifies for the Super 7 while one of these pre-seeded teams does not, the qualifying team takes over the displaced team's designated position and its planned fixture and venue pathway. citeturn0search0turn0search2
+The ICC has pre-seeded seven teams into Super 7 positions so fans can understand the likely fixture and venue pathways before the Group Stage is completed. The current positions are **A1: India, A2: Australia, A3: Pakistan, B1: New Zealand, B2: South Africa, B3: Sri Lanka and AB4: England**. If a non-seeded team qualifies for the Super 7 while one of these pre-seeded teams does not, the qualifying team takes over the displaced team's designated position and its planned fixture and venue pathway.
 
 ### ODI World Cup 2027 Format at a Glance
 
@@ -51,7 +51,7 @@ The ICC has pre-seeded seven teams into Super 7 positions so fans can understand
 - **No points carried forward:** All seven Super 7 teams start this phase from zero points, so Group Stage points do not carry into the Super 7 table.
 - **Knockouts:** The top four teams in the Super 7 standings qualify for the semi-finals. The team finishing first plays fourth, while second plays third.
 
-This format means the Group Stage determines who reaches the Super 7, while the Super 7 standings decide the four semi-finalists. citeturn0search0turn0search1
+This format means the Group Stage determines who reaches the Super 7, while the Super 7 standings decide the four semi-finalists.
 
 ## ODI World Cup 2027 Super Series Schedule
 
