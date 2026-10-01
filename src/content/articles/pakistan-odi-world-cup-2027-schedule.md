@@ -1,6 +1,6 @@
 ---
-title: "Pakistan ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Pakistan ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Pakistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Pakistan ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues, cities and the conditional Super 7 pathway."
 category: "international"
 tags:
   - "Pakistan World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Pakistan ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Pakistan ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Pakistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "Check Pakistan's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the team's conditional Super 7 route."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Pakistan play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded Pakistan into the Super 7 pathway. These fixtures apply i
 </tbody>
 </table>
 </div>
+
+### Pakistan Schedule at a Glance
+
+Pakistan's Group A schedule features matches against Afghanistan, India, Qualifier A, Zimbabwe and Australia. The schedule below keeps the fixed Group Stage matches separate from later-stage scenarios.
 
 ## World Cup 2027 Tournament Dates
 
