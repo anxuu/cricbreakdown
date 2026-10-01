@@ -1,6 +1,6 @@
 ---
-title: "England ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "England ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "England ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "England ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues, cities and the conditional Super 7 pathway."
 category: "international"
 tags:
   - "England World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "England ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "England ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "England ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "View England's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, venues, opponents and the conditional Super 7 pathway."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does England play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded England into the Super 7 pathway. These fixtures apply if
 </tbody>
 </table>
 </div>
+
+### England Schedule at a Glance
+
+England's Group B fixtures are against Bangladesh, Sri Lanka, South Africa, Qualifier B and New Zealand. The match tables focus on the information readers usually need first: date, opponent and venue.
 
 ## World Cup 2027 Tournament Dates
 
