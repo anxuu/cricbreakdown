@@ -1,6 +1,6 @@
 ---
-title: "Sri Lanka ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Sri Lanka ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Sri Lanka ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Sri Lanka ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
   - "Sri Lanka World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Sri Lanka ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Sri Lanka ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Sri Lanka ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "Get Sri Lanka's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues and conditional Super 7 details."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Sri Lanka play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded Sri Lanka into the Super 7 pathway. These fixtures apply 
 </tbody>
 </table>
 </div>
+
+### Sri Lanka Schedule at a Glance
+
+Sri Lanka's Group B route includes Qualifier B, England, Bangladesh, New Zealand and South Africa. The schedule tables separate those fixed matches from the conditional Super 7 route.
 
 ## World Cup 2027 Tournament Dates
 
