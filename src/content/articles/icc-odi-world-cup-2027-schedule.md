@@ -14,6 +14,17 @@ featured: true
 metaTitle: "ICC ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
 metaDescription: "Check the ICC ODI World Cup 2027 schedule with all fixtures, dates, venues, groups, Super 7 matches, semi-finals and final."
 categoryLabel: "International Cricket"
+faq:
+  - question: "When is the ODI World Cup 2027?"
+    answer: "The ICC Men’s ODI World Cup 2027 is scheduled from October 2 to November 21, 2027."
+  - question: "Where will the ODI World Cup 2027 be played?"
+    answer: "The tournament will be played across South Africa, Zimbabwe and Namibia."
+  - question: "How many teams will play in the ODI World Cup 2027?"
+    answer: "The tournament is scheduled to feature 14 teams."
+  - question: "How many matches are scheduled for the ODI World Cup 2027?"
+    answer: "The tournament schedule includes 57 matches across the Super Series, Group Stage, Super 7, semi-finals and final."
+  - question: "When is the ODI World Cup 2027 final?"
+    answer: "The final is scheduled for November 21, 2027, at the Wanderers Stadium in Johannesburg."
 ---
 
 The **ICC Men’s ODI World Cup 2027** will be played from **October 2 to November 21, 2027**, across **South Africa, Zimbabwe and Namibia**. The 14-team tournament will feature **57 matches across 12 venues**, with the final scheduled at the Wanderers Stadium in Johannesburg on November 21.
