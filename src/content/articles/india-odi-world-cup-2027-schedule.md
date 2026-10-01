@@ -1,6 +1,6 @@
 ---
-title: "India ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "India ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
+description: "India ODI World Cup 2027 schedule with all five Group Stage fixtures, match dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
   - "India World Cup 2027 Schedule"
@@ -13,7 +13,7 @@ pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
 metaTitle: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "India ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaDescription: "Get the India ODI World Cup 2027 schedule with five Group Stage matches, dates, opponents, venues, India vs Pakistan, and conditional Super 7 fixtures."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does India play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded India into the Super 7 pathway. These fixtures apply if t
 </tbody>
 </table>
 </div>
+
+### India Schedule at a Glance
+
+India's five Group Stage matches are spread across Cape Town, Johannesburg, Tshwane, Bloemfontein and Victoria Falls. This page separates confirmed Group Stage fixtures from the conditional Super 7 pathway so readers can quickly see which matches are fixed and which depend on qualification.
 
 ## World Cup 2027 Tournament Dates
 
