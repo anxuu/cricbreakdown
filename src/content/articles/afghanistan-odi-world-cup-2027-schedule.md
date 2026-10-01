@@ -1,6 +1,6 @@
 ---
-title: "Afghanistan ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Afghanistan ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Afghanistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Afghanistan ODI World Cup 2027 schedule with Group Stage fixtures, dates, opponents, venues, cities and the team's Super 7 qualification pathway."
 category: "international"
 tags:
   - "Afghanistan World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Afghanistan ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Afghanistan ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Afghanistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "View Afghanistan's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and details of the conditional Super 7 pathway."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Afghanistan play in the ICC ODI World Cup 2027?"
@@ -81,6 +81,10 @@ This Group Stage fixture is part of Afghanistan's five-match first-round schedul
 ## Afghanistan and the Super 7
 
 The ICC's published Super 7 schedule is based on pre-seeded positions. Afghanistan is not one of the seven currently pre-seeded Super 7 positions, so a Super 7 fixture for Afghanistan will depend on qualification and the position it assumes.
+
+### Afghanistan Schedule at a Glance
+
+Afghanistan's Group A fixtures cover Pakistan, Zimbabwe, India, Australia and Qualifier A. The fixture tables provide the fastest way to check the date and venue for each scheduled match.
 
 ## World Cup 2027 Tournament Dates
 
