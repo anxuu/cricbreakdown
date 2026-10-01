@@ -1,6 +1,6 @@
 ---
-title: "New Zealand ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "New Zealand ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "New Zealand ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "New Zealand ODI World Cup 2027 schedule with five Group Stage fixtures, match dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
   - "New Zealand World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "New Zealand ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "New Zealand ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "New Zealand ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "Find New Zealand's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, venues, opponents and conditional Super 7 details."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does New Zealand play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded New Zealand into the Super 7 pathway. These fixtures appl
 </tbody>
 </table>
 </div>
+
+### New Zealand Schedule at a Glance
+
+New Zealand's Group B fixtures are against South Africa, Bangladesh, Qualifier B, Sri Lanka and England. The tables below make the match date and stadium easy to scan.
 
 ## World Cup 2027 Tournament Dates
 
