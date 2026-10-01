@@ -1,28 +1,22 @@
 ---
-title: "ICC ODI World Cup 2027 Schedule: Full Fixtures, Dates, Venues and India Matches"
-description: "Check the ICC ODI World Cup 2027 schedule, including all fixtures, dates, venues, India matches, India vs Pakistan, groups, Super 7, semi-finals and final."
+title: "ICC ODI World Cup 2027 Schedule: Full Fixtures, Dates and Venues"
+description: "Check the ICC ODI World Cup 2027 schedule with all fixtures, dates, venues, groups, Super 7 matches, semi-finals and final."
 category: "international"
 tags:
   - ICC ODI World Cup 2027
   - ODI World Cup 2027 Schedule
   - Cricket World Cup
-  - India World Cup Schedule
-  - India vs Pakistan
   - World Cup Fixtures
 author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: true
 metaTitle: "ICC ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Check the ICC ODI World Cup 2027 schedule, including all fixtures, dates, venues, India matches, India vs Pakistan, groups, Super 7, semi-finals and final."
+metaDescription: "Check the ICC ODI World Cup 2027 schedule with all fixtures, dates, venues, groups, Super 7 matches, semi-finals and final."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does the ODI World Cup 2027 start?"
     answer: "The ICC Men's ODI World Cup 2027 begins on October 2, 2027, with the three-team Super Series in Windhoek, Namibia."
-  - question: "When does India play Australia in the 2027 World Cup?"
-    answer: "India will play Australia on October 7, 2027, at Newlands in Cape Town."
-  - question: "When is India vs Pakistan in the 2027 World Cup?"
-    answer: "India will play Pakistan on October 10, 2027, at the Wanderers Stadium in Johannesburg."
   - question: "Where is the 2027 ODI World Cup final?"
     answer: "The 2027 ODI World Cup final will be played in Johannesburg on November 21, 2027, with the Wanderers Stadium hosting the final."
   - question: "How many teams are playing in the 2027 ODI World Cup?"
@@ -119,38 +113,6 @@ South Africa and Zimbabwe qualify as hosts, while the remaining places are deter
 | October 23 | Bangladesh vs Qualifier B | Tshwane |
 | October 22 | South Africa vs Sri Lanka | Johannesburg |
 
-## India ODI World Cup 2027 Schedule
-
-India are in Group A and will play five Group Stage matches before the Super 7 stage.
-
-| Date | Match | Venue |
-|---|---|---|
-| October 7, 2027 | India vs Australia | Cape Town |
-| October 10, 2027 | India vs Pakistan | Johannesburg |
-| October 14, 2027 | India vs Afghanistan | Tshwane |
-| October 17, 2027 | India vs Qualifier A | Bloemfontein |
-| October 24, 2027 | Zimbabwe vs India | Victoria Falls |
-
-### India vs Australia – October 7
-
-India will open their 2027 World Cup campaign against defending champions Australia on **October 7 in Cape Town**. The fixture is a repeat of the 2023 World Cup final.
-
-### India vs Pakistan – October 10
-
-India and Pakistan will meet on **October 10, 2027, at the Wanderers Stadium in Johannesburg**. The two teams are part of Group A.
-
-### India vs Afghanistan – October 14
-
-India will face Afghanistan on **October 14 in Tshwane** in their third Group Stage match.
-
-### India vs Qualifier A – October 17
-
-India's fourth Group Stage match is against **Qualifier A on October 17 in Bloemfontein**.
-
-### Zimbabwe vs India – October 24
-
-India will play their final Group Stage match against Zimbabwe on **October 24 at Victoria Falls**.
-
 ## ODI World Cup 2027 Super 7 Schedule
 
 The top three teams from each Group Stage group will advance to the Super 7 phase. The fourth-placed team with more points than the fourth-placed team in the other group will take the seventh position.
@@ -219,30 +181,6 @@ First, three teams will compete in the Super Series in Namibia, with the winner 
 The 12 Group Stage teams will then be divided into two groups of six. The top three teams from each group will qualify for the Super 7 phase, while the better fourth-placed team will take the seventh Super 7 position.
 
 The seven Super 7 teams will play six matches each. The top four teams will then advance to the semi-finals.
-
-## When is the ODI World Cup 2027?
-
-The ICC Men's ODI World Cup 2027 will be held from **October 2 to November 21, 2027**.
-
-## Where will the ODI World Cup 2027 be played?
-
-The tournament will be hosted by **South Africa, Zimbabwe and Namibia** across 12 venues, with eight venues in South Africa, three in Zimbabwe and one in Namibia.
-
-## When will India play Pakistan in the 2027 World Cup?
-
-India will play Pakistan on **October 10, 2027, at the Wanderers Stadium in Johannesburg**.
-
-## Where will the 2027 World Cup final be played?
-
-The final will be played at the **Wanderers Stadium in Johannesburg on November 21, 2027**.
-
-## How many teams will play in the 2027 ODI World Cup?
-
-The tournament will feature **14 teams and 57 matches** across 12 venues.
-
-## How many matches will India play in the Group Stage?
-
-India will play **five Group Stage matches** against Australia, Pakistan, Afghanistan, Qualifier A and Zimbabwe.
 
 ## ODI World Cup 2027 Schedule – Key Dates
 
