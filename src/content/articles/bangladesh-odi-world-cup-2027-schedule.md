@@ -1,6 +1,6 @@
 ---
-title: "Bangladesh ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Bangladesh ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Bangladesh ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Bangladesh ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues, cities and the team's later-stage pathway."
 category: "international"
 tags:
   - "Bangladesh World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Bangladesh ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Bangladesh ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Bangladesh ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "Check Bangladesh's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues and the team's possible route beyond the Group Stage."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Bangladesh play in the ICC ODI World Cup 2027?"
@@ -81,6 +81,10 @@ This Group Stage fixture is part of Bangladesh's five-match first-round schedule
 ## Bangladesh and the Super 7
 
 The ICC's published Super 7 schedule is based on pre-seeded positions. Bangladesh is not one of the seven currently pre-seeded Super 7 positions, so a Super 7 fixture for Bangladesh will depend on qualification and the position it assumes.
+
+### Bangladesh Schedule at a Glance
+
+Bangladesh's Group B schedule includes England, New Zealand, Sri Lanka, South Africa and Qualifier B. The page keeps the confirmed first-stage fixtures distinct from later qualification scenarios.
 
 ## World Cup 2027 Tournament Dates
 
