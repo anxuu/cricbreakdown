@@ -1,6 +1,6 @@
 ---
-title: "Zimbabwe ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Zimbabwe ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Zimbabwe ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Zimbabwe ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues, cities and later-stage qualification details."
 category: "international"
 tags:
   - "Zimbabwe World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Zimbabwe ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Zimbabwe ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Zimbabwe ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "See Zimbabwe's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the route to the later stages."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Zimbabwe play in the ICC ODI World Cup 2027?"
@@ -81,6 +81,10 @@ This Group Stage fixture is part of Zimbabwe's five-match first-round schedule.
 ## Zimbabwe and the Super 7
 
 The ICC's published Super 7 schedule is based on pre-seeded positions. Zimbabwe is not one of the seven currently pre-seeded Super 7 positions, so a Super 7 fixture for Zimbabwe will depend on qualification and the position it assumes.
+
+### Zimbabwe Schedule at a Glance
+
+As one of the host nations, Zimbabwe's Group A schedule includes matches against Qualifier A, Afghanistan, Australia, Pakistan and India. The venue details help readers see where each home-region fixture is scheduled.
 
 ## World Cup 2027 Tournament Dates
 
