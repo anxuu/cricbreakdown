@@ -15,9 +15,19 @@ featured: false
 metaTitle: "Bangladesh ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
 metaDescription: "Bangladesh ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
 categoryLabel: "International Cricket"
----
+faq:
+  - question: "When does Bangladesh play in the ICC ODI World Cup 2027?"
+    answer: "The ICC ODI World Cup 2027 Group Stage fixtures for Bangladesh are listed above with the official dates and venues announced by the ICC."
+  - question: "Where will Bangladesh play its World Cup 2027 matches?"
+    answer: "The match-by-match table above lists the official stadium and city for Bangladesh's scheduled fixtures."
+  - question: "How many Group Stage matches will Bangladesh play?"
+    answer: "The Group Stage is a five-match round-robin schedule for each of the 12 teams in the two groups."
+  - question: "What is Bangladesh's Super 7 schedule?"
+    answer: "If Bangladesh qualifies for the Super 7, its pre-seeded fixtures and venues are listed separately. Super 7 fixtures are conditional on qualification and the tournament's seeding pathway."
+  - question: "Where is the ICC ODI World Cup 2027 final?"
+    answer: "The final is scheduled for 21 November 2027 at the Wanderers in Johannesburg, according to the ICC."
 
-# Bangladesh ODI World Cup 2027 Schedule
+---
 
 The **Bangladesh ODI World Cup 2027 schedule** includes five Group Stage matches, with each fixture's date, opponent and venue listed below. Bangladesh is part of the ICC Men's Cricket World Cup 2027 field, with the tournament running from **2 October to 21 November 2027**.
 
@@ -38,31 +48,31 @@ The **Bangladesh ODI World Cup 2027 schedule** includes five Group Stage matches
 
 ## Bangladesh Group Stage Fixtures
 
-### 8 October 2027 — Bangladesh vs England
+### 8 October 2027 - Bangladesh vs England
 
 **Venue:** Namibia Cricket Ground, Windhoek
 
 This Group Stage fixture is part of Bangladesh's five-match first-round schedule.
 
-### 12 October 2027 — Bangladesh vs New Zealand
+### 12 October 2027 - Bangladesh vs New Zealand
 
 **Venue:** Buffalo Park, KuGompo City
 
 This Group Stage fixture is part of Bangladesh's five-match first-round schedule.
 
-### 16 October 2027 — Bangladesh vs Sri Lanka
+### 16 October 2027 - Bangladesh vs Sri Lanka
 
 **Venue:** Kingsmead Cricket Ground, Durban
 
 This Group Stage fixture is part of Bangladesh's five-match first-round schedule.
 
-### 19 October 2027 — Bangladesh vs South Africa
+### 19 October 2027 - Bangladesh vs South Africa
 
 **Venue:** Kingsmead Cricket Ground, Durban
 
 This Group Stage fixture is part of Bangladesh's five-match first-round schedule.
 
-### 23 October 2027 — Bangladesh vs Qualifier B
+### 23 October 2027 - Bangladesh vs Qualifier B
 
 **Venue:** Centurion, Tshwane
 
@@ -74,12 +84,12 @@ The ICC's published Super 7 schedule is based on pre-seeded positions. Banglades
 
 ## World Cup 2027 Tournament Dates
 
-- **Super Series:** 2, 4 and 6 October 2027 — Windhoek
+- **Super Series:** 2, 4 and 6 October 2027 - Windhoek
 - **Group Stage:** 7 to 24 October 2027
 - **Super 7:** 25 October to 14 November 2027
-- **Semi-Final 1:** 17 November 2027 — Cape Town
-- **Semi-Final 2:** 18 November 2027 — Tshwane
-- **Final:** 21 November 2027 — Johannesburg
+- **Semi-Final 1:** 17 November 2027 - Cape Town
+- **Semi-Final 2:** 18 November 2027 - Tshwane
+- **Final:** 21 November 2027 - Johannesburg
 
 ## Bangladesh World Cup 2027 Schedule: Key Details
 
@@ -92,30 +102,6 @@ The ICC's published Super 7 schedule is based on pre-seeded positions. Banglades
 | Tournament hosts | South Africa, Zimbabwe and Namibia |
 | Total tournament matches | 57 |
 | Tournament dates | 2 October to 21 November 2027 |
-
-<div class="blog-faq">
-<h2 class="blog-faq-title">FAQ</h2>
-<details class="blog-faq-item">
-<summary><span>When does Bangladesh play in the ICC ODI World Cup 2027?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The ICC ODI World Cup 2027 Group Stage fixtures for Bangladesh are listed above with the official dates and venues announced by the ICC.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>Where will Bangladesh play its World Cup 2027 matches?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The match-by-match table above lists the official stadium and city for Bangladesh's scheduled fixtures.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>How many Group Stage matches will Bangladesh play?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The Group Stage is a five-match round-robin schedule for each of the 12 teams in the two groups.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>What is Bangladesh's Super 7 schedule?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>If Bangladesh qualifies for the Super 7, its pre-seeded fixtures and venues are listed separately. Super 7 fixtures are conditional on qualification and the tournament's seeding pathway.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>Where is the ICC ODI World Cup 2027 final?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The final is scheduled for 21 November 2027 at the Wanderers in Johannesburg, according to the ICC.</p>
-</details>
-</div>
 
 ## Source
 
