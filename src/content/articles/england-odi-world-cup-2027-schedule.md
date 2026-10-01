@@ -15,9 +15,19 @@ featured: false
 metaTitle: "England ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
 metaDescription: "England ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
 categoryLabel: "International Cricket"
----
+faq:
+  - question: "When does England play in the ICC ODI World Cup 2027?"
+    answer: "The ICC ODI World Cup 2027 Group Stage fixtures for England are listed above with the official dates and venues announced by the ICC."
+  - question: "Where will England play its World Cup 2027 matches?"
+    answer: "The match-by-match table above lists the official stadium and city for England's scheduled fixtures."
+  - question: "How many Group Stage matches will England play?"
+    answer: "The Group Stage is a five-match round-robin schedule for each of the 12 teams in the two groups."
+  - question: "What is England's Super 7 schedule?"
+    answer: "If England qualifies for the Super 7, its pre-seeded fixtures and venues are listed separately. Super 7 fixtures are conditional on qualification and the tournament's seeding pathway."
+  - question: "Where is the ICC ODI World Cup 2027 final?"
+    answer: "The final is scheduled for 21 November 2027 at the Wanderers in Johannesburg, according to the ICC."
 
-# England ODI World Cup 2027 Schedule
+---
 
 The **England ODI World Cup 2027 schedule** includes five Group Stage matches, with each fixture's date, opponent and venue listed below. England is part of the ICC Men's Cricket World Cup 2027 field, with the tournament running from **2 October to 21 November 2027**.
 
@@ -38,31 +48,31 @@ The **England ODI World Cup 2027 schedule** includes five Group Stage matches, w
 
 ## England Group Stage Fixtures
 
-### 8 October 2027 — England vs Bangladesh
+### 8 October 2027 - England vs Bangladesh
 
 **Venue:** Namibia Cricket Ground, Windhoek
 
 This Group Stage fixture is part of England's five-match first-round schedule.
 
-### 13 October 2027 — England vs Sri Lanka
+### 13 October 2027 - England vs Sri Lanka
 
 **Venue:** Namibia Cricket Ground, Windhoek
 
 This Group Stage fixture is part of England's five-match first-round schedule.
 
-### 16 October 2027 — England vs South Africa
+### 16 October 2027 - England vs South Africa
 
 **Venue:** St George's Park, Gqeberha
 
 This Group Stage fixture is part of England's five-match first-round schedule.
 
-### 20 October 2027 — England vs Qualifier B
+### 20 October 2027 - England vs Qualifier B
 
 **Venue:** Harare Sports Club, Harare
 
 This Group Stage fixture is part of England's five-match first-round schedule.
 
-### 23 October 2027 — England vs New Zealand
+### 23 October 2027 - England vs New Zealand
 
 **Venue:** St George's Park, Gqeberha
 
@@ -88,12 +98,12 @@ The ICC has pre-seeded England into the Super 7 pathway. These fixtures apply if
 
 ## World Cup 2027 Tournament Dates
 
-- **Super Series:** 2, 4 and 6 October 2027 — Windhoek
+- **Super Series:** 2, 4 and 6 October 2027 - Windhoek
 - **Group Stage:** 7 to 24 October 2027
 - **Super 7:** 25 October to 14 November 2027
-- **Semi-Final 1:** 17 November 2027 — Cape Town
-- **Semi-Final 2:** 18 November 2027 — Tshwane
-- **Final:** 21 November 2027 — Johannesburg
+- **Semi-Final 1:** 17 November 2027 - Cape Town
+- **Semi-Final 2:** 18 November 2027 - Tshwane
+- **Final:** 21 November 2027 - Johannesburg
 
 ## England World Cup 2027 Schedule: Key Details
 
@@ -106,30 +116,6 @@ The ICC has pre-seeded England into the Super 7 pathway. These fixtures apply if
 | Tournament hosts | South Africa, Zimbabwe and Namibia |
 | Total tournament matches | 57 |
 | Tournament dates | 2 October to 21 November 2027 |
-
-<div class="blog-faq">
-<h2 class="blog-faq-title">FAQ</h2>
-<details class="blog-faq-item">
-<summary><span>When does England play in the ICC ODI World Cup 2027?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The ICC ODI World Cup 2027 Group Stage fixtures for England are listed above with the official dates and venues announced by the ICC.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>Where will England play its World Cup 2027 matches?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The match-by-match table above lists the official stadium and city for England's scheduled fixtures.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>How many Group Stage matches will England play?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The Group Stage is a five-match round-robin schedule for each of the 12 teams in the two groups.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>What is England's Super 7 schedule?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>If England qualifies for the Super 7, its pre-seeded fixtures and venues are listed separately. Super 7 fixtures are conditional on qualification and the tournament's seeding pathway.</p>
-</details>
-<details class="blog-faq-item">
-<summary><span>Where is the ICC ODI World Cup 2027 final?</span><span class="faq-arrow">&#9662;</span></summary>
-<p>The final is scheduled for 21 November 2027 at the Wanderers in Johannesburg, according to the ICC.</p>
-</details>
-</div>
 
 ## Source
 
