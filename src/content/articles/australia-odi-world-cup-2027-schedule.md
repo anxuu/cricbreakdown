@@ -1,6 +1,6 @@
 ---
-title: "Australia ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "Australia ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "Australia ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "Australia ODI World Cup 2027 schedule with five Group Stage fixtures, match dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
   - "Australia World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "Australia ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Australia ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "Australia ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "See Australia's ODI World Cup 2027 schedule, including five Group Stage fixtures, dates, venues, opponents and the conditional Super 7 pathway."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Australia play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded Australia into the Super 7 pathway. These fixtures apply 
 </tbody>
 </table>
 </div>
+
+### Australia Schedule at a Glance
+
+Australia's Group Stage route includes fixtures against India, Qualifier A, Zimbabwe, Afghanistan and Pakistan. The page also distinguishes the team's pre-seeded Super 7 route from the confirmed first-stage schedule.
 
 ## World Cup 2027 Tournament Dates
 
