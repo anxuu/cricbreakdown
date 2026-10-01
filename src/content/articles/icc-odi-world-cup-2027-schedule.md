@@ -32,11 +32,11 @@ The Group Stage then begins on October 7, followed by the Super 7 phase from Oct
 
 | Date | Match | Venue |
 |---|---|---|
-| October 2, 2027 | Qualifier 1 vs Qualifier 3 | Windhoek |
-| October 4, 2027 | Qualifier 1 vs Qualifier 2 | Windhoek |
-| October 6, 2027 | Qualifier 2 vs Qualifier 3 | Windhoek |
+| October 2, 2027 | QF1 vs QF3 | Windhoek |
+| October 4, 2027 | QF1 vs QF2 | Windhoek |
+| October 6, 2027 | QF2 vs QF3 | Windhoek |
 
-The three lowest-ranked teams from the 2027 World Cup qualification field will compete in the Super Series. The team finishing first will qualify for the Group Stage.
+The three lowest-ranked teams from the 2027 World Cup qualification field will compete in the Super Series. They will play a single round-robin, with the team finishing first qualifying for the Group Stage.
 
 ## ODI World Cup 2027 Groups
 
@@ -63,6 +63,7 @@ South Africa and Zimbabwe qualify as hosts, while the remaining places are deter
 | October 8 | Pakistan vs Afghanistan | Tshwane |
 | October 9 | Zimbabwe vs Qualifier A | Bulawayo |
 | October 10 | India vs Pakistan | Johannesburg |
+| October 11 | Zimbabwe vs Afghanistan | Bulawayo |
 | October 12 | Australia vs Qualifier A | Paarl |
 | October 14 | India vs Afghanistan | Tshwane |
 | October 15 | Pakistan vs Qualifier A | Bloemfontein |
@@ -172,7 +173,7 @@ The team finishing first in the Super 7 standings will face the fourth-placed te
 
 The **ICC ODI World Cup 2027 final** will be played on **November 21, 2027, at the Wanderers Stadium in Johannesburg**.
 
-The semi-finals and final are scheduled as day matches and have reserve days.
+Both semi-finals have reserve days. The final is scheduled for November 21, with November 22 as its reserve day if required.
 
 ## ODI World Cup 2027 Venues
 
@@ -180,9 +181,9 @@ The tournament will be played across 12 venues in South Africa, Zimbabwe and Nam
 
 | Country | Venues |
 |---|---|
-| South Africa | Cape Town, Paarl, Johannesburg, Tshwane, Bloemfontein, Durban, Gqeberha, KuGompo City |
-| Zimbabwe | Harare, Bulawayo, Victoria Falls |
-| Namibia | Windhoek |
+| South Africa | Newlands Cricket Ground (Cape Town), Boland Park (Paarl), Wanderers Stadium (Johannesburg), Centurion (Tshwane), Mangaung Oval (Bloemfontein), Kingsmead (Durban), St George’s Park (Gqeberha), Buffalo Park (KuGompo City) |
+| Zimbabwe | Harare, Bulawayo, Mosi-oa-Tunya Stadium (Victoria Falls) |
+| Namibia | Namibia Cricket Ground (Windhoek) |
 
 ## ODI World Cup 2027 Tournament Format
 
@@ -200,7 +201,7 @@ The ICC Men's ODI World Cup 2027 will be held from **October 2 to November 21, 2
 
 ## Where will the ODI World Cup 2027 be played?
 
-The tournament will be hosted by **South Africa, Zimbabwe and Namibia** across 12 venues.
+The tournament will be hosted by **South Africa, Zimbabwe and Namibia** across 12 venues, with eight venues in South Africa, three in Zimbabwe and one in Namibia.
 
 ## When will India play Pakistan in the 2027 World Cup?
 
@@ -212,7 +213,7 @@ The final will be played at the **Wanderers Stadium in Johannesburg on November 
 
 ## How many teams will play in the 2027 ODI World Cup?
 
-The tournament will feature **14 teams and 57 matches**.
+The tournament will feature **14 teams and 57 matches** across 12 venues.
 
 ## How many matches will India play in the Group Stage?
 
@@ -224,6 +225,7 @@ India will play **five Group Stage matches** against Australia, Pakistan, Afghan
 - **October 6, 2027:** Super Series ends
 - **October 7:** Group Stage begins; India vs Australia
 - **October 10:** India vs Pakistan
+- **October 11:** Zimbabwe vs Afghanistan
 - **October 24:** Group Stage ends
 - **October 25:** Super 7 begins
 - **November 14:** Super 7 ends
@@ -251,7 +253,7 @@ India will play **five Group Stage matches** against Australia, Pakistan, Afghan
 
 <details class="blog-faq-item">
   <summary><span>Where is the 2027 ODI World Cup final?</span><span class="faq-arrow">&#9662;</span></summary>
-  <p>The 2027 ODI World Cup final will be played at the Wanderers Stadium in Johannesburg on November 21, 2027.</p>
+  <p>The 2027 ODI World Cup final will be played in Johannesburg on November 21, 2027, with the Wanderers Stadium hosting the final.</p>
 </details>
 
 <details class="blog-faq-item">
