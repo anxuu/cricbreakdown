@@ -1,6 +1,6 @@
 ---
-title: "South Africa ODI World Cup 2027 Schedule: Dates, Venues and Fixtures"
-description: "South Africa ODI World Cup 2027 Schedule with match dates, opponents, stadiums, cities, Group Stage fixtures and the pre-seeded Super 7 schedule."
+title: "South Africa ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+description: "South Africa ODI World Cup 2027 schedule with Group Stage fixtures, dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
   - "South Africa World Cup 2027 Schedule"
@@ -12,8 +12,8 @@ author: "Ansar"
 pubDate: 2026-10-02
 updatedDate: 2026-10-02
 featured: false
-metaTitle: "South Africa ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "South Africa ODI World Cup 2027 Schedule with full fixtures, dates, opponents, stadiums and cities, plus the pre-seeded Super 7 schedule."
+metaTitle: "South Africa ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
+metaDescription: "Check South Africa's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the conditional Super 7 pathway."
 categoryLabel: "International Cricket"
 faq:
   - question: "When does South Africa play in the ICC ODI World Cup 2027?"
@@ -95,6 +95,10 @@ The ICC has pre-seeded South Africa into the Super 7 pathway. These fixtures app
 </tbody>
 </table>
 </div>
+
+### South Africa Schedule at a Glance
+
+South Africa's Group B fixtures include New Zealand, Qualifier B, England, Bangladesh and Sri Lanka. As a host nation, the page also highlights the South African venues used in the schedule.
 
 ## World Cup 2027 Tournament Dates
 
