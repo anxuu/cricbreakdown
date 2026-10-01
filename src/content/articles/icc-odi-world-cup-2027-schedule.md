@@ -189,3 +189,4 @@ The seven Super 7 teams will play six matches each. The top four teams will then
 - **November 21:** ODI World Cup 2027 Final
 
 **Last updated:** October 2, 2026
+
