@@ -107,8 +107,6 @@ The ICC has pre-seeded New Zealand into the Super 7 pathway. These fixtures appl
 | Total tournament matches | 57 |
 | Tournament dates | 2 October to 21 November 2027 |
 
-## FAQ
-
 <div class="blog-faq">
 <h2 class="blog-faq-title">FAQ</h2>
 <details class="blog-faq-item">
