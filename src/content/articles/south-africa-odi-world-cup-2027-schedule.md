@@ -107,8 +107,6 @@ The ICC has pre-seeded South Africa into the Super 7 pathway. These fixtures app
 | Total tournament matches | 57 |
 | Tournament dates | 2 October to 21 November 2027 |
 
-## FAQ
-
 <div class="blog-faq">
 <h2 class="blog-faq-title">FAQ</h2>
 <details class="blog-faq-item">
