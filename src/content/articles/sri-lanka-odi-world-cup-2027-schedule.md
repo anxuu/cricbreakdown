@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Sri Lanka ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "Get Sri Lanka's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues and conditional Super 7 details."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791356596/cricbreakdown/covers/v7k1np7ewwet930sbmdl.png"
+coverAlt: "Sri Lanka ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Sri Lanka play in the ICC ODI World Cup 2027?"
