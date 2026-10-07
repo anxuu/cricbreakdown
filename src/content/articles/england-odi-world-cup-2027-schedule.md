@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "England ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "View England's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, venues, opponents and the conditional Super 7 pathway."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791358073/cricbreakdown/covers/hdikwv2gwenkqkd4mv5t.png"
+coverAlt: "England ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does England play in the ICC ODI World Cup 2027?"
