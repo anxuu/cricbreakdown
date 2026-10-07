@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Afghanistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "View Afghanistan's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and details of the conditional Super 7 pathway."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791356087/cricbreakdown/covers/trgc9lshtnjd0wpac6bx.png"
+coverAlt: "Afghanistan ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Afghanistan play in the ICC ODI World Cup 2027?"
