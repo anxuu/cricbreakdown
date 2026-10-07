@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Zimbabwe ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "See Zimbabwe's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the route to the later stages."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791356682/cricbreakdown/covers/suvxotfnolqtfyadxtav.png"
+coverAlt: "Zimbabwe ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Zimbabwe play in the ICC ODI World Cup 2027?"
