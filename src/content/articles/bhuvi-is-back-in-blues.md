@@ -10,6 +10,8 @@ updatedDate: 2026-10-06
 featured: true
 metaTitle: "Bhuvi is back in blues: Bhuvneshwar Kumar returns to India squad"
 metaDescription: "Bhuvneshwar Kumar is back in India's T20I squad for the New Zealand tour after strong IPL performances for RCB. Check his IPL stats, ODI debate and what the comeback means."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791356161/cricbreakdown/covers/txg1wqyuaxgbg8ftj9ps.png"
+coverAlt: "Bhuvneshwar Kumar and India T20I squad for New Zealand 2026 cover image"
 categoryLabel: "International"
 coverAlt: "Bhuvneshwar Kumar and India's T20I squad for the New Zealand tour"
 faq:
