@@ -13,6 +13,8 @@ updatedDate: 2026-10-02
 featured: true
 metaTitle: "ICC ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
 metaDescription: "Check the ICC ODI World Cup 2027 schedule with all fixtures, dates, venues, groups, Super 7 matches, semi-finals and final."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355938/cricbreakdown/covers/djx6kb1pwpxlazlvbmfg.png"
+coverAlt: "ICC ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When is the ODI World Cup 2027?"
