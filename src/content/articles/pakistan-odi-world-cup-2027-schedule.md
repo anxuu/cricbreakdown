@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Pakistan ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "Check Pakistan's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the team's conditional Super 7 route."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355924/cricbreakdown/covers/ltnv36pcdrqi3a9hqxar.png"
+coverAlt: "Pakistan ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Pakistan play in the ICC ODI World Cup 2027?"
