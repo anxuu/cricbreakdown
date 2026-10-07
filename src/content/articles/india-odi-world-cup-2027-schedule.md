@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
 metaDescription: "Get the India ODI World Cup 2027 schedule with five Group Stage matches, dates, opponents, venues, India vs Pakistan, and conditional Super 7 fixtures."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355072/cricbreakdown/covers/sormpkwxkje0q8c77fby.png"
+coverAlt: "India ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does India play in the ICC ODI World Cup 2027?"
