@@ -1,5 +1,5 @@
 ---
-title: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
+title: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates, Venues & Timings"
 description: "India ODI World Cup 2027 schedule with all five Group Stage fixtures, match dates, opponents, venues, cities and conditional Super 7 details."
 category: "international"
 tags:
@@ -10,10 +10,10 @@ tags:
   - "World Cup Fixtures"
 author: "Ansar"
 pubDate: 2026-10-02
-updatedDate: 2026-10-02
+updatedDate: 2026-10-07
 featured: false
-metaTitle: "India ODI World Cup 2027 Schedule: Full Fixtures, Dates & Venues"
-metaDescription: "Get the India ODI World Cup 2027 schedule with five Group Stage matches, dates, opponents, venues, India vs Pakistan, and conditional Super 7 fixtures."
+metaTitle: "India ODI World Cup 2027 Schedule: Fixtures, Dates, Venues & Timings"
+metaDescription: "Check India’s ODI World Cup 2027 schedule with five Group Stage fixtures, dates, venues, opponents, match timings, India vs Pakistan and the conditional Super 7 schedule."
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355072/cricbreakdown/covers/sormpkwxkje0q8c77fby.png"
 coverAlt: "India ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
@@ -36,17 +36,57 @@ The **India ODI World Cup 2027 schedule** includes five Group Stage matches, wit
 ## India World Cup 2027 Schedule
 
 <div class="stats-table-wrapper">
-<table class="stats-table">
-<thead><tr><th>#</th><th>Date</th><th>Opponent</th><th>Stadium / City</th></tr></thead>
+<table class="stats-table wc-schedule-table">
+<thead>
+<tr>
+<th>Date</th>
+<th>Group</th>
+<th>Match</th>
+<th>Venue</th>
+<th>Time (IST)</th>
+</tr>
+</thead>
 <tbody>
-<tr><td>1</td><td>7 October 2027</td><td>Australia</td><td>Newlands Cricket Ground, Cape Town</td></tr>
-<tr><td>2</td><td>10 October 2027</td><td>Pakistan</td><td>Wanderers Stadium, Johannesburg</td></tr>
-<tr><td>3</td><td>14 October 2027</td><td>Afghanistan</td><td>Centurion, Tshwane</td></tr>
-<tr><td>4</td><td>17 October 2027</td><td>Qualifier A</td><td>Mangaung Oval, Bloemfontein</td></tr>
-<tr><td>5</td><td>24 October 2027</td><td>Zimbabwe</td><td>Mosi-oa-Tunya International Cricket Stadium, Victoria Falls</td></tr>
+<tr>
+<td><strong>Thu, 7 Oct 2027</strong></td>
+<td><span style="display:inline-block;padding:4px 8px;border-radius:999px;background:#e8f1ff;color:#174ea6;font-weight:700;font-size:12px;">Group A</span></td>
+<td><strong>India vs Australia</strong></td>
+<td>Newlands Cricket Ground<br><span style="font-size:12px;">Cape Town</span></td>
+<td><strong>1:30 PM</strong><br><span style="font-size:12px;">10:00 AM local</span></td>
+</tr>
+<tr>
+<td><strong>Sun, 10 Oct 2027</strong></td>
+<td><span style="display:inline-block;padding:4px 8px;border-radius:999px;background:#e8f1ff;color:#174ea6;font-weight:700;font-size:12px;">Group A</span></td>
+<td><strong>India vs Pakistan</strong></td>
+<td>Wanderers Stadium<br><span style="font-size:12px;">Johannesburg</span></td>
+<td><strong>1:30 PM</strong><br><span style="font-size:12px;">10:00 AM local</span></td>
+</tr>
+<tr>
+<td><strong>Thu, 14 Oct 2027</strong></td>
+<td><span style="display:inline-block;padding:4px 8px;border-radius:999px;background:#e8f1ff;color:#174ea6;font-weight:700;font-size:12px;">Group A</span></td>
+<td><strong>India vs Afghanistan</strong></td>
+<td>SuperSport Park<br><span style="font-size:12px;">Tshwane</span></td>
+<td><strong>1:30 PM</strong><br><span style="font-size:12px;">10:00 AM local</span></td>
+</tr>
+<tr>
+<td><strong>Sun, 17 Oct 2027</strong></td>
+<td><span style="display:inline-block;padding:4px 8px;border-radius:999px;background:#e8f1ff;color:#174ea6;font-weight:700;font-size:12px;">Group A</span></td>
+<td><strong>India vs Qualifier A</strong></td>
+<td>Mangaung Oval<br><span style="font-size:12px;">Bloemfontein</span></td>
+<td><strong>1:30 PM</strong><br><span style="font-size:12px;">10:00 AM local</span></td>
+</tr>
+<tr>
+<td><strong>Sun, 24 Oct 2027</strong></td>
+<td><span style="display:inline-block;padding:4px 8px;border-radius:999px;background:#e8f1ff;color:#174ea6;font-weight:700;font-size:12px;">Group A</span></td>
+<td><strong>Zimbabwe vs India</strong></td>
+<td>Mosi-oa-Tunya Stadium<br><span style="font-size:12px;">Victoria Falls</span></td>
+<td><strong>1:30 PM</strong><br><span style="font-size:12px;">10:00 AM local</span></td>
+</tr>
 </tbody>
 </table>
 </div>
+
+<p><strong>India World Cup 2027 timing:</strong> All five Group Stage matches are scheduled to start at <strong>1:30 PM IST</strong> (10:00 AM local time).</p>
 
 ## India Group Stage Fixtures
 
