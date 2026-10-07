@@ -13,7 +13,6 @@ metaDescription: "Bhuvneshwar Kumar is back in India's T20I squad for the New Ze
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791356161/cricbreakdown/covers/txg1wqyuaxgbg8ftj9ps.png"
 coverAlt: "Bhuvneshwar Kumar and India T20I squad for New Zealand 2026 cover image"
 categoryLabel: "International"
-coverAlt: "Bhuvneshwar Kumar and India's T20I squad for the New Zealand tour"
 faq:
   - question: "Can Bhuvi turn this comeback into a longer international run?"
     answer: "Yes, if he continues to perform consistently. His recent IPL performances have given the selectors a strong reason to bring him back, and another successful international run could keep him in the conversation for future squads."
