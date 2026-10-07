@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Bangladesh ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "Check Bangladesh's ODI World Cup 2027 schedule with five Group Stage fixtures, dates, opponents, venues and the team's possible route beyond the Group Stage."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355113/cricbreakdown/covers/gantrvddvjom0n1c46an.png"
+coverAlt: "Bangladesh ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Bangladesh play in the ICC ODI World Cup 2027?"
