@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "Australia ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "See Australia's ODI World Cup 2027 schedule, including five Group Stage fixtures, dates, venues, opponents and the conditional Super 7 pathway."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355995/cricbreakdown/covers/g70okvnvkoh3zuzgaswo.png"
+coverAlt: "Australia ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does Australia play in the ICC ODI World Cup 2027?"
