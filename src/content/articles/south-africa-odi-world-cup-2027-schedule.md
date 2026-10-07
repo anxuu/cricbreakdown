@@ -14,6 +14,8 @@ updatedDate: 2026-10-02
 featured: false
 metaTitle: "South Africa ODI World Cup 2027 Schedule: Fixtures, Dates & Venues"
 metaDescription: "Check South Africa's ODI World Cup 2027 schedule with Group Stage dates, opponents, venues, cities and the conditional Super 7 pathway."
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1791355948/cricbreakdown/covers/e62m3gxsxrzoqjemertb.png"
+coverAlt: "South Africa ODI World Cup 2027 schedule cover image"
 categoryLabel: "International Cricket"
 faq:
   - question: "When does South Africa play in the ICC ODI World Cup 2027?"
