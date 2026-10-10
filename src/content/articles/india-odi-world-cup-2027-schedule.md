@@ -110,7 +110,7 @@ This is the first ODI between the two teams at Newlands. India have played five 
 
 **Player to watch:** Virat Kohli has scored 253 runs at an average of 126.50 in three ODIs at Newlands, including an unbeaten 160 in 2018.
 
-Read the full preview: **India vs Australia, Newlands, Cape Town: head-to-head, pitch report and player stats**
+**Read the full preview:** **India vs Australia, Newlands, Cape Town: head-to-head, pitch report and player stats**
 
 ### 10 October 2027 - India vs Pakistan
 
@@ -131,7 +131,7 @@ This is the first ODI between the two teams at the Wanderers. Pakistan have play
 
 **Player to watch:** Fakhar Zaman holds the highest individual ODI score at this ground, an unbeaten 193 against South Africa. Virat Kohli's record against Pakistan will also be one to watch.
 
-Read the full preview: **India vs Pakistan, Wanderers, Johannesburg: head-to-head, pitch report and player stats**
+**Read the full preview:** **India vs Pakistan, Wanderers, Johannesburg: head-to-head, pitch report and player stats**
 
 ### 14 October 2027 - India vs Afghanistan
 
@@ -152,7 +152,7 @@ This is the first ODI between the two teams at SuperSport Park. India have playe
 
 **Players to watch:** India captain Shubman Gill was Player of the Match in the first two games of the June 2026 series, scoring an unbeaten 84 in the opener and 154 in Lucknow, his ninth ODI century. For Afghanistan, Rashid Khan took 3/48 in Lucknow, including the wicket of Rohit Sharma.
 
-Read the full preview: **India vs Afghanistan, SuperSport Park, Tshwane: head-to-head, pitch report and player stats**
+**Read the full preview:** **India vs Afghanistan, SuperSport Park, Tshwane: head-to-head, pitch report and player stats**
 
 ### 17 October 2027 - India vs Qualifier A
 
@@ -183,7 +183,7 @@ Their last ODI meeting was in August 2022, when India won the three-match series
 
 **Players to watch:** In the 2022 series decider in Harare, Shubman Gill scored 130 and Sikandar Raza scored 115 for Zimbabwe. India won by 13 runs, 289/8 to 276.
 
-Read the full preview: **Zimbabwe vs India, Mosi-oa-Tunya Stadium, Victoria Falls: head-to-head, pitch report and player stats**
+**Read the full preview:** **Zimbabwe vs India, Mosi-oa-Tunya Stadium, Victoria Falls: head-to-head, pitch report and player stats**
 
 ## India Super 7 Schedule
 
@@ -211,4 +211,4 @@ India's five Group Stage matches are fixed and are played in Cape Town, Johannes
 
 ## Sources
 
-Fixture dates, venues, group draw and tournament format are based on the ICC Men's Cricket World Cup 2027 schedule announced by the International Cricket Council. Head-to-head and ground records are compiled from ESPNcricinfo's records and stats pages and cross-checked against other stats sources. The Super 7 section follows the ICC's pre-seeded positions and is conditional on qualification.
+Fixture dates, venues, group draw and tournament format are based on the [ICC Men's Cricket World Cup 2027 official tournament page](https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027) and its published schedule. Head-to-head and ground records are compiled from [ESPNcricinfo cricket records and statistics](https://www.cricinfo.com/) and cross-checked against other stats sources. The Super 7 section follows the ICC's pre-seeded positions and is conditional on qualification.
