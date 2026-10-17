@@ -18,11 +18,11 @@ metaDescription: "Read India's ODI squads for New Zealand 2026, captaincy change
 categoryLabel: "International"
 faq:
   - question: "Who is India's captain for the New Zealand ODI series in 2026?"
-    answer: "Shubman Gill is listed as captain for both squad groups in the details provided in this article."
-  - question: "Which players are listed in India's ODI squads in this article?"
-    answer: "The lists include KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill, Rishabh Pant, Dhruv Jurel, Ravindra Jadeja, Nitish Kumar Reddy, Jasprit Bumrah, Mohammed Siraj and Prasidh Krishna."
-  - question: "Is Yashasvi Jaiswal included in the squad lists?"
-    answer: "Yes. Yashasvi Jaiswal is included in both squad lists provided in this article."
+    answer: "Shubman Gill is captain for the first three ODIs, while Shreyas Iyer leads the squad for the fourth and fifth ODIs."
+  - question: "Are Rohit Sharma and Virat Kohli in India's ODI squads?"
+    answer: "Yes. Rohit Sharma and Virat Kohli are included in both squad groups announced for the five-match series."
+  - question: "Why is Yashasvi Jaiswal's omission from the ODI squads surprising?"
+    answer: "Jaiswal had been discussed as a potential long-term opening option for the 2027 ODI World Cup, so his omission raises questions about India's future opening combination."
   - question: "Who are the new bowling options in India's ODI squads?"
     answer: "Anshul Kamboj is in the first-three-match squad, while Auqib Nabi and Yash Thakur are included for the final two ODIs. The selectors will have an opportunity to assess India's bowling depth."
   - question: "When and where will India play the five ODIs against New Zealand?"
@@ -35,9 +35,9 @@ The selection has raised questions ahead of the 2027 ODI World Cup. New Zealand 
 
 ## India’s ODI Squads for New Zealand
 
-For the **first three ODIs**, the squad list is: KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill (captain), Rishabh Pant, Dhruv Jurel, Ravindra Jadeja, Nitish Kumar Reddy, Jasprit Bumrah, Mohammed Siraj and Prasidh Krishna.
+For the **first three ODIs**, Shubman Gill will captain India, with Shreyas Iyer as vice-captain. The squad features Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav. Prasidh Krishna's selection is subject to fitness clearance.
 
-For the **fourth ODI**, the squad list is: KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill (captain), Rishabh Pant, Dhruv Jurel, Ravindra Jadeja, Nitish Kumar Reddy, Jasprit Bumrah, Mohammed Siraj and Prasidh Krishna.
+For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan Kishan as vice-captain and wicketkeeper. The squad features Rohit Sharma, Virat Kohli, Tilak Varma, Ishan Kishan, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
 
 ## India vs New Zealand ODI Schedule 2026
 
@@ -88,9 +88,17 @@ Jadeja's absence is equally noteworthy given his experience in major tournaments
 
 The bigger concern is consistency in selection. India need to decide what they expect from each player and give them a fair opportunity to fulfil that role.
 
-## India’s Opening and Middle-Order Combination
+## Jaiswal, Ishan Kishan and Ruturaj Gaikwad: Who Fits India's Opening Plans?
 
-The squad lists provided here include KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill, Rishabh Pant and Dhruv Jurel. This group gives India multiple options across the top and middle order, with Pant and Jurel also offering wicketkeeping choices. The team management will need to define each player's role and give the combination enough continuity to build confidence ahead of the 2027 ODI World Cup.
+Yashasvi Jaiswal's omission is one of the biggest surprises in the squad announcement. He had previously been discussed as a potential long-term opening option for the 2027 ODI World Cup, but he has not been included in either announced ODI squad.
+
+Does this mean Rohit Sharma has become the selectors' fixed first-choice opener? Rohit's experience is valuable, but India also need to plan for the future. Leaving Jaiswal out limits the opportunity to assess him in the ODI format and raises questions about the team's backup strategy.
+
+Ishan Kishan and Ruturaj Gaikwad are both included in the squads, but their roles need to be clear. Ishan offers wicketkeeping flexibility and could be considered as an opening option, while Gaikwad provides another top-order alternative.
+
+If the selectors want to assess these players before the World Cup, they should give them opportunities in defined roles. Ishan should be evaluated in the position the team expects him to play, while Gaikwad needs a reasonable run of matches to demonstrate his suitability.
+
+India cannot afford to leave important questions about the opening combination unanswered until shortly before the World Cup. The selectors need to clarify whether Jaiswal remains part of their long-term plans and how Ishan and Gaikwad fit into the team's future.
 
 
 ## India Need More Consistency in Selection
@@ -103,6 +111,6 @@ The New Zealand series should help India answer important questions about their 
 
 ## Conclusion
 
-India's ODI squads for New Zealand have raised important questions about Jaiswal's omission, Washington Sundar's absence, Jadeja's future and the continued backing of Gurnoor Brar. At the same time, Arshdeep Singh's inclusion and opportunities for emerging bowlers give India a chance to strengthen their options.
+India's ODI squads for New Zealand have raised important questions about selection balance, Washington Sundar's absence, Jadeja's role and the continued backing of emerging bowlers. At the same time, Arshdeep Singh's inclusion and opportunities for emerging bowlers give India a chance to strengthen their options.
 
 With the 2027 ODI World Cup approaching, India need consistency, clearly defined roles and a reliable core squad. New Zealand will be a serious test, and the selectors must use this series to build a team capable of competing against the strongest sides rather than relying on repeated experiments without a clear direction.
