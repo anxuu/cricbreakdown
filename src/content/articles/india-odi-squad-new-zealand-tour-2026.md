@@ -1,89 +1,135 @@
 ---
-title: "India Squad for New Zealand Tour 2026: Full ODI Squad, Captain and Schedule"
-description: "Check India's full ODI squad for the New Zealand tour 2026, including the squads for the first three and final two ODIs, captains, key changes and match schedule."
+title: "India ODI Squad for New Zealand Tour 2026: Full Team, Captain & Fixtures"
+description: "India's ODI squad for the New Zealand tour 2026, with both squad lists, captains, key changes and the complete five-match schedule."
 category: "international"
-tags: ["India squad for New Zealand 2026", "India ODI squad", "India vs New Zealand", "ODI cricket"]
+tags:
+  - "India ODI Squad 2026"
+  - "India vs New Zealand 2026"
+  - "India New Zealand Tour"
+  - "India Cricket Team"
+  - "ODI Squad"
+author: "Ansar"
+authorSlug: "ansar"
 pubDate: 2026-10-17
+updatedDate: 2026-10-17
+featured: false
+metaTitle: "India ODI Squad for New Zealand 2026: Players & Schedule"
+metaDescription: "Check India's full ODI squad for New Zealand 2026, captains for both squad groups, player changes and all five match dates, venues and IST timings."
+categoryLabel: "International"
+faq:
+  - question: "Who is India's captain for the New Zealand ODI series in 2026?"
+    answer: "Shubman Gill is listed as captain for the first three ODIs. Shreyas Iyer is captain for the fourth and fifth ODIs."
+  - question: "Are Rohit Sharma and Virat Kohli in India's ODI squad?"
+    answer: "Yes. Both Rohit Sharma and Virat Kohli are included in the squads for the first three and final two ODIs."
+  - question: "Who is India's vice-captain for the first three ODIs?"
+    answer: "Shreyas Iyer is the vice-captain for the first three ODIs."
+  - question: "Who is India's vice-captain for the fourth and fifth ODIs?"
+    answer: "Ishan Kishan is listed as vice-captain and wicketkeeper for the final two ODIs."
+  - question: "Where can I find the official India ODI squad announcement?"
+    answer: "Check the BCCI's official announcement for the confirmed squad lists and fixtures. Squad and schedule details can change if the board issues an update."
 ---
 
-# India ODI Squad for New Zealand Tour 2026
+The **India ODI squad for the New Zealand tour 2026** has been announced in two groups: one for the first three matches and another for the fourth and fifth ODIs. Shubman Gill leads the opening group, while Shreyas Iyer takes over as captain for the final two matches.
 
-The BCCI has announced two squads for India's five-match ODI series against New Zealand in November 2026. Shubman Gill will captain India in the first three matches, while Shreyas Iyer will lead the side in the fourth and fifth ODIs. Rohit Sharma and Virat Kohli are included in both groups.
+Rohit Sharma and Virat Kohli are included in both groups. The lists also feature changes among the wicketkeepers, batters and bowling options across the five-match series.
 
-The squads are split to accommodate changes between the opening three games and the final two. Prasidh Krishna's selection for the first three ODIs is subject to fitness clearance.
+## India ODI squad for the first three ODIs
 
-## India ODI Squad for the First Three ODIs
+Shubman Gill will captain India in the opening three matches, with Shreyas Iyer as vice-captain. Prasidh Krishna's selection is subject to fitness clearance.
 
-| Player | Role / status |
-|---|---|
-| Shubman Gill | Captain |
-| Rohit Sharma | Batter |
-| Virat Kohli | Batter |
-| Shreyas Iyer | Vice-captain |
-| KL Rahul | Wicketkeeper |
-| Nitish Kumar Reddy | All-rounder |
-| Axar Patel | All-rounder |
-| Naman Dhir | All-rounder |
-| Anshul Kamboj | Bowler |
-| Gurnoor Brar | Bowler |
-| Ruturaj Gaikwad | Batter |
-| Arshdeep Singh | Bowler |
-| Ishan Kishan | Wicketkeeper |
-| Mohammed Siraj | Bowler |
-| Prasidh Krishna* | Bowler |
-| Kuldeep Yadav | Spinner |
+<div class="stats-table-wrapper">
+<table class="stats-table">
+<thead>
+<tr><th style="text-align:left;">Player</th><th style="text-align:left;">Role / status</th></tr>
+</thead>
+<tbody>
+<tr><td>Shubman Gill</td><td>Captain</td></tr>
+<tr><td>Rohit Sharma</td><td>Batter</td></tr>
+<tr><td>Virat Kohli</td><td>Batter</td></tr>
+<tr><td>Shreyas Iyer</td><td>Vice-captain</td></tr>
+<tr><td>KL Rahul</td><td>Wicketkeeper</td></tr>
+<tr><td>Nitish Kumar Reddy</td><td>All-rounder</td></tr>
+<tr><td>Axar Patel</td><td>All-rounder</td></tr>
+<tr><td>Naman Dhir</td><td>All-rounder</td></tr>
+<tr><td>Anshul Kamboj</td><td>Bowler</td></tr>
+<tr><td>Gurnoor Brar</td><td>Bowler</td></tr>
+<tr><td>Ruturaj Gaikwad</td><td>Batter</td></tr>
+<tr><td>Arshdeep Singh</td><td>Bowler</td></tr>
+<tr><td>Ishan Kishan</td><td>Wicketkeeper</td></tr>
+<tr><td>Mohammed Siraj</td><td>Bowler</td></tr>
+<tr><td>Prasidh Krishna*</td><td>Bowler</td></tr>
+<tr><td>Kuldeep Yadav</td><td>Spinner</td></tr>
+</tbody>
+</table>
+</div>
 
-*Prasidh Krishna's selection is subject to fitness clearance.*
+<p><strong>Fitness note:</strong> Prasidh Krishna's selection is subject to fitness clearance.</p>
 
-## India ODI Squad for the Fourth and Fifth ODIs
+## India ODI squad for the fourth and fifth ODIs
 
-| Player | Role / status |
-|---|---|
-| Shreyas Iyer | Captain |
-| Rohit Sharma | Batter |
-| Virat Kohli | Batter |
-| Tilak Varma | Batter |
-| Ishan Kishan | Vice-captain, wicketkeeper |
-| Nitish Kumar Reddy | All-rounder |
-| Axar Patel | All-rounder |
-| Naman Dhir | All-rounder |
-| Auqib Nabi | Bowler |
-| Gurnoor Brar | Bowler |
-| Ruturaj Gaikwad | Batter |
-| Arshdeep Singh | Bowler |
-| Kumar Kushagra | Wicketkeeper |
-| Mohammed Siraj | Bowler |
-| Yash Thakur | Bowler |
-| Kuldeep Yadav | Spinner |
+Shreyas Iyer will captain India for the final two matches, with Ishan Kishan as vice-captain and wicketkeeper.
 
-## India vs New Zealand ODI Schedule 2026
+<div class="stats-table-wrapper">
+<table class="stats-table">
+<thead>
+<tr><th style="text-align:left;">Player</th><th style="text-align:left;">Role / status</th></tr>
+</thead>
+<tbody>
+<tr><td>Shreyas Iyer</td><td>Captain</td></tr>
+<tr><td>Rohit Sharma</td><td>Batter</td></tr>
+<tr><td>Virat Kohli</td><td>Batter</td></tr>
+<tr><td>Tilak Varma</td><td>Batter</td></tr>
+<tr><td>Ishan Kishan</td><td>Vice-captain, wicketkeeper</td></tr>
+<tr><td>Nitish Kumar Reddy</td><td>All-rounder</td></tr>
+<tr><td>Axar Patel</td><td>All-rounder</td></tr>
+<tr><td>Naman Dhir</td><td>All-rounder</td></tr>
+<tr><td>Auqib Nabi</td><td>Bowler</td></tr>
+<tr><td>Gurnoor Brar</td><td>Bowler</td></tr>
+<tr><td>Ruturaj Gaikwad</td><td>Batter</td></tr>
+<tr><td>Arshdeep Singh</td><td>Bowler</td></tr>
+<tr><td>Kumar Kushagra</td><td>Wicketkeeper</td></tr>
+<tr><td>Mohammed Siraj</td><td>Bowler</td></tr>
+<tr><td>Yash Thakur</td><td>Bowler</td></tr>
+<tr><td>Kuldeep Yadav</td><td>Spinner</td></tr>
+</tbody>
+</table>
+</div>
 
-All match times below are in Indian Standard Time (IST), as announced by the BCCI.
+## India vs New Zealand ODI schedule 2026
 
-| ODI | Date | Venue | Start time |
-|---|---|---|---|
-| 1st ODI | 4 November 2026 | Auckland | 7:30 AM |
-| 2nd ODI | 7 November 2026 | Wellington | 7:30 AM |
-| 3rd ODI | 10 November 2026 | Hamilton | 7:30 AM |
-| 4th ODI | 13 November 2026 | Mount Maunganui | 7:30 AM |
-| 5th ODI | 15 November 2026 | Mount Maunganui | 7:30 AM |
+The five-match ODI series is scheduled for November 2026. Match timings below are listed in Indian Standard Time (IST).
 
-## What are the key changes in India's ODI squads?
+<div class="stats-table-wrapper">
+<table class="stats-table">
+<thead>
+<tr><th style="text-align:center;">Match</th><th style="text-align:center;">Date</th><th style="text-align:left;">Venue</th><th style="text-align:center;">Time (IST)</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center;">1st ODI</td><td style="text-align:center;">4 November 2026</td><td>Auckland</td><td style="text-align:center;">7:30 AM</td></tr>
+<tr><td style="text-align:center;">2nd ODI</td><td style="text-align:center;">7 November 2026</td><td>Wellington</td><td style="text-align:center;">7:30 AM</td></tr>
+<tr><td style="text-align:center;">3rd ODI</td><td style="text-align:center;">10 November 2026</td><td>Hamilton</td><td style="text-align:center;">7:30 AM</td></tr>
+<tr><td style="text-align:center;">4th ODI</td><td style="text-align:center;">13 November 2026</td><td>Mount Maunganui</td><td style="text-align:center;">7:30 AM</td></tr>
+<tr><td style="text-align:center;">5th ODI</td><td style="text-align:center;">15 November 2026</td><td>Mount Maunganui</td><td style="text-align:center;">7:30 AM</td></tr>
+</tbody>
+</table>
+</div>
 
-The captaincy changes after the third ODI: Gill leads the opening three matches, with Iyer as vice-captain, before Iyer takes over for the last two games. Ishan Kishan is vice-captain for the final two ODIs.
+## What are the main changes between the two ODI squads?
 
-Tilak Varma, Auqib Nabi, Kumar Kushagra and Yash Thakur are named in the squad for the last two matches. Shubman Gill, KL Rahul, Anshul Kamboj and Prasidh Krishna are listed for the first three only. Prasidh Krishna's selection remains subject to fitness clearance.
+The biggest change is the captaincy: Gill leads the first three ODIs, and Iyer leads the final two. Iyer is vice-captain in the opening group, while Kishan is vice-captain for the last two matches.
 
-## Are Rohit Sharma and Virat Kohli in the ODI squad?
+Tilak Varma, Auqib Nabi, Kumar Kushagra and Yash Thakur are named in the group for the fourth and fifth ODIs. KL Rahul, Anshul Kamboj and Prasidh Krishna appear in the first-three-match group instead. Prasidh's place is subject to fitness clearance.
 
-Yes. Rohit Sharma and Virat Kohli are included in both squads, so they are named for all five ODIs, subject to any later changes.
+## Who is India's captain for the ODI series?
 
-## Who is India's captain for the New Zealand ODI series?
+Shubman Gill is captain for the first three ODIs. Shreyas Iyer is captain for the fourth and fifth ODIs.
 
-Shubman Gill is captain for the first three ODIs. Shreyas Iyer takes over as captain for the fourth and fifth matches.
+## Are Rohit Sharma and Virat Kohli available for all five ODIs?
 
-## Where can I check the official squad announcement?
+Both players appear in the squad lists for the first three matches and the final two matches.
 
-Refer to the [BCCI's official India ODI and Test squad announcement](https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced) for the original squad lists and schedule.
+## Official squad announcement
 
-*Squad details and fixtures are based on the BCCI announcement dated 16 October 2026. Check official updates for any subsequent changes.*
+For confirmation and any later changes, refer to the [BCCI's official India ODI and Test squad announcement](https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced).
+
+*Squad and fixture information should be checked against the latest BCCI update before each match.*
