@@ -95,14 +95,6 @@ Jadeja and Sundar offer all-round value, combining batting depth with spin optio
 
 Akash Deep joins Bumrah, Siraj, Prasidh Krishna and Anshul Kamboj among the listed seam-bowling options, giving India several combinations to consider.
 
-## Is Rishabh Pant available for the Test series?
-
-Pant is included in the announced squad, but his selection is subject to fitness clearance. His final availability depends on the required clearance closer to the series.
-
-## Who is India's captain and vice-captain?
-
-Shubman Gill is captain and KL Rahul is vice-captain for the Test squad.
-
 ## Official squad announcement
 
 See the [BCCI's official India ODI and Test squad announcement](https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced) for the confirmed list and fixture information.
