@@ -104,7 +104,6 @@ For me, Pant could be one of India's most important players if he receives fitne
 
 In the ICC Men's Test batting rankings referenced for this analysis, **Pant is ranked seventh, Shubman Gill ninth and Yashasvi Jaiswal 11th**. Pant is therefore India's highest-ranked batter among the three. Rankings are updated regularly, so readers should check the latest ICC list for the most recent positions.
 
-Pant's selection is subject to fitness clearance, so India need to be prepared with Dhruv Jurel as another wicketkeeping option. If Pant is available, his ability to counterattack could prove crucial in New Zealand.
 
 ## Bowling analysis: should India play three specialist pacers?
 
@@ -150,6 +149,8 @@ Manav Suthar's omission is another talking point. In India's previous away Test 
 
 His left-arm spin could have offered a different option from the bowlers selected. With Jadeja and Kuldeep in the squad, the selectors have backed their existing spin options, but Suthar's omission is still worth discussing. A young player who has produced those numbers could arguably have been given a longer run at this level.
 
+Former India spinner Ravichandran Ashwin also questioned Suthar's omission, pointing to the young left-arm spinner's strong returns and suggesting he could have been considered for the tour. That adds weight to the debate over whether India should have taken another specialist spin option.
+
 ### Should India have selected another pace all-rounder?
 
 Nitish Kumar Reddy is the squad's main seam-bowling all-round option. An additional pace all-rounder could have provided cover if the team wanted to preserve its balance through injuries or workload management. India do have other pace options, including Akash Deep and Anshul Kamboj, but they do not provide exactly the same batting balance as an all-rounder.
@@ -184,6 +185,3 @@ With the ball, Bumrah's 14 wickets in three England Tests and 32 in five Tests a
 
 My expected combination is three specialist pacers, Nitish Kumar Reddy as the seam-bowling all-rounder and Jadeja as the spin-bowling all-rounder, with the final selection depending on the pitch and team balance. It is a promising squad, but India will need disciplined batting, smart workload management and consistent support from the less experienced bowlers to win in New Zealand.
 
-## Official squad announcement
-
-Check the [BCCI's official India ODI and Test squad announcement](https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced) for the confirmed squad and fixtures. Pant's selection remains subject to fitness clearance.
