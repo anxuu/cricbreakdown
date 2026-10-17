@@ -39,6 +39,15 @@ For the **first three ODIs**, Shubman Gill will captain India, with Shreyas Iyer
 
 For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan Kishan as vice-captain and wicketkeeper. The squad features Rohit Sharma, Virat Kohli, Tilak Varma, Ishan Kishan, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
 
+### Squad Lists at a Glance
+
+**First three ODIs**
+Shubman Gill (Captain), Shreyas Iyer (Vice-captain), Rohit Sharma, Virat Kohli, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav.
+
+**Fourth and fifth ODIs**
+Shreyas Iyer (Captain), Ishan Kishan (Vice-captain and wicketkeeper), Rohit Sharma, Virat Kohli, Tilak Varma, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
+
+
 ## India vs New Zealand ODI Schedule 2026
 
 The five-match ODI series is scheduled for November 2026. Match timings below are listed in Indian Standard Time (IST).
