@@ -182,3 +182,6 @@ With the ball, Bumrah's 14 wickets in three England Tests and 32 in five Tests a
 
 My expected combination is three specialist pacers, Nitish Kumar Reddy as the seam-bowling all-rounder and Jadeja as the spin-bowling all-rounder, with the final selection depending on the pitch and team balance. It is a promising squad, but India will need disciplined batting, smart workload management and consistent support from the less experienced bowlers to win in New Zealand.
 
+
+
+**My Playing XI:** KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill (C), Rishabh Pant, Dhruv Jurel, Ravindra Jadeja, Nitish Kumar Reddy, Jasprit Bumrah, Mohammed Siraj, Prasidh Krishna.
