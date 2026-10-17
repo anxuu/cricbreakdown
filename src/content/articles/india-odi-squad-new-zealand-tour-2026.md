@@ -120,14 +120,6 @@ The biggest change is the captaincy: Gill leads the first three ODIs, and Iyer l
 
 Tilak Varma, Auqib Nabi, Kumar Kushagra and Yash Thakur are named in the group for the fourth and fifth ODIs. KL Rahul, Anshul Kamboj and Prasidh Krishna appear in the first-three-match group instead. Prasidh's place is subject to fitness clearance.
 
-## Who is India's captain for the ODI series?
-
-Shubman Gill is captain for the first three ODIs. Shreyas Iyer is captain for the fourth and fifth ODIs.
-
-## Are Rohit Sharma and Virat Kohli available for all five ODIs?
-
-Both players appear in the squad lists for the first three matches and the final two matches.
-
 ## Official squad announcement
 
 For confirmation and any later changes, refer to the [BCCI's official India ODI and Test squad announcement](https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced).
