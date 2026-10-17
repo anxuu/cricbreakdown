@@ -66,9 +66,6 @@ Let's look at the squad, assess the batting and bowling combinations, and consid
 </table>
 </div>
 
-<p><strong>Fitness update:</strong></p>
-
-Rishabh Pant has been selected subject to fitness clearance. His availability will be important when India decide their wicketkeeper and middle-order combination.
 
 ## Batting analysis: can India's top order adapt overseas?
 
@@ -96,7 +93,7 @@ Rahul also brings valuable experience of batting overseas. Between Rahul, Padikk
 
 Jurel's performance in the previous series was another positive. He scored **173 runs in three innings at an average of 86.50**, a promising return that suggests he can contribute more than just wicketkeeping.
 
-If Pant is not cleared to play, Jurel could have a bigger responsibility with the gloves. Even if Pant is available, Jurel's recent numbers show why he should be considered a serious batting option rather than only a backup keeper.
+Jurel should be viewed as a genuine option in India's playing XI, not simply as Pant's backup. His 173 runs in three innings at an average of 86.50 make a strong case for his batting contribution, and India could consider playing both wicketkeeper-batters depending on the balance of the XI and Pant's fitness.
 
 ### Rishabh Pant: India's highest-ranked Test batter
 
