@@ -24,9 +24,9 @@ faq:
   - question: "Why is Yashasvi Jaiswal's omission from the ODI squads surprising?"
     answer: "Jaiswal had been discussed as a potential long-term opening option for the 2027 ODI World Cup, so his omission raises questions about India's future opening combination."
   - question: "Who are the new bowling options in India's ODI squads?"
-    answer: "Anshul Kamboj is in the first-three-match squad, while Aaqib Nabi and Yash Thakur are included for the final two ODIs. The selectors will have an opportunity to assess India's bowling depth."
-  - question: "Where can I check the India vs New Zealand ODI schedule?"
-    answer: "The five-match schedule is listed in this article. Check the BCCI's official announcement for any subsequent changes to the squad or fixtures."
+    answer: "Anshul Kamboj is in the first-three-match squad, while Auqib Nabi and Yash Thakur are included for the final two ODIs. The selectors will have an opportunity to assess India's bowling depth."
+  - question: "When and where will India play the five ODIs against New Zealand?"
+    answer: "The series runs from 4 to 15 November 2026, with matches in Auckland, Wellington, Hamilton and Mount Maunganui. All matches are scheduled for 7:30 AM IST."
 ---
 
 India's ODI squads for the New Zealand tour in 2026 have been announced in two groups: one for the first three matches and another for the fourth and fifth ODIs. Shubman Gill leads the opening group, while Shreyas Iyer captains the final two matches.
@@ -35,9 +35,9 @@ The selection has raised questions ahead of the 2027 ODI World Cup. New Zealand 
 
 ## India’s ODI Squads for New Zealand
 
-For the **first three ODIs**, Shubman Gill will captain the side, with Shreyas Iyer as vice-captain. The squad includes Rohit Sharma, Virat Kohli, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav. Prasidh Krishna's selection is subject to fitness clearance.
+For the **first three ODIs**, Shubman Gill will captain India, with Shreyas Iyer as vice-captain. The squad features Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav. Prasidh Krishna's selection is subject to fitness clearance.
 
-For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan Kishan as vice-captain and wicketkeeper. The squad includes Rohit Sharma, Virat Kohli, Tilak Varma, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Aaqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
+For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan Kishan as vice-captain and wicketkeeper. The squad features Rohit Sharma, Virat Kohli, Tilak Varma, Ishan Kishan, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav. Yashasvi Jaiswal is not included in either ODI squad; his omission is discussed below.
 
 ## India vs New Zealand ODI Schedule 2026
 
@@ -74,7 +74,7 @@ Mohammed Siraj and Arshdeep Singh will be important options, but the team manage
 
 Gurnoor Brar continues to receive backing, with his height and ability to generate bounce potentially useful in New Zealand. However, he needs to convert that potential into consistent performances. Fitness and control are important concerns, and the selectors must evaluate him on results rather than potential alone. Prasidh Krishna and Anshul Kamboj will also need to make their opportunities count.
 
-The inclusion of Aaqib Nabi and Yash Thakur for the final two ODIs gives India additional bowling options to assess. These opportunities should have a clear purpose, with the team identifying which bowlers can handle the new ball, control the middle overs and deliver at the death. India need dependable performers, not just more names in the squad.
+The inclusion of Auqib Nabi and Yash Thakur for the final two ODIs gives India additional bowling options to assess. These opportunities should have a clear purpose, with the team identifying which bowlers can handle the new ball, control the middle overs and deliver at the death. India need dependable performers, not just more names in the squad.
 
 ## Washington Sundar, Kuldeep Yadav and Ravindra Jadeja: Selection Questions
 
@@ -113,5 +113,3 @@ The New Zealand series should help India answer important questions about their 
 India's ODI squads for New Zealand have raised important questions about Jaiswal's omission, Washington Sundar's absence, Jadeja's future and the continued backing of Gurnoor Brar. At the same time, Arshdeep Singh's inclusion and opportunities for emerging bowlers give India a chance to strengthen their options.
 
 With the 2027 ODI World Cup approaching, India need consistency, clearly defined roles and a reliable core squad. New Zealand will be a serious test, and the selectors must use this series to build a team capable of competing against the strongest sides rather than relying on repeated experiments without a clear direction.
-
-*Squad and fixture information should be checked against the latest BCCI update before each match.*
