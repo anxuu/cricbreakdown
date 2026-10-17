@@ -1,7 +1,7 @@
 ---
 title: "India Squad for New Zealand Tour 2026: Full ODI Squad, Captain and Schedule"
 description: "Check India's full ODI squad for the New Zealand tour 2026, including the squads for the first three and final two ODIs, captains, key changes and match schedule."
-category: "India Cricket"
+category: "international"
 tags: ["India squad for New Zealand 2026", "India ODI squad", "India vs New Zealand", "ODI cricket"]
 pubDate: 2026-10-17
 ---
