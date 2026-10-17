@@ -1,7 +1,7 @@
 ---
 title: "India Test Squad for New Zealand Tour 2026: Full Team, Captain and Schedule"
 description: "India's Test squad for the New Zealand tour 2026, with the full player list, captain and vice-captain, fitness update and two-match Test schedule."
-category: "India Cricket"
+category: "international"
 tags: ["India Test squad for New Zealand 2026", "India Test team", "India vs New Zealand Test series", "World Test Championship"]
 pubDate: 2026-10-17
 ---
