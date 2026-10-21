@@ -16,6 +16,8 @@ authorSlug: "ansar"
 pubDate: 2026-10-17
 updatedDate: 2026-10-18
 featured: false
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1792581556/cricbreakdown/covers/ls212nqveftbddrsqu9e.png"
+coverAlt: "India Test squad for the New Zealand tour 2026"
 metaTitle: "India Test Squad for New Zealand 2026: Stats & Analysis"
 metaDescription: "India's Test squad for New Zealand 2026 analysed with Jaiswal, Gill, Rahul, Padikkal, Jurel and Pant's stats, ICC rankings, Bumrah and Siraj's records, and selection concerns."
 categoryLabel: "International"
