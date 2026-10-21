@@ -30,8 +30,6 @@ faq:
     answer: "No. The 15-member squad has not been named yet. We will update this page once it is announced."
 ---
 
-# Pakistan ODI World Cup 2027 Schedule: Fixtures, Dates, Venues & Timings
-
 This blog is your Pakistan ODI World Cup 2027 schedule guide. It covers all five Pakistan Group Stage matches with date, venue, and start time, plus the Super 7 fixtures if Pakistan qualify, and a look at how the Pakistan ODI team is shaping up.
 
 Let’s check each match in detail. Read the full preview for every Pakistan fixture in the table below.
