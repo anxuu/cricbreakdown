@@ -13,6 +13,8 @@ authorSlug: "ansar"
 pubDate: 2026-10-17
 updatedDate: 2026-10-18
 featured: false
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1792581531/cricbreakdown/covers/ttyiojkzigtxoivxj5dk.png"
+coverAlt: "India ODI squad for the New Zealand tour 2026"
 metaTitle: "India ODI Squad for New Zealand 2026: Players & Schedule"
 metaDescription: "Read India's ODI squads for New Zealand 2026, captaincy changes, selection concerns ahead of the 2027 World Cup and all five match dates, venues and IST timings."
 categoryLabel: "International"
