@@ -340,7 +340,6 @@ const id = (name: string) => `${idPrefix}-${name}`;
                     <span class="fx-venue-inline">{f.stadium ? `${f.stadium}, ` : ''}{f.place ?? 'Venue to be confirmed'}</span>
                   </div>
                   <ul class="chips">
-                    {f.m.involves_india && <li class="chip chip-india">India</li>}
                     <li class="chip chip-stage">{stageCardLabel(f.m.stage)}</li>
                     {f.group && <li class="chip chip-group">Group {f.group}</li>}
                   </ul>
