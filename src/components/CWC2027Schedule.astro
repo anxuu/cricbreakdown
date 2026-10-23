@@ -1,0 +1,816 @@
+---
+/**
+ * CWC2027Schedule.astro
+ * Static, filterable ICC Men's Cricket World Cup 2027 schedule.
+ * Data: src/data/cwc2027_schedule.json (single source of truth, read at build time).
+ * Fixture HTML is generated at build time; a small vanilla script only shows/hides cards.
+ * Place inside your existing Layout. Use one instance per page when syncUrl is true.
+ */
+import scheduleJson from '../data/cwc2027_schedule.json';
+
+interface Props {
+  /** Prefix for element ids (only change if the component is used more than once). */
+  idPrefix?: string;
+  /** Keep active filters in the URL query string so filtered views can be shared. */
+  syncUrl?: boolean;
+}
+
+interface TeamEntry { name: string; code: string | null; group: string | null }
+interface VenueEntry { id: string; city: string; country: string; stadium: string | null; timezone?: string | null }
+interface Streaming { region?: string | null; digital?: string | null; tv?: string | null }
+interface Match {
+  id: number;
+  date: string;
+  day?: string | null;
+  start_time_local?: string | null;
+  start_time_ist?: string | null;
+  start_utc?: string | null;
+  time_slot?: string | null;
+  time_status?: string | null;
+  stage: string;
+  group?: string | null;
+  team_a?: string | null;
+  team_b?: string | null;
+  team_a_code?: string | null;
+  team_b_code?: string | null;
+  teams?: string[] | null;
+  is_tbd?: boolean;
+  title: string;
+  venue_id: string;
+  venue_city?: string | null;
+  venue_country?: string | null;
+  streaming?: Streaming | null;
+  involves_india?: boolean;
+  status?: string | null;
+  result?: unknown;
+}
+interface ScheduleData {
+  meta?: { tournament?: string; hosts?: string[]; placeholder_legend?: Record<string, string> };
+  teams?: TeamEntry[];
+  venues?: VenueEntry[];
+  matches: Match[];
+}
+
+const { idPrefix = 'cwc', syncUrl = true } = Astro.props;
+const data = scheduleJson as unknown as ScheduleData;
+const meta = data.meta ?? {};
+const teams = data.teams ?? [];
+const venues = data.venues ?? [];
+const venueMap = new Map(venues.map((v) => [v.id, v]));
+
+/* ---------- helpers ---------- */
+const clean = (v?: string | null) => (typeof v === 'string' && v.trim() ? v.trim() : null);
+const humanize = (s: string) => s.replace(/[_-]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+const to12h = (t?: string | null) => {
+  const s = clean(t);
+  if (!s) return null;
+  const m = /^(\d{1,2}):(\d{2})$/.exec(s);
+  if (!m) return s;
+  const h = Number(m[1]);
+  return `${h % 12 || 12}:${m[2]} ${h >= 12 ? 'PM' : 'AM'}`;
+};
+const dateFmt = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const weekdayFmt = new Intl.DateTimeFormat('en-GB', { weekday: 'long', timeZone: 'UTC' });
+const asDate = (iso: string) => new Date(`${iso}T00:00:00Z`);
+const regionNames = (() => {
+  try { return new Intl.DisplayNames(['en'], { type: 'region' }); } catch { return null; }
+})();
+const regionName = (code?: string | null) => {
+  const c = clean(code);
+  if (!c) return null;
+  try { return regionNames?.of(c.toUpperCase()) ?? c; } catch { return c; }
+};
+
+const STAGES: Record<string, { filter: string; card: string }> = {
+  qualifier_playoff: { filter: 'Qualifier Play-offs', card: 'Qualifier Play-off' },
+  group_stage: { filter: 'Group Stage', card: 'Group Stage' },
+  super_six: { filter: 'Super Six', card: 'Super Six' },
+  semi_final: { filter: 'Semi-Finals', card: 'Semi-Final' },
+  final: { filter: 'Final', card: 'Final' },
+};
+const stageFilterLabel = (s: string) => STAGES[s]?.filter ?? humanize(s);
+const stageCardLabel = (s: string) => STAGES[s]?.card ?? humanize(s);
+const TIME_STATUS_LABEL: Record<string, string> = {
+  confirmed: 'Time confirmed',
+  assumed: 'Time assumed',
+  tbc: 'Time TBC',
+};
+
+/* ---------- sorted fixtures (chronological: date, then start time, then id) ---------- */
+const sorted = [...(data.matches ?? [])].sort(
+  (a, b) =>
+    a.date.localeCompare(b.date) ||
+    (a.start_utc ?? '9').localeCompare(b.start_utc ?? '9') ||
+    a.id - b.id
+);
+const total = sorted.length;
+const firstDate = sorted[0]?.date;
+const lastDate = sorted[total - 1]?.date;
+
+/* ---------- filter options generated from the data ---------- */
+const teamOptions = teams
+  .filter((t) => clean(t.code))
+  .sort((a, b) => a.name.localeCompare(b.name));
+const stageKeys = [...new Set(sorted.map((m) => m.stage))];
+const groupKeys = [...new Set(sorted.map((m) => clean(m.group)).filter((g): g is string => !!g))].sort();
+
+const usedVenues = [...new Set(sorted.map((m) => m.venue_id))].map((id) => {
+  const v = venueMap.get(id);
+  const m = sorted.find((x) => x.venue_id === id);
+  return {
+    id,
+    city: clean(v?.city) ?? clean(m?.venue_city) ?? humanize(id),
+    country: clean(v?.country) ?? clean(m?.venue_country) ?? 'Other',
+  };
+});
+const venuesByCountry = Object.entries(
+  usedVenues.reduce<Record<string, typeof usedVenues>>((acc, v) => {
+    (acc[v.country] ||= []).push(v);
+    return acc;
+  }, {})
+)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([country, list]) => [country, [...list].sort((a, b) => a.city.localeCompare(b.city))] as const);
+
+const slotRank = (k: string) => (k === 'primary' ? 0 : k === 'secondary' ? 1 : k === 'tbc' ? 99 : 2);
+const slotKeys = [...new Set(sorted.map((m) => clean(m.time_slot) ?? 'tbc'))].sort(
+  (a, b) => slotRank(a) - slotRank(b) || a.localeCompare(b)
+);
+const hasSlots = sorted.some((m) => clean(m.time_slot));
+const slotLabel = (k: string) => {
+  if (k === 'tbc') return 'Time to be confirmed';
+  const times = [
+    ...new Set(
+      sorted
+        .filter((m) => clean(m.time_slot) === k)
+        .map((m) => to12h(m.start_time_ist))
+        .filter((t): t is string => !!t)
+    ),
+  ];
+  return `${humanize(k)} slot${times.length ? ` · ${times.join(' / ')} IST` : ''}`;
+};
+
+/* ---------- summary stats (all calculated from the JSON) ---------- */
+const qualifierSlots = teams.filter((t) => !clean(t.code)).length;
+const indiaCount = sorted.filter((m) => m.involves_india).length;
+const hosts = (meta.hosts ?? []).filter(Boolean);
+const hostsText = hosts.length ? new Intl.ListFormat('en', { type: 'conjunction' }).format(hosts) : null;
+const tournament = clean(meta.tournament) ?? "ICC Men's Cricket World Cup 2027";
+
+/* ---------- per-fixture view model ---------- */
+const view = (m: Match) => {
+  const venue = venueMap.get(m.venue_id);
+  const city = clean(m.venue_city) ?? clean(venue?.city);
+  const country = clean(m.venue_country) ?? clean(venue?.country);
+  const stadium = clean(venue?.stadium);
+  const place = [city, country].filter(Boolean).join(', ');
+  const ist = to12h(m.start_time_ist);
+  const local = to12h(m.start_time_local);
+  const timeState = !(ist || local) ? 'tbc' : m.time_status === 'confirmed' ? 'confirmed' : 'assumed';
+  const nameA = clean(m.team_a);
+  const nameB = clean(m.team_b);
+  const st = clean(m.status);
+  const stream = m.streaming ?? null;
+  const digital = clean(stream?.digital);
+  const tv = clean(stream?.tv);
+  const region = regionName(stream?.region);
+  const result = typeof m.result === 'string' ? clean(m.result) : null;
+  const group = clean(m.group);
+  const weekday = clean(m.day) ?? weekdayFmt.format(asDate(m.date));
+  const search = [
+    m.title, nameA, nameB, m.team_a_code, m.team_b_code, city, country, stadium,
+    stageFilterLabel(m.stage), group ? `group ${group}` : null, `fixture ${m.id}`,
+    weekday, dateFmt.format(asDate(m.date)), digital, tv,
+    m.involves_india ? 'india' : null,
+  ].filter(Boolean).join(' ').toLowerCase();
+  return {
+    m, city, country, stadium, place, ist, local, timeState, nameA, nameB,
+    pair: !!(nameA && nameB), codeA: clean(m.team_a_code), codeB: clean(m.team_b_code),
+    statusLabel: st ? humanize(st) : null, digital, tv, region, result, group, weekday, search,
+    codes: ` ${(m.teams ?? []).join(' ')} `,
+    slot: clean(m.time_slot) ?? 'tbc',
+  };
+};
+
+/* ---------- group fixtures by day ---------- */
+const days: { date: string; label: string; items: ReturnType<typeof view>[] }[] = [];
+for (const m of sorted) {
+  const v = view(m);
+  let day = days[days.length - 1];
+  if (!day || day.date !== m.date) {
+    day = { date: m.date, label: `${v.weekday}, ${dateFmt.format(asDate(m.date))}`, items: [] };
+    days.push(day);
+  }
+  day.items.push(v);
+}
+
+const legend = Object.entries(meta.placeholder_legend ?? {});
+const id = (name: string) => `${idPrefix}-${name}`;
+---
+
+<section class="cwc" data-cwc-schedule data-sync-url={syncUrl ? 'true' : 'false'} aria-labelledby={id('title')}>
+  <div class="mx-auto max-w-6xl px-5 py-10 md:px-8 md:py-14">
+    <!-- Intro -->
+    <div class="cwc-hero">
+      {hostsText && <p class="cwc-eyebrow">Hosted across {hostsText}</p>}
+      <h1 class="cwc-title" id={id('title')}>ICC Men's Cricket World Cup 2027 Schedule</h1>
+      <p class="cwc-intro">
+        Browse all {total} fixtures of the {tournament}
+        {firstDate && lastDate && <> from {dateFmt.format(asDate(firstDate))} to {dateFmt.format(asDate(lastDate))}</>}.
+        Filter by team, stage, group, venue, date or time slot to plan which matches to watch.
+        Start times are shown in IST and in local venue time.
+      </p>
+    </div>
+
+    <!-- Summary stats -->
+    <dl class="cwc-stats">
+      <div><dt>Fixtures</dt><dd>{total}</dd></div>
+      <div>
+        <dt>Teams</dt><dd>{teams.length}</dd>
+        {qualifierSlots > 0 && <small>incl. {qualifierSlots} qualifier slots</small>}
+      </div>
+      <div><dt>Venues</dt><dd>{usedVenues.length}</dd></div>
+      <div>
+        <dt>India fixtures</dt><dd>{indiaCount}</dd>
+        <small>with named opponents</small>
+      </div>
+    </dl>
+
+    <!-- Filters -->
+    <h2 class="vh">Filter fixtures</h2>
+    <form class="cwc-filters" data-form aria-label="Filter World Cup fixtures" novalidate>
+      <div class="cwc-top">
+        <div class="field">
+          <label for={id('q')}>Search</label>
+          <input id={id('q')} data-f="q" type="search" placeholder="Team, city, stage or fixture number" autocomplete="off" enterkeyhint="search" />
+        </div>
+        <label class="toggle" for={id('india')}>
+          <input id={id('india')} data-f="india" type="checkbox" />
+          <span>India matches only</span>
+        </label>
+      </div>
+
+      <details class="cwc-more" data-details open>
+        <summary>
+          <span>More filters</span>
+          <span class="badge" data-badge hidden>0</span>
+        </summary>
+        <div class="cwc-grid">
+          <div class="field">
+            <label for={id('team')}>Team</label>
+            <select id={id('team')} data-f="team">
+              <option value="">All teams</option>
+              {teamOptions.map((t) => <option value={t.code ?? ''}>{t.name}</option>)}
+            </select>
+          </div>
+          <div class="field">
+            <label for={id('stage')}>Stage</label>
+            <select id={id('stage')} data-f="stage">
+              <option value="">All stages</option>
+              {stageKeys.map((s) => <option value={s}>{stageFilterLabel(s)}</option>)}
+            </select>
+          </div>
+          {groupKeys.length > 0 && (
+            <div class="field">
+              <label for={id('group')}>Group</label>
+              <select id={id('group')} data-f="group">
+                <option value="">All groups</option>
+                {groupKeys.map((g) => <option value={g}>Group {g}</option>)}
+              </select>
+            </div>
+          )}
+          <div class="field">
+            <label for={id('venue')}>Venue or city</label>
+            <select id={id('venue')} data-f="venue">
+              <option value="">All venues</option>
+              {venuesByCountry.map(([country, list]) => (
+                <optgroup label={country}>
+                  {list.map((v) => <option value={v.id}>{v.city}</option>)}
+                </optgroup>
+              ))}
+            </select>
+          </div>
+          <div class="field">
+            <label for={id('date')}>Date</label>
+            <input id={id('date')} data-f="date" type="date" min={firstDate} max={lastDate} />
+          </div>
+          {hasSlots && (
+            <div class="field">
+              <label for={id('slot')}>Time slot</label>
+              <select id={id('slot')} data-f="slot">
+                <option value="">All time slots</option>
+                {slotKeys.map((k) => <option value={k}>{slotLabel(k)}</option>)}
+              </select>
+            </div>
+          )}
+        </div>
+      </details>
+
+      <div class="cwc-toolbar">
+        <p class="cwc-count" role="status" aria-live="polite" data-count>Showing {total} of {total} fixtures</p>
+        <button type="button" class="btn-clear" data-clear aria-disabled="true">Clear all filters</button>
+      </div>
+    </form>
+    <noscript><p class="cwc-note">Filters need JavaScript. The full schedule is listed below.</p></noscript>
+
+    <!-- Time label key -->
+    <p class="cwc-key">
+      <span class="chip chip-confirmed">Time confirmed</span>
+      <span class="chip chip-assumed">Time assumed</span>
+      <span class="chip chip-tbc">Time TBC</span>
+      <span class="cwc-key-text">Assumed times are expected slots, not confirmed.</span>
+    </p>
+
+    <!-- Empty state -->
+    <div class="cwc-empty" data-empty hidden>
+      <p class="cwc-empty-title">No fixtures match these filters</p>
+      <p>Try removing a filter or searching for a different team, city or stage.</p>
+      <button type="button" class="btn-clear" data-clear>Clear all filters</button>
+    </div>
+
+    <!-- Fixtures -->
+    <h2 class="vh">Fixtures</h2>
+    <div data-list>
+      {days.map((day) => (
+        <section class="day" data-day aria-labelledby={id(`day-${day.date}`)}>
+          <h3 class="day-title" id={id(`day-${day.date}`)}>
+            <time datetime={day.date}>{day.label}</time>
+          </h3>
+          <ol class="fx-list">
+            {day.items.map((f) => (
+              <li
+                class="fx"
+                data-card
+                data-teams={f.codes}
+                data-stage={f.m.stage}
+                data-group={f.group ?? ''}
+                data-venue={f.m.venue_id}
+                data-date={f.m.date}
+                data-slot={f.slot}
+                data-india={f.m.involves_india ? '1' : '0'}
+                data-search={f.search}
+              >
+                <div class="fx-top">
+                  <p class="fx-id">
+                    <span>Fixture {f.m.id}</span>
+                    {f.statusLabel && <span aria-hidden="true"> · </span>}
+                    {f.statusLabel && <span>{f.statusLabel}</span>}
+                  </p>
+                  <ul class="chips">
+                    {f.m.involves_india && <li class="chip chip-india">India</li>}
+                    <li class="chip chip-stage">{stageCardLabel(f.m.stage)}</li>
+                    {f.group && <li class="chip chip-group">Group {f.group}</li>}
+                  </ul>
+                </div>
+
+                <div class="fx-main">
+                  {f.pair ? (
+                    <>
+                      <h4 class="vh">{f.m.title}</h4>
+                      <div class="fx-teams" aria-hidden="true">
+                        <div class="team">
+                          <span class={`code${f.codeA ? '' : ' code-tbd'}`}>{f.codeA ?? 'TBD'}</span>
+                          <span class="tname">{f.nameA}</span>
+                        </div>
+                        <span class="vs">vs</span>
+                        <div class="team">
+                          <span class={`code${f.codeB ? '' : ' code-tbd'}`}>{f.codeB ?? 'TBD'}</span>
+                          <span class="tname">{f.nameB}</span>
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <div class="fx-solo-wrap">
+                      <h4 class="fx-solo">{f.m.title}</h4>
+                      {f.m.is_tbd && <p class="fx-solo-sub">Teams to be confirmed</p>}
+                    </div>
+                  )}
+
+                  <div class="fx-time">
+                    {(f.ist || f.local) && (
+                      <div class="t-rows">
+                        {f.ist && (
+                          <p class="t-row"><span class="t-lbl">IST</span><span class="t-val">{f.ist}</span></p>
+                        )}
+                        {f.local && (
+                          <p class="t-row t-local"><span class="t-lbl">Local</span><span class="t-val">{f.local}</span></p>
+                        )}
+                      </div>
+                    )}
+                    <span class={`chip chip-${f.timeState}`}>{TIME_STATUS_LABEL[f.timeState]}</span>
+                  </div>
+                </div>
+
+                <div class="fx-foot">
+                  <p class="fx-venue">
+                    <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true" focusable="false">
+                      <path fill="currentColor" d="M10 1.5a6 6 0 0 0-6 6c0 4.2 5.2 10.4 5.4 10.6a.8.8 0 0 0 1.2 0C10.8 17.9 16 11.7 16 7.5a6 6 0 0 0-6-6Zm0 8.2a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4Z" />
+                    </svg>
+                    <span>{f.place ? `${f.stadium ? `${f.stadium}, ` : ''}${f.place}` : 'Venue to be confirmed'}</span>
+                  </p>
+                  {(f.digital || f.tv) && (
+                    <div class="fx-stream">
+                      <p class="fx-stream-title">Broadcast{f.region ? ` · ${f.region}` : ''}</p>
+                      {f.digital && <p><span class="k">Stream</span>{f.digital}</p>}
+                      {f.tv && <p><span class="k">TV</span>{f.tv}</p>}
+                    </div>
+                  )}
+                </div>
+
+                {f.result && <p class="fx-result">{f.result}</p>}
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+
+    <!-- Notes -->
+    <div class="cwc-notes">
+      {legend.length > 0 && (
+        <details class="cwc-legend">
+          <summary>What do placeholders like A1, B2 or QF1 mean?</summary>
+          <dl>
+            {legend.map(([k, v]) => (
+              <div><dt>{k}</dt><dd>{v}</dd></div>
+            ))}
+          </dl>
+        </details>
+      )}
+      <p>
+        Fixtures, venues, start times and broadcast listings come from the schedule data supplied for this page and
+        may change. Times marked "assumed" are not confirmed. Broadcast details are listed only for the region shown
+        and are not a statement of confirmed rights. Please check the official ICC schedule and your broadcaster
+        before planning.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cwc {
+    --c-navy: #1a1a2e;
+    --c-navy-2: #16213e;
+    --c-blue: #0f3460;
+    --c-coral: #e94560;
+    --c-coral-h: #c73652;
+    --c-bg: #f8f9fa;
+    --c-line: #e3e7ee;
+    --c-control: #aeb8c8;
+    --c-muted: #5b6b8c;
+    color: var(--c-navy);
+    font-family: var(--font-body, 'Inter', sans-serif);
+    line-height: 1.5;
+  }
+  .cwc [hidden] { display: none !important; }
+  .vh {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  /* Intro */
+  .cwc-eyebrow {
+    margin: 0; font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-coral-h);
+  }
+  .cwc-title {
+    margin: 0.5rem 0 0.75rem; font-family: var(--font-display, 'Fraunces', serif);
+    font-weight: 700; font-size: clamp(1.7rem, 5.5vw, 2.75rem); line-height: 1.15; color: var(--c-navy);
+  }
+  .cwc-intro { margin: 0; max-width: 46rem; color: var(--c-muted); font-size: 1rem; }
+
+  /* Stats */
+  .cwc-stats {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; margin: 1.5rem 0 0;
+  }
+  .cwc-stats > div {
+    display: flex; flex-direction: column-reverse; justify-content: flex-end;
+    background: #fff; border: 1px solid var(--c-line); border-radius: 12px; padding: 0.8rem 1rem;
+  }
+  .cwc-stats dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c-muted); font-weight: 600; }
+  .cwc-stats dd {
+    margin: 0; font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 1.6rem; font-weight: 700; color: var(--c-navy); line-height: 1.2;
+  }
+  .cwc-stats small { order: 3; font-size: 0.72rem; color: var(--c-muted); margin-top: 0.15rem; }
+  @media (min-width: 640px) { .cwc-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+  /* Filter panel */
+  .cwc-filters {
+    margin-top: 1.5rem; background: #fff; border: 1px solid var(--c-line);
+    border-radius: 14px; padding: 1rem;
+  }
+  @media (min-width: 768px) { .cwc-filters { padding: 1.25rem; } }
+  .cwc-top { display: grid; gap: 0.75rem; }
+  @media (min-width: 640px) { .cwc-top { grid-template-columns: minmax(0, 1fr) auto; align-items: end; } }
+  .field { min-width: 0; }
+  .field label { display: block; margin-bottom: 0.3rem; font-size: 0.8rem; font-weight: 600; color: var(--c-navy); }
+  .field input, .field select {
+    width: 100%; min-height: 44px; padding: 0 0.75rem; background: #fff; color: var(--c-navy);
+    border: 1px solid var(--c-control); border-radius: 10px; font: inherit; font-size: 1rem;
+  }
+  .field input::placeholder { color: #7a879f; }
+  .field input:focus-visible, .field select:focus-visible,
+  .toggle:has(input:focus-visible), .cwc-more summary:focus-visible,
+  .btn-clear:focus-visible, .cwc-legend summary:focus-visible {
+    outline: 2px solid var(--c-coral); outline-offset: 2px;
+  }
+  .field input:focus-visible, .field select:focus-visible { border-color: var(--c-blue); }
+  .toggle {
+    display: flex; align-items: center; gap: 0.6rem; min-height: 44px; padding: 0 0.9rem;
+    border: 1px solid var(--c-control); border-radius: 10px; cursor: pointer;
+    font-size: 0.95rem; font-weight: 600; background: #fff;
+  }
+  .toggle input { width: 1.15rem; height: 1.15rem; accent-color: var(--c-coral); margin: 0; }
+  .toggle:has(input:checked) { background: #fff0f3; border-color: var(--c-coral); color: var(--c-coral-h); }
+
+  .cwc-more { margin-top: 0.9rem; border-top: 1px solid var(--c-line); }
+  .cwc-more summary {
+    display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+    min-height: 44px; cursor: pointer; list-style: none; font-weight: 600; font-size: 0.95rem;
+  }
+  .cwc-more summary::-webkit-details-marker { display: none; }
+  .cwc-more summary::after {
+    content: ''; width: 0.5rem; height: 0.5rem; margin-left: auto; margin-right: 0.25rem;
+    border-right: 2px solid var(--c-muted); border-bottom: 2px solid var(--c-muted);
+    transform: rotate(45deg); transition: transform 0.15s ease;
+  }
+  .cwc-more[open] summary::after { transform: rotate(-135deg); }
+  .badge {
+    min-width: 1.4rem; padding: 0.05rem 0.4rem; border-radius: 999px; background: var(--c-coral); color: #fff;
+    font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.75rem; font-weight: 700; text-align: center;
+  }
+  .cwc-grid {
+    display: grid; gap: 0.9rem; padding-top: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  }
+
+  .cwc-toolbar {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem;
+    margin-top: 1rem; padding-top: 0.9rem; border-top: 1px solid var(--c-line);
+  }
+  .cwc-count { margin: 0; font-size: 0.95rem; font-weight: 600; }
+  .btn-clear {
+    min-height: 40px; padding: 0 1rem; border-radius: 8px; border: 1px solid var(--c-coral-h);
+    background: #fff; color: var(--c-coral-h); font: inherit; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  .btn-clear:hover { background: var(--c-coral-h); color: #fff; }
+  .btn-clear[aria-disabled='true'] {
+    border-color: var(--c-line); color: var(--c-muted); background: var(--c-bg); cursor: not-allowed;
+  }
+  .btn-clear[aria-disabled='true']:hover { background: var(--c-bg); color: var(--c-muted); }
+  .cwc-note { margin: 0.75rem 0 0; font-size: 0.9rem; color: var(--c-muted); }
+
+  /* Key */
+  .cwc-key {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; margin: 1rem 0 0;
+    font-size: 0.8rem; color: var(--c-muted);
+  }
+
+  /* Chips */
+  .chip {
+    display: inline-flex; align-items: center; padding: 0.2rem 0.55rem; border-radius: 999px;
+    border: 1px solid transparent; font-size: 0.72rem; font-weight: 600; line-height: 1.2; white-space: nowrap;
+  }
+  .chip-stage { background: #eef4ff; color: var(--c-blue); }
+  .chip-group { background: var(--c-bg); border-color: var(--c-line); color: var(--c-navy); }
+  .chip-india { background: #fff0f3; color: var(--c-coral-h); }
+  .chip-confirmed { background: var(--c-blue); color: #fff; }
+  .chip-assumed { background: #fff0f3; color: var(--c-coral-h); border: 1px dashed var(--c-coral); }
+  .chip-tbc { background: #ecedf1; color: var(--c-muted); }
+
+  /* Day groups */
+  .day { margin-top: 1.75rem; }
+  .day-title {
+    margin: 0; padding-left: 0.75rem; border-left: 4px solid var(--c-coral);
+    font-family: var(--font-display, 'Fraunces', serif); font-size: 1.15rem; font-weight: 600; line-height: 1.3;
+  }
+  .fx-list { list-style: none; margin: 0.75rem 0 0; padding: 0; display: grid; gap: 0.75rem; }
+
+  /* Fixture card */
+  .fx {
+    display: grid; gap: 0.75rem; min-width: 0; padding: 0.9rem 1rem;
+    background: #fff; border: 1px solid var(--c-line); border-radius: 12px;
+  }
+  .fx[data-india='1'] { border-left: 4px solid var(--c-coral); padding-left: calc(1rem - 3px); }
+  @media (min-width: 768px) { .fx { padding: 1.1rem 1.25rem; } .fx[data-india='1'] { padding-left: calc(1.25rem - 3px); } }
+  .fx-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; }
+  .fx-id {
+    margin: 0; font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.72rem;
+    letter-spacing: 0.05em; text-transform: uppercase; color: var(--c-muted);
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; list-style: none; margin: 0; padding: 0; }
+
+  .fx-main { display: grid; gap: 0.9rem; min-width: 0; }
+  @media (min-width: 640px) {
+    .fx-main { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 1.5rem; }
+  }
+  .fx-teams {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 0.5rem;
+    max-width: 30rem;
+  }
+  .team { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; min-width: 0; text-align: center; }
+  .code {
+    display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 10px;
+    background: var(--c-navy); color: #fff; font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em;
+  }
+  .code-tbd { background: #fff; color: var(--c-blue); border: 1.5px dashed var(--c-blue); }
+  .tname { font-weight: 600; font-size: 0.95rem; line-height: 1.25; overflow-wrap: anywhere; }
+  .vs {
+    font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.72rem;
+    text-transform: uppercase; color: var(--c-muted);
+  }
+  .fx-solo { margin: 0; font-family: var(--font-display, 'Fraunces', serif); font-size: 1.25rem; font-weight: 700; }
+  .fx-solo-sub { margin: 0.15rem 0 0; font-size: 0.85rem; color: var(--c-muted); }
+
+  .fx-time {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem;
+    padding-top: 0.75rem; border-top: 1px dashed var(--c-line);
+  }
+  .t-rows { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
+  .t-row { margin: 0; display: flex; align-items: baseline; gap: 0.4rem; }
+  .t-lbl { font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c-muted); font-weight: 600; }
+  .t-val { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.95rem; font-weight: 700; }
+  .t-local .t-val { font-weight: 500; color: var(--c-muted); }
+  @media (min-width: 640px) {
+    .fx-time {
+      flex-direction: column; align-items: flex-end; gap: 0.5rem; min-width: 9.5rem;
+      padding: 0 0 0 1.5rem; border-top: 0; border-left: 1px solid var(--c-line); text-align: right;
+    }
+    .t-rows { flex-direction: column; gap: 0.2rem; align-items: flex-end; }
+  }
+
+  .fx-foot { display: grid; gap: 0.6rem; padding-top: 0.75rem; border-top: 1px solid var(--c-line); min-width: 0; }
+  @media (min-width: 640px) { .fx-foot { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.5rem; } }
+  .fx-venue { margin: 0; display: flex; align-items: flex-start; gap: 0.4rem; font-size: 0.9rem; }
+  .fx-venue svg { flex: none; margin-top: 0.15rem; color: var(--c-coral); }
+  .fx-stream { font-size: 0.85rem; color: var(--c-muted); }
+  .fx-stream p { margin: 0; }
+  .fx-stream-title {
+    font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.68rem !important;
+    letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.1rem !important;
+  }
+  .fx-stream .k {
+    display: inline-block; min-width: 3.4rem; font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .fx-stream p:not(.fx-stream-title) { color: var(--c-navy); font-weight: 500; }
+  .fx-result {
+    margin: 0; padding: 0.5rem 0.75rem; border-radius: 8px; background: var(--c-bg);
+    font-size: 0.9rem; font-weight: 600;
+  }
+
+  /* Empty state */
+  .cwc-empty {
+    margin-top: 1.5rem; padding: 2.25rem 1rem; text-align: center; background: #fff;
+    border: 1px dashed var(--c-control); border-radius: 14px; color: var(--c-muted);
+  }
+  .cwc-empty p { margin: 0 0 0.9rem; }
+  .cwc-empty-title {
+    font-family: var(--font-display, 'Fraunces', serif); font-size: 1.2rem; font-weight: 600;
+    color: var(--c-navy); margin-bottom: 0.35rem !important;
+  }
+
+  /* Notes */
+  .cwc-notes { margin-top: 2.5rem; font-size: 0.85rem; color: var(--c-muted); max-width: 46rem; }
+  .cwc-notes p { margin: 0.75rem 0 0; }
+  .cwc-legend summary { cursor: pointer; font-weight: 600; color: var(--c-navy); min-height: 32px; }
+  .cwc-legend dl { margin: 0.5rem 0 0; display: grid; gap: 0.35rem; }
+  .cwc-legend dl > div { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0.5rem; }
+  .cwc-legend dt { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-weight: 700; color: var(--c-navy); }
+  .cwc-legend dd { margin: 0; }
+</style>
+
+<script>
+  type Field = 'q' | 'team' | 'stage' | 'group' | 'venue' | 'date' | 'slot' | 'india';
+  const FIELDS: Field[] = ['q', 'team', 'stage', 'group', 'venue', 'date', 'slot', 'india'];
+  const EXTRA: Field[] = ['team', 'stage', 'group', 'venue', 'date', 'slot'];
+  type Control = HTMLInputElement | HTMLSelectElement;
+
+  function initSchedule(root: HTMLElement) {
+    const form = root.querySelector<HTMLFormElement>('[data-form]');
+    const list = root.querySelector<HTMLElement>('[data-list]');
+    const empty = root.querySelector<HTMLElement>('[data-empty]');
+    const count = root.querySelector<HTMLElement>('[data-count]');
+    const badge = root.querySelector<HTMLElement>('[data-badge]');
+    const details = root.querySelector<HTMLDetailsElement>('[data-details]');
+    const clearButtons = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-clear]'));
+    if (!form || !list || !empty || !count) return;
+    // Non-null aliases so TypeScript keeps the narrowing inside the functions below.
+    const formEl: HTMLFormElement = form;
+    const listEl: HTMLElement = list;
+    const emptyEl: HTMLElement = empty;
+    const countEl: HTMLElement = count;
+
+    const cards = Array.from(root.querySelectorAll<HTMLElement>('[data-card]'));
+    const dayGroups = Array.from(root.querySelectorAll<HTMLElement>('[data-day]'));
+    const total = cards.length;
+    const syncUrl = root.dataset.syncUrl === 'true';
+    const control = (f: Field) => form.querySelector<Control>(`[data-f="${f}"]`);
+
+    const read = (f: Field): string => {
+      const el = control(f);
+      if (!el) return '';
+      if (el instanceof HTMLInputElement && el.type === 'checkbox') return el.checked ? '1' : '';
+      return el.value.trim();
+    };
+
+    let urlTimer: number | undefined;
+    const writeUrl = (v: Record<Field, string>) => {
+      if (!syncUrl) return;
+      window.clearTimeout(urlTimer);
+      urlTimer = window.setTimeout(() => {
+        try {
+          const url = new URL(window.location.href);
+          FIELDS.forEach((f) => (v[f] ? url.searchParams.set(f, v[f]) : url.searchParams.delete(f)));
+          window.history.replaceState(null, '', url);
+        } catch {
+          /* history updates are optional */
+        }
+      }, 250);
+    };
+
+    function apply() {
+      const v = {} as Record<Field, string>;
+      FIELDS.forEach((f) => (v[f] = read(f)));
+      const q = v.q.toLowerCase();
+      const terms = q.split(/\s+/).filter(Boolean);
+      // Search: exact phrase first ("qualifier a"); if nothing matches, fall back to every word starting a word.
+      const run = (loose: boolean) => {
+        let n = 0;
+        for (const card of cards) {
+          const d = card.dataset;
+          const text = d.search ?? '';
+          const ok =
+            (!v.team || (d.teams ?? '').includes(` ${v.team} `)) &&
+            (!v.stage || d.stage === v.stage) &&
+            (!v.group || d.group === v.group) &&
+            (!v.venue || d.venue === v.venue) &&
+            (!v.date || d.date === v.date) &&
+            (!v.slot || d.slot === v.slot) &&
+            (!v.india || d.india === '1') &&
+            (!q || (loose ? terms.every((t) => ` ${text}`.includes(` ${t}`)) : text.includes(q)));
+          card.hidden = !ok;
+          if (ok) n++;
+        }
+        return n;
+      };
+      let shown = run(false);
+      if (shown === 0 && terms.length > 1) shown = run(true);
+      dayGroups.forEach((g) => (g.hidden = !g.querySelector('[data-card]:not([hidden])')));
+
+      countEl.textContent = `Showing ${shown} of ${total} fixtures`;
+      emptyEl.hidden = shown > 0;
+      listEl.hidden = shown === 0;
+
+      const extra = EXTRA.filter((f) => v[f]).length;
+      const any = extra + (v.q ? 1 : 0) + (v.india ? 1 : 0);
+      if (badge) {
+        badge.textContent = String(extra);
+        badge.hidden = extra === 0;
+      }
+      clearButtons.forEach((b) => b.setAttribute('aria-disabled', any === 0 ? 'true' : 'false'));
+      writeUrl(v);
+      return { extra, any };
+    }
+
+    function clearAll() {
+      formEl.reset();
+      apply();
+    }
+
+    // Restore filters from the URL (only values that exist as options).
+    if (syncUrl) {
+      const params = new URLSearchParams(window.location.search);
+      FIELDS.forEach((f) => {
+        const val = params.get(f);
+        const el = control(f);
+        if (!val || !el) return;
+        if (el instanceof HTMLInputElement) {
+          if (el.type === 'checkbox') el.checked = val === '1';
+          else el.value = val;
+        } else if (Array.from(el.options).some((o) => o.value === val)) {
+          el.value = val;
+        }
+      });
+    }
+
+    form.addEventListener('submit', (e) => e.preventDefault());
+    form.addEventListener('input', apply);
+    form.addEventListener('change', apply);
+    clearButtons.forEach((b) =>
+      b.addEventListener('click', () => {
+        if (b.getAttribute('aria-disabled') === 'true') return;
+        clearAll();
+      })
+    );
+
+    const state = apply();
+    // Filter panel: open on larger screens, collapsed on phones unless filters are active.
+    if (details) details.open = window.matchMedia('(min-width: 768px)').matches || state.extra > 0;
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-cwc-schedule]').forEach(initSchedule);
+</script>
