@@ -50,6 +50,11 @@ const fullTitle = `${title} · ${siteName}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/images/mark.svg" />
+    <style>
+      .cwc-nav-link { display:inline-flex; align-items:center; padding:.55rem .8rem; border-radius:.55rem; background:linear-gradient(135deg,#E94560,#ff8a3d); color:#fff; font-weight:800; box-shadow:0 3px 12px rgba(233,69,96,.28); white-space:nowrap; transition:transform .2s, box-shadow .2s; }
+      .cwc-nav-link:hover { color:#fff; transform:translateY(-1px); box-shadow:0 5px 16px rgba(233,69,96,.4); }
+      .cwc-nav-link-mobile { display:block; margin:.35rem .7rem; padding:.7rem .9rem; border-radius:.55rem; background:linear-gradient(135deg,#E94560,#ff8a3d); color:#fff !important; font-weight:800; }
+    </style>
     <link rel="canonical" href={canonicalUrl} />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
@@ -92,7 +97,7 @@ const fullTitle = `${title} · ${siteName}`;
           <a href="/category/ipl" class="text-white/80 hover:text-white transition-colors">IPL</a>
           <a href="/category/international" class="text-white/80 hover:text-white transition-colors">International</a>
           <a href="/category/history" class="text-white/80 hover:text-white transition-colors">Chronicles</a>
-          <a href="/about" class="text-white/80 hover:text-white transition-colors">About Us</a>
+          <a href="/icc-mens-cricket-world-cup-2027-schedule" class="cwc-nav-link" aria-label="ICC Cricket World Cup 2027 schedule">🏆 CWC 2027</a>
           <a href="/write-for-us" class="bg-[#E94560] text-white px-4 py-2 rounded-md hover:bg-[#C73652] transition-colors">Write for Us</a>
         </nav>
 
@@ -115,7 +120,7 @@ const fullTitle = `${title} · ${siteName}`;
         <a href="/category/ipl">IPL</a>
         <a href="/category/international">International</a>
         <a href="/category/history">Chronicles</a>
-        <a href="/about">About Us</a>
+        <a href="/icc-mens-cricket-world-cup-2027-schedule" class="cwc-nav-link-mobile">🏆 CWC 2027</a>
         <a href="/write-for-us">Write for Us</a>
       </div>
       <div class="seam"></div>
