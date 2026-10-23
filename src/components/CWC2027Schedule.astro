@@ -15,7 +15,7 @@ interface Props {
   syncUrl?: boolean;
 }
 
-interface TeamEntry { name: string; code: string | null; group: string | null }
+interface TeamEntry { name: string; code: string | null; group: string | null; flag_url?: string | null }
 interface VenueEntry { id: string; city: string; country: string; stadium: string | null; timezone?: string | null }
 interface Streaming { region?: string | null; digital?: string | null; tv?: string | null }
 interface Match {
@@ -33,6 +33,8 @@ interface Match {
   team_b?: string | null;
   team_a_code?: string | null;
   team_b_code?: string | null;
+  team_a_flag_url?: string | null;
+  team_b_flag_url?: string | null;
   teams?: string[] | null;
   is_tbd?: boolean;
   title: string;
@@ -185,6 +187,7 @@ const view = (m: Match) => {
   ].filter(Boolean).join(' ').toLowerCase();
   return {
     m, city, country, stadium, place, ist, local, timeState, nameA, nameB,
+    flagA: clean(m.team_a_flag_url), flagB: clean(m.team_b_flag_url),
     pair: !!(nameA && nameB), codeA: clean(m.team_a_code), codeB: clean(m.team_b_code),
     statusLabel: st ? humanize(st) : null, digital, tv, region, result, group, weekday, search,
     codes: ` ${(m.teams ?? []).join(' ')} `,
@@ -221,20 +224,6 @@ const id = (name: string) => `${idPrefix}-${name}`;
         Start times are shown in IST and in local venue time.
       </p>
     </div>
-
-    <!-- Summary stats -->
-    <dl class="cwc-stats">
-      <div><dt>Fixtures</dt><dd>{total}</dd></div>
-      <div>
-        <dt>Teams</dt><dd>{teams.length}</dd>
-        {qualifierSlots > 0 && <small>incl. {qualifierSlots} qualifier slots</small>}
-      </div>
-      <div><dt>Venues</dt><dd>{usedVenues.length}</dd></div>
-      <div>
-        <dt>India fixtures</dt><dd>{indiaCount}</dd>
-        <small>with named opponents</small>
-      </div>
-    </dl>
 
     <!-- Filters -->
     <h2 class="vh">Filter fixtures</h2>
@@ -369,12 +358,14 @@ const id = (name: string) => `${idPrefix}-${name}`;
                       <h4 class="vh">{f.m.title}</h4>
                       <div class="fx-teams" aria-hidden="true">
                         <div class="team">
-                          <span class={`code${f.codeA ? '' : ' code-tbd'}`}>{f.codeA ?? 'TBD'}</span>
+                          {f.flagA && <img class="team-flag" src={f.flagA} alt="" width="24" height="16" loading="lazy" />}
+                          {!f.flagA && <span class={`code${f.codeA ? '' : ' code-tbd'}`}>{f.codeA ?? 'TBD'}</span>}
                           <span class="tname">{f.nameA}</span>
                         </div>
                         <span class="vs">vs</span>
                         <div class="team">
-                          <span class={`code${f.codeB ? '' : ' code-tbd'}`}>{f.codeB ?? 'TBD'}</span>
+                          {f.flagB && <img class="team-flag" src={f.flagB} alt="" width="24" height="16" loading="lazy" />}
+                          {!f.flagB && <span class={`code${f.codeB ? '' : ' code-tbd'}`}>{f.codeB ?? 'TBD'}</span>}
                           <span class="tname">{f.nameB}</span>
                         </div>
                       </div>
@@ -681,6 +672,29 @@ const id = (name: string) => `${idPrefix}-${name}`;
   .cwc-legend dl > div { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0.5rem; }
   .cwc-legend dt { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-weight: 700; color: var(--c-navy); }
   .cwc-legend dd { margin: 0; }
+
+  /* Compact fixture list: reduce whitespace and keep teams/time aligned. */
+  .day { margin-top: 1rem; }
+  .day-title { background: #eaf6f1; border-left: 3px solid var(--c-coral); border-radius: 4px; padding: 0.45rem 0.75rem; color: var(--c-navy); font-size: 1rem; }
+  .fx-list { margin-top: 0.25rem; gap: 0; }
+  .fx { display: block; padding: 0.65rem 0.75rem; border: 0; border-bottom: 1px solid var(--c-line); border-radius: 0; background: transparent; }
+  .fx[data-india='1'] { border-left: 0; padding-left: 0.75rem; }
+  .fx-top { margin-bottom: 0.35rem; }
+  .fx-main { grid-template-columns: minmax(0, 1fr) minmax(10rem, 0.9fr); gap: 1rem; }
+  .fx-teams { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 0.65rem 1rem; max-width: none; }
+  .team { display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 0.45rem; text-align: left; }
+  .team-flag { display: block; width: 24px; height: 16px; object-fit: cover; border-radius: 2px; flex: none; box-shadow: 0 0 0 1px #00000012; }
+  .team .code { width: auto; height: auto; min-width: 0; padding: 0.15rem 0.35rem; border-radius: 4px; font-size: 0.7rem; }
+  .tname { font-size: 0.95rem; font-weight: 500; }
+  .vs { padding: 0 0.1rem; }
+  .fx-time { padding: 0; border: 0; min-width: 0; }
+  .fx-foot { padding-top: 0.5rem; margin-top: 0.5rem; }
+  .cwc-notes { margin-top: 1.25rem; }
+  @media (max-width: 639px) {
+    .fx-main { grid-template-columns: minmax(0, 1fr); gap: 0.6rem; }
+    .fx-time { flex-direction: row; align-items: center; justify-content: flex-start; text-align: left; }
+    .t-rows { flex-direction: row; align-items: baseline; }
+  }
 </style>
 
 <script>
