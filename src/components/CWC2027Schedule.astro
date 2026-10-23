@@ -715,6 +715,14 @@ const id = (name: string) => `${idPrefix}-${name}`;
     .team-flag { width: 20px; height: 14px; }
     .t-val { font-size: 0.82rem; }
   }
+
+  /* Make the timezone labels explicit and use the requested amber accent. */
+  .t-lbl { display: inline !important; color: var(--c-muted); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .t-row { display: flex; align-items: baseline; justify-content: center; gap: 0.4rem; }
+  .t-val { font-size: 0.9rem; font-weight: 700; color: var(--c-navy); }
+  .t-local .t-val { font-weight: 700; color: var(--c-navy); }
+  .fx-venue-inline { color: #c9820c !important; }
+  .fx-stream .k { color: #c9820c !important; font-weight: 700; }
 </style>
 
 <script>
