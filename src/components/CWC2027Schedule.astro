@@ -93,9 +93,9 @@ const STAGES: Record<string, { filter: string; card: string }> = {
 const stageFilterLabel = (s: string) => STAGES[s]?.filter ?? humanize(s);
 const stageCardLabel = (s: string) => STAGES[s]?.card ?? humanize(s);
 const TIME_STATUS_LABEL: Record<string, string> = {
-  confirmed: 'Time confirmed',
-  assumed: 'Time assumed',
-  tbc: 'Time TBC',
+  confirmed: '',
+  assumed: '',
+  tbc: '',
 };
 
 /* ---------- sorted fixtures (chronological: date, then start time, then id) ---------- */
@@ -303,12 +303,7 @@ const id = (name: string) => `${idPrefix}-${name}`;
     <noscript><p class="cwc-note">Filters need JavaScript. The full schedule is listed below.</p></noscript>
 
     <!-- Time label key -->
-    <p class="cwc-key">
-      <span class="chip chip-confirmed">Time confirmed</span>
-      <span class="chip chip-assumed">Time assumed</span>
-      <span class="chip chip-tbc">Time TBC</span>
-      <span class="cwc-key-text">Assumed times are expected slots, not confirmed.</span>
-    </p>
+
 
     <!-- Empty state -->
     <div class="cwc-empty" data-empty hidden>
@@ -340,11 +335,10 @@ const id = (name: string) => `${idPrefix}-${name}`;
                 data-search={f.search}
               >
                 <div class="fx-top">
-                  <p class="fx-id">
+                  <div class="fx-id">
                     <span>Fixture {f.m.id}</span>
-                    {f.statusLabel && <span aria-hidden="true"> · </span>}
-                    {f.statusLabel && <span>{f.statusLabel}</span>}
-                  </p>
+                    <span class="fx-venue-inline">{f.stadium ? `${f.stadium}, ` : ''}{f.place ?? 'Venue to be confirmed'}</span>
+                  </div>
                   <ul class="chips">
                     {f.m.involves_india && <li class="chip chip-india">India</li>}
                     <li class="chip chip-stage">{stageCardLabel(f.m.stage)}</li>
@@ -388,25 +382,16 @@ const id = (name: string) => `${idPrefix}-${name}`;
                         )}
                       </div>
                     )}
-                    <span class={`chip chip-${f.timeState}`}>{TIME_STATUS_LABEL[f.timeState]}</span>
                   </div>
                 </div>
 
-                <div class="fx-foot">
-                  <p class="fx-venue">
-                    <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true" focusable="false">
-                      <path fill="currentColor" d="M10 1.5a6 6 0 0 0-6 6c0 4.2 5.2 10.4 5.4 10.6a.8.8 0 0 0 1.2 0C10.8 17.9 16 11.7 16 7.5a6 6 0 0 0-6-6Zm0 8.2a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4Z" />
-                    </svg>
-                    <span>{f.place ? `${f.stadium ? `${f.stadium}, ` : ''}${f.place}` : 'Venue to be confirmed'}</span>
-                  </p>
-                  {(f.digital || f.tv) && (
-                    <div class="fx-stream">
-                      <p class="fx-stream-title">Broadcast{f.region ? ` · ${f.region}` : ''}</p>
-                      {f.digital && <p><span class="k">Stream</span>{f.digital}</p>}
-                      {f.tv && <p><span class="k">TV</span>{f.tv}</p>}
-                    </div>
-                  )}
-                </div>
+                {(f.digital || f.tv) && (
+                  <div class="fx-stream fx-broadcast">
+                    <p class="fx-stream-title">Broadcast{f.region ? ` · ${f.region}` : ''}</p>
+                    {f.digital && <p><span class="k">Stream</span>{f.digital}</p>}
+                    {f.tv && <p><span class="k">TV</span>{f.tv}</p>}
+                  </div>
+                )}
 
                 {f.result && <p class="fx-result">{f.result}</p>}
               </li>
@@ -694,6 +679,41 @@ const id = (name: string) => `${idPrefix}-${name}`;
     .fx-main { grid-template-columns: minmax(0, 1fr); gap: 0.6rem; }
     .fx-time { flex-direction: row; align-items: center; justify-content: flex-start; text-align: left; }
     .t-rows { flex-direction: row; align-items: baseline; }
+  }
+
+  /* Card alignment: teams left, broadcast centered, match times centered in right column. */
+  .fx { position: relative; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(9rem, 0.9fr) minmax(8.5rem, 0.65fr); align-items: center; column-gap: 1rem; row-gap: 0.35rem; padding: 0.7rem 0.75rem; }
+  .fx[data-india='1'] { background: #f0faf5; border-left: 3px solid #b9e8d2; padding-left: 0.6rem; }
+  .fx-top { grid-column: 1 / -1; margin-bottom: 0.1rem; }
+  .fx-id { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.7rem; }
+  .fx-venue-inline { color: var(--c-muted); font-family: var(--font-body, 'Inter', sans-serif); font-size: 0.8rem; letter-spacing: 0; text-transform: none; }
+  .fx-main { display: contents; }
+  .fx-teams { grid-column: 1; grid-row: 2; }
+  .fx-solo-wrap { grid-column: 1; grid-row: 2; min-width: 0; }
+  .fx-time { grid-column: 3; grid-row: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-width: 0; padding: 0; border: 0; gap: 0.15rem; }
+  .t-rows { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; }
+  .t-row { justify-content: center; gap: 0.35rem; }
+  .t-lbl { display: none; }
+  .t-val { font-size: 0.9rem; }
+  .t-local .t-val { font-weight: 700; color: var(--c-navy); }
+  .fx-broadcast { grid-column: 2; grid-row: 2; align-self: center; justify-self: center; text-align: left; min-width: 0; }
+  .fx-stream-title { margin-bottom: 0.2rem !important; }
+  .fx-stream .k { min-width: 3rem; }
+  .fx-foot { display: none; }
+  .fx-time .chip { display: none; }
+  @media (max-width: 720px) {
+    .fx { grid-template-columns: minmax(0, 1fr) minmax(7rem, auto); column-gap: 0.75rem; }
+    .fx-teams, .fx-solo-wrap { grid-column: 1; grid-row: 2; }
+    .fx-time { grid-column: 2; grid-row: 2; }
+    .fx-broadcast { grid-column: 1 / -1; grid-row: 3; justify-self: start; margin-top: 0.25rem; }
+  }
+  @media (max-width: 420px) {
+    .fx { padding: 0.65rem 0.5rem; }
+    .fx-venue-inline { flex-basis: 100%; }
+    .fx-teams { gap: 0.5rem; }
+    .team { gap: 0.3rem; }
+    .team-flag { width: 20px; height: 14px; }
+    .t-val { font-size: 0.82rem; }
   }
 </style>
 
