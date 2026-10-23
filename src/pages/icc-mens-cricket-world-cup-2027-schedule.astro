@@ -32,8 +32,35 @@ const jsonLd = {
 <Layout
   title="ICC Men's Cricket World Cup 2027 Schedule"
   description="Browse the ICC Men's Cricket World Cup 2027 fixtures by date, team, group, stage, venue and time. Check India match timings and fixture updates."
-  keywords={["ICC Men's Cricket World Cup 2027 schedule", "CWC 2027 fixtures", "Cricket World Cup 2027 India matches", "World Cup 2027 match dates"]}
+  keywords={["odi worldcup 2027", "2027 odi worldcup", "worldcup odi 2027", "worldcup 2027 odi", "next odi worldcup", "odi worldcup 2027 format", "2027 odi worldcup venue", "2027 odi worldcup schedule", "icc odi worldcup 2027", "odi worldcup 2027 schedule"]}
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <CWC2027Schedule />
+
+  <section class="schedule-seo" aria-labelledby="schedule-guide-title">
+    <div class="schedule-seo-inner">
+      <h2 id="schedule-guide-title">ICC Men's Cricket World Cup 2027: Schedule, Format and Venues</h2>
+      <p class="schedule-seo-intro">Looking for the ODI World Cup 2027 schedule? Use the fixtures above to explore matches by date, team, group, stage and venue, and check the listed timings before planning which games to follow.</p>
+      <details class="schedule-seo-more">
+        <summary>Read more</summary>
+        <div class="schedule-seo-body">
+          <p>The ICC ODI World Cup 2027 will bring together leading international teams for cricket's major 50-over tournament. This page is designed as a practical guide to the 2027 ODI World Cup schedule, helping fans find fixtures without searching through separate lists. Use the filters to narrow the schedule to a particular team, match date, group, tournament stage or host city.</p>
+          <p>The ODI World Cup 2027 format determines how teams progress from the opening stage into the later rounds. As the tournament approaches and official details are confirmed, check this page for the latest available fixture information and any updates to match dates, venues or start times. Matchups shown as to be confirmed should be treated as provisional rather than as a confirmed pairing.</p>
+          <p>Venue information helps fans understand where each game is scheduled to take place. The 2027 ODI World Cup venue listings on this page are attached to individual fixtures where details are available. Local start times and Indian Standard Time (IST) are shown when supplied in the schedule data; a time that has not been confirmed may change. Broadcast and streaming information can also vary by region, so check your local broadcaster before match day.</p>
+          <p>If you are searching for the next ODI World Cup, bookmark this ICC ODI World Cup 2027 schedule and revisit it for fixture updates. Search by team to follow a particular side, use the date filter to plan your viewing, or select a stage to focus on the relevant part of the competition. CricBreakdown will keep this schedule page focused on fixtures, format and venues rather than rankings, making it easier to find the ODI World Cup 2027 match information you need.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <style>
+    .schedule-seo { padding: 0 1.25rem 3rem; color: #1a1a2e; }
+    .schedule-seo-inner { max-width: 46rem; margin: 0 auto; }
+    .schedule-seo h2 { margin: 0 0 .75rem; font-size: clamp(1.35rem, 3vw, 1.8rem); line-height: 1.3; }
+    .schedule-seo-intro { margin: 0; color: #5b6b8c; line-height: 1.75; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+    .schedule-seo-more { margin-top: .65rem; }
+    .schedule-seo-more summary { cursor: pointer; display: inline-block; color: #c73652; font-weight: 700; }
+    .schedule-seo-body { padding-top: .5rem; line-height: 1.75; color: #39445a; }
+    .schedule-seo-body p { margin: .8rem 0; }
+  </style>
 </Layout>
