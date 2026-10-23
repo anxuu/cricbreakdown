@@ -38,7 +38,7 @@ const jsonLd = {
   <CWC2027Schedule />
 
   <section class="schedule-seo" aria-labelledby="schedule-guide-title">
-    <div class="schedule-seo-inner">
+    <div class="schedule-seo-inner max-w-6xl mx-auto px-5 md:px-8">
       <details class="schedule-seo-more">
         <summary>Read more</summary>
         <div class="schedule-seo-body">
@@ -53,13 +53,16 @@ const jsonLd = {
   </section>
 
   <style>
-    .schedule-seo { padding: 0 1.25rem 3rem; color: #1a1a2e; }
-    .schedule-seo-inner { max-width: 72rem; margin: 0 auto; }
+    .schedule-seo { padding: 0 0 3rem; color: #1a1a2e; }
+    .schedule-seo-inner { width: 100%; }
     .schedule-seo h2 { margin: 0 0 .75rem; font-size: clamp(1.35rem, 3vw, 1.8rem); line-height: 1.3; }
     .schedule-seo-intro { margin: 0; color: #5b6b8c; line-height: 1.75; }
     .schedule-seo-more { margin-top: 0; }
     .schedule-seo-more summary { cursor: pointer; display: inline-block; color: #c73652; font-weight: 700; }
-    .schedule-seo-body { padding-top: .5rem; line-height: 1.75; color: #39445a; max-width: 46rem; }
+    .schedule-seo-more summary::-webkit-details-marker { display: none; }
+    .schedule-seo-body { padding-top: .5rem; line-height: 1.75; color: #39445a; max-width: none; }
     .schedule-seo-body p { margin: .8rem 0; }
+    .schedule-seo-body p:first-child { margin-top: 0; }
+    .schedule-seo-more:not([open]) .schedule-seo-body { display: none; }
   </style>
 </Layout>
