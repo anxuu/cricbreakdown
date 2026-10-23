@@ -22,62 +22,74 @@
     {
       "name": "India",
       "code": "IND",
-      "group": "A"
+      "group": "A",
+      "flag_url": "https://flagcdn.com/w40/in.png"
     },
     {
       "name": "Australia",
       "code": "AUS",
-      "group": "A"
+      "group": "A",
+      "flag_url": "https://flagcdn.com/w40/au.png"
     },
     {
       "name": "Pakistan",
       "code": "PAK",
-      "group": "A"
+      "group": "A",
+      "flag_url": "https://flagcdn.com/w40/pk.png"
     },
     {
       "name": "Afghanistan",
       "code": "AFG",
-      "group": "A"
+      "group": "A",
+      "flag_url": "https://flagcdn.com/w40/af.png"
     },
     {
       "name": "England",
       "code": "ENG",
-      "group": "B"
+      "group": "B",
+      "flag_url": "https://flagcdn.com/w40/gb-eng.png"
     },
     {
       "name": "Bangladesh",
       "code": "BAN",
-      "group": "B"
+      "group": "B",
+      "flag_url": "https://flagcdn.com/w40/bd.png"
     },
     {
       "name": "Zimbabwe",
       "code": "ZIM",
-      "group": "A"
+      "group": "A",
+      "flag_url": "https://flagcdn.com/w40/zw.png"
     },
     {
       "name": "South Africa",
       "code": "RSA",
-      "group": "B"
+      "group": "B",
+      "flag_url": "https://flagcdn.com/w40/za.png"
     },
     {
       "name": "New Zealand",
       "code": "NZ",
-      "group": "B"
+      "group": "B",
+      "flag_url": "https://flagcdn.com/w40/nz.png"
     },
     {
       "name": "Sri Lanka",
       "code": "SL",
-      "group": "B"
+      "group": "B",
+      "flag_url": "https://flagcdn.com/w40/lk.png"
     },
     {
       "name": "Qualifier A",
       "code": null,
-      "group": "A"
+      "group": "A",
+      "flag_url": null
     },
     {
       "name": "Qualifier B",
       "code": null,
-      "group": "B"
+      "group": "B",
+      "flag_url": null
     }
   ],
   "venues": [
@@ -197,7 +209,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 2,
@@ -229,7 +243,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 3,
@@ -261,7 +277,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 4,
@@ -296,7 +314,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "confirmed",
-      "start_utc": "2027-10-07T08:00:00Z"
+      "start_utc": "2027-10-07T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/in.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/au.png"
     },
     {
       "id": 5,
@@ -331,7 +351,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-08T08:00:00Z"
+      "start_utc": "2027-10-08T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/pk.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/af.png"
     },
     {
       "id": 6,
@@ -366,7 +388,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-08T10:30:00Z"
+      "start_utc": "2027-10-08T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/gb-eng.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/bd.png"
     },
     {
       "id": 7,
@@ -400,7 +424,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-09T08:00:00Z"
+      "start_utc": "2027-10-09T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/zw.png",
+      "team_b_flag_url": null
     },
     {
       "id": 8,
@@ -435,7 +461,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "confirmed",
-      "start_utc": "2027-10-09T10:30:00Z"
+      "start_utc": "2027-10-09T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/za.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/nz.png"
     },
     {
       "id": 9,
@@ -470,7 +498,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "confirmed",
-      "start_utc": "2027-10-10T08:00:00Z"
+      "start_utc": "2027-10-10T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/in.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/pk.png"
     },
     {
       "id": 10,
@@ -504,7 +534,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-10T10:30:00Z"
+      "start_utc": "2027-10-10T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/lk.png",
+      "team_b_flag_url": null
     },
     {
       "id": 11,
@@ -539,7 +571,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-11T08:00:00Z"
+      "start_utc": "2027-10-11T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/zw.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/af.png"
     },
     {
       "id": 12,
@@ -573,7 +607,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-12T08:00:00Z"
+      "start_utc": "2027-10-12T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/au.png",
+      "team_b_flag_url": null
     },
     {
       "id": 13,
@@ -608,7 +644,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-12T10:30:00Z"
+      "start_utc": "2027-10-12T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/nz.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/bd.png"
     },
     {
       "id": 14,
@@ -643,7 +681,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-13T08:00:00Z"
+      "start_utc": "2027-10-13T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/gb-eng.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/lk.png"
     },
     {
       "id": 15,
@@ -677,7 +717,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-13T10:30:00Z"
+      "start_utc": "2027-10-13T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/za.png",
+      "team_b_flag_url": null
     },
     {
       "id": 16,
@@ -712,7 +754,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-14T08:00:00Z"
+      "start_utc": "2027-10-14T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/in.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/af.png"
     },
     {
       "id": 17,
@@ -746,7 +790,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-15T08:00:00Z"
+      "start_utc": "2027-10-15T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/pk.png",
+      "team_b_flag_url": null
     },
     {
       "id": 18,
@@ -781,7 +827,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-15T10:30:00Z"
+      "start_utc": "2027-10-15T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/zw.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/au.png"
     },
     {
       "id": 19,
@@ -816,7 +864,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-16T08:00:00Z"
+      "start_utc": "2027-10-16T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/lk.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/bd.png"
     },
     {
       "id": 20,
@@ -851,7 +901,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-16T10:30:00Z"
+      "start_utc": "2027-10-16T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/za.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/gb-eng.png"
     },
     {
       "id": 21,
@@ -885,7 +937,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-17T08:00:00Z"
+      "start_utc": "2027-10-17T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/in.png",
+      "team_b_flag_url": null
     },
     {
       "id": 22,
@@ -919,7 +973,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-17T10:30:00Z"
+      "start_utc": "2027-10-17T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/nz.png",
+      "team_b_flag_url": null
     },
     {
       "id": 23,
@@ -954,7 +1010,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-18T08:00:00Z"
+      "start_utc": "2027-10-18T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/au.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/af.png"
     },
     {
       "id": 24,
@@ -989,7 +1047,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-19T08:00:00Z"
+      "start_utc": "2027-10-19T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/zw.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/pk.png"
     },
     {
       "id": 25,
@@ -1024,7 +1084,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-19T10:30:00Z"
+      "start_utc": "2027-10-19T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/za.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/bd.png"
     },
     {
       "id": 26,
@@ -1059,7 +1121,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-20T08:00:00Z"
+      "start_utc": "2027-10-20T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/nz.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/lk.png"
     },
     {
       "id": 27,
@@ -1093,7 +1157,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-20T10:30:00Z"
+      "start_utc": "2027-10-20T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/gb-eng.png",
+      "team_b_flag_url": null
     },
     {
       "id": 28,
@@ -1127,7 +1193,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-21T08:00:00Z"
+      "start_utc": "2027-10-21T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/af.png",
+      "team_b_flag_url": null
     },
     {
       "id": 29,
@@ -1162,7 +1230,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-22T08:00:00Z"
+      "start_utc": "2027-10-22T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/au.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/pk.png"
     },
     {
       "id": 30,
@@ -1197,7 +1267,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "assumed",
-      "start_utc": "2027-10-22T10:30:00Z"
+      "start_utc": "2027-10-22T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/za.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/lk.png"
     },
     {
       "id": 31,
@@ -1232,7 +1304,9 @@
       "result": null,
       "time_slot": "secondary",
       "time_status": "confirmed",
-      "start_utc": "2027-10-23T10:30:00Z"
+      "start_utc": "2027-10-23T10:30:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/gb-eng.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/nz.png"
     },
     {
       "id": 32,
@@ -1266,7 +1340,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-23T08:00:00Z"
+      "start_utc": "2027-10-23T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/bd.png",
+      "team_b_flag_url": null
     },
     {
       "id": 33,
@@ -1301,7 +1377,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-24T08:00:00Z"
+      "start_utc": "2027-10-24T08:00:00Z",
+      "team_a_flag_url": "https://flagcdn.com/w40/zw.png",
+      "team_b_flag_url": "https://flagcdn.com/w40/in.png"
     },
     {
       "id": 34,
@@ -1333,7 +1411,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-25T08:00:00Z"
+      "start_utc": "2027-10-25T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 35,
@@ -1365,7 +1445,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-26T08:00:00Z"
+      "start_utc": "2027-10-26T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 36,
@@ -1397,7 +1479,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-27T08:00:00Z"
+      "start_utc": "2027-10-27T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 37,
@@ -1429,7 +1513,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-28T08:00:00Z"
+      "start_utc": "2027-10-28T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 38,
@@ -1461,7 +1547,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-29T08:00:00Z"
+      "start_utc": "2027-10-29T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 39,
@@ -1493,7 +1581,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-30T08:00:00Z"
+      "start_utc": "2027-10-30T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 40,
@@ -1525,7 +1615,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-10-31T08:00:00Z"
+      "start_utc": "2027-10-31T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 41,
@@ -1557,7 +1649,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-01T08:00:00Z"
+      "start_utc": "2027-11-01T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 42,
@@ -1589,7 +1683,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-02T08:00:00Z"
+      "start_utc": "2027-11-02T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 43,
@@ -1621,7 +1717,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-03T08:00:00Z"
+      "start_utc": "2027-11-03T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 44,
@@ -1653,7 +1751,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-04T08:00:00Z"
+      "start_utc": "2027-11-04T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 45,
@@ -1685,7 +1785,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-05T08:00:00Z"
+      "start_utc": "2027-11-05T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 46,
@@ -1717,7 +1819,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-06T08:00:00Z"
+      "start_utc": "2027-11-06T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 47,
@@ -1749,7 +1853,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-07T08:00:00Z"
+      "start_utc": "2027-11-07T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 48,
@@ -1781,7 +1887,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-08T08:00:00Z"
+      "start_utc": "2027-11-08T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 49,
@@ -1813,7 +1921,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-09T08:00:00Z"
+      "start_utc": "2027-11-09T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 50,
@@ -1845,7 +1955,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-10T08:00:00Z"
+      "start_utc": "2027-11-10T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 51,
@@ -1877,7 +1989,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-11T08:00:00Z"
+      "start_utc": "2027-11-11T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 52,
@@ -1909,7 +2023,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-12T08:00:00Z"
+      "start_utc": "2027-11-12T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 53,
@@ -1941,7 +2057,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-13T08:00:00Z"
+      "start_utc": "2027-11-13T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 54,
@@ -1973,7 +2091,9 @@
       "result": null,
       "time_slot": "primary",
       "time_status": "assumed",
-      "start_utc": "2027-11-14T08:00:00Z"
+      "start_utc": "2027-11-14T08:00:00Z",
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 55,
@@ -2005,7 +2125,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 56,
@@ -2037,7 +2159,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     },
     {
       "id": 57,
@@ -2069,7 +2193,9 @@
       "result": null,
       "time_slot": null,
       "time_status": "tbc",
-      "start_utc": null
+      "start_utc": null,
+      "team_a_flag_url": null,
+      "team_b_flag_url": null
     }
   ]
 }
