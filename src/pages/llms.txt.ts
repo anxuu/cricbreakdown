@@ -33,7 +33,7 @@ export async function GET() {
     '',
     'CricBreakdown publishes independent cricket analysis and is not affiliated with the BCCI, ICC, or any cricket franchise.',
     ''
-  ].join('\\n');
+  ].join('\n');
 
   return new Response(content, {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' }
