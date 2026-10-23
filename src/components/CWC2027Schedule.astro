@@ -743,9 +743,10 @@ const id = (name: string) => `${idPrefix}-${name}`;
   }
   .t-rows { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; }
   .t-row { display: flex; justify-content: center; align-items: baseline; gap: 0.4rem; }
-  .t-lbl { display: inline !important; color: var(--c-muted); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
-  .t-val { color: var(--c-navy); font-size: 0.9rem; font-weight: 700; white-space: nowrap; }
-  .fx-broadcast { grid-column: 2; grid-row: 2; justify-self: center; align-self: center; text-align: left; min-width: 0; }
+  .t-lbl { display: inline !important; color: #c9820c !important; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .t-val { color: #c9820c !important; font-size: 0.9rem; font-weight: 700; white-space: nowrap; }
+  .fx-broadcast { grid-column: 3; grid-row: 2; justify-self: end; align-self: center; text-align: left; min-width: 0; }
+  .fx-stream-title, .fx-stream .k, .fx-stream p:not(.fx-stream-title) { color: #c9820c !important; font-weight: 700; }
   .fx-venue-inline { color: #c9820c !important; }
   .fx-stream .k { color: #c9820c !important; font-weight: 700; }
   .fx-time .chip { display: none !important; }
