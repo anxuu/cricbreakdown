@@ -1,14 +1,18 @@
 import { getCollection } from 'astro:content';
 
+export const prerender = true;
+
 export async function GET() {
   const siteUrl = 'https://www.cricbreakdown.com';
   const articles = (await getCollection('articles')).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 
-  const articleLines = articles.map((article) =>
-    `- ${siteUrl}/articles/${article.id} — ${article.data.title}. ${article.data.description}`
-  );
+  const articleLines = articles.map((article) => {
+    const slug = article.slug || article.id;
+    const url = new URL(`/articles/${slug}`, siteUrl).href;
+    return `- ${url} — ${article.data.title}. ${article.data.description}`;
+  });
 
   const content = [
     '# CricBreakdown',
@@ -18,7 +22,7 @@ export async function GET() {
     '## Key Pages',
     '',
     `- ${siteUrl}/articles — All published cricket analysis articles.`,
-    `- ${siteUrl}/icc-mens-cricket-world-cup-2027-schedule — Interactive ICC Men\'s Cricket World Cup 2027 schedule and fixtures.`,
+    `- ${siteUrl}/icc-mens-cricket-world-cup-2027-schedule — Interactive ICC Men's Cricket World Cup 2027 schedule and fixtures.`,
     `- ${siteUrl}/category/ipl — IPL analysis, auction strategy, player trades and team breakdowns.`,
     `- ${siteUrl}/category/international — International cricket analysis.`,
     `- ${siteUrl}/category/history — Cricket history and retrospectives.`,
@@ -36,6 +40,9 @@ export async function GET() {
   ].join('\n');
 
   return new Response(content, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+      'Cache-Control': 'public, max-age=0, must-revalidate'
+    }
   });
 }
