@@ -11,6 +11,8 @@ featured: false
 metaTitle: "IPL 2027 Released Players: 13 Shock Names Leaked! 😱"
 metaDescription: "Who will be released before the IPL 2027 auction? We break down 13 leaked names across SRH, RCB, KKR, PBKS, DC and GT, with prices and purse impact."
 categoryLabel: "IPL"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1793011614/cricbreakdown/covers/ij9ziooobpih5gacejbz.png"
+coverAlt: "IPL 2027 released players: reported names across six teams"
 faq:
   - question: "What are the LSG possible releases for IPL 2027?"
     answer: "LSG didn’t feature in the reports we covered, so no specific LSG names have leaked yet. The six teams with reported release names are SRH, RCB, KKR, PBKS, DC, and GT. We’ll update this post when reliable information on LSG comes in."
