@@ -87,7 +87,23 @@ Pakistan beat Australia 2-1 in a three-match ODI series at home in May and June 
 
 **The ODI tri-series:**
 
-Pakistan are now hosting an ODI tri-series with Sri Lanka and England in Rawalpindi, and they are doing well. They beat Sri Lanka by 37 runs on 18 October, with Salman Agha scoring a hundred. They then beat England by 87 runs on 20 October, with Minhas taking 6/40 and scoring 59. With two wins from two, the confidence of the Men in Green should be high.
+After a difficult phase, Pakistan looked to be putting together a dream run. Hosting an ODI tri-series against Sri Lanka and England in Rawalpindi, the Men in Green started strongly. They beat Sri Lanka by 37 runs on 18 October, with Salman Agha scoring a century, before defeating England by 87 runs on 20 October. Arafat Minhas starred with both bat and ball, taking 6/40 and scoring 59.
+
+But it was the third ODI against England that gave fans a moment they would never forget.
+
+When Razaullah fell in the 34th over, Pakistan needed another 88 runs to win with just one wicket remaining. Some fans had already started leaving the ground, and, let's be honest, most of us thought an England victory was all but certain.
+
+But one man refused to give up.
+
+**Shadab Khan!**
+
+Coming in at No. 8, Shadab broke Pakistan's boundary drought, which had lasted 15.4 overs, and launched an extraordinary fightback with Haris Rauf as his partner. What followed was one of those unbelievable ODI finishes that reminds us why we love cricket. Against all odds, Pakistan found hope when the match seemed all but lost.
+
+**And then came the reality check.**
+
+After all that excitement, Pakistan's final ODI against Sri Lanka ended in disappointment, with the team bowled out for just 110. What happened there? How could a side that looked so confident and dominant suddenly collapse so badly?
+
+That is the biggest concern for Pakistan. Brilliant individual performances and memorable victories are great, but they need to turn those moments into consistent results. With major World Cups on the horizon, the Men in Green cannot afford to keep swinging between extraordinary highs and disappointing lows. The talent is clearly there; the real challenge is to deliver consistently when it matters most.
 
 **The England series:**
 
