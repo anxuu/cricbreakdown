@@ -11,7 +11,7 @@ tags:
 author: "Ansar"
 authorSlug: "ansar"
 pubDate: 2026-10-17
-updatedDate: 2026-10-18
+updatedDate: 2026-10-29
 featured: false
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1792581531/cricbreakdown/covers/ttyiojkzigtxoivxj5dk.png"
 coverAlt: "India ODI squad for the New Zealand tour 2026"
@@ -31,13 +31,19 @@ faq:
     answer: "The series runs from 4 to 15 November 2026, with matches in Auckland, Wellington, Hamilton and Mount Maunganui. All matches are scheduled for 7:30 AM IST."
 ---
 
+<div style="border-left:4px solid #dc2626;background:#fff1f2;padding:14px 16px;margin:18px 0;border-radius:6px;">
+<p style="color:#b91c1c;font-weight:800;margin:0 0 8px;">LATEST UPDATE — 29 OCTOBER 2026</p>
+<p style="margin:0 0 8px;"><strong>🔴 Prasidh Krishna ruled out:</strong> Prasidh is set to miss India's ODI series against New Zealand as he continues recovering from a hamstring injury. Auqib Nabi is being considered as a possible replacement, but an official replacement announcement has not yet been confirmed in the reports available.</p>
+<p style="margin:0;">Virat Kohli has left Mumbai for Auckland, while Rohit Sharma has already arrived in New Zealand.</p>
+</div>
+
 India's ODI squads for the New Zealand tour in 2026 have been announced in two groups: one for the first three matches and another for the fourth and fifth ODIs. Shubman Gill leads the opening group, while Shreyas Iyer captains the final two matches.
 
 The selection has raised questions ahead of the 2027 ODI World Cup. New Zealand are a strong ODI side who have consistently performed well in ICC tournaments, and India cannot afford to take this series lightly. The tour is an opportunity to build a reliable combination rather than treat ODI preparation as a secondary priority.
 
 ## India’s ODI Squads for New Zealand
 
-For the **first three ODIs**, Shubman Gill will captain India, with Shreyas Iyer as vice-captain. The squad features Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav. Prasidh Krishna's selection is subject to fitness clearance.
+For the **first three ODIs**, Shubman Gill will captain India, with Shreyas Iyer as vice-captain. The squad features Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, **<span style="color:#dc2626;">Prasidh Krishna — 🔴 INJURED / RULED OUT</span>** and Kuldeep Yadav. Prasidh Krishna was originally named subject to fitness clearance, but he is now **<span style="color:#dc2626;">🔴 INJURED — RULED OUT OF THE ODI SERIES</span>**.
 
 For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan Kishan as vice-captain and wicketkeeper. The squad features Rohit Sharma, Virat Kohli, Tilak Varma, Ishan Kishan, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
 
@@ -83,7 +89,7 @@ Jasprit Bumrah's absence makes India's bowling combination even more important. 
 
 Mohammed Siraj and Arshdeep Singh will be important options, but the team management must use them effectively, particularly in the death overs. Siraj needs clearly defined responsibilities, while Arshdeep's inclusion provides an opportunity to add variety and strengthen the pace attack.
 
-Gurnoor Brar continues to receive backing, with his height and ability to generate bounce potentially useful in New Zealand. However, he needs to convert that potential into consistent performances. Fitness and control are important concerns, and the selectors must evaluate him on results rather than potential alone. Prasidh Krishna and Anshul Kamboj will also need to make their opportunities count.
+Gurnoor Brar continues to receive backing, with his height and ability to generate bounce potentially useful in New Zealand. However, he needs to convert that potential into consistent performances. Fitness and control are important concerns, and the selectors must evaluate him on results rather than potential alone. **<span style="color:#dc2626;">Prasidh Krishna is ruled out of the ODI series with a hamstring injury</span>**, while Anshul Kamboj will need to make his opportunity count. Auqib Nabi is being discussed as a possible replacement for Prasidh, subject to an official announcement.
 
 The inclusion of Auqib Nabi and Yash Thakur for the final two ODIs gives India additional bowling options to assess. These opportunities should have a clear purpose, with the team identifying which bowlers can handle the new ball, control the middle overs and deliver at the death. India need dependable performers, not just more names in the squad.
 
