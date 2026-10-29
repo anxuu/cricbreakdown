@@ -22,6 +22,16 @@ Choosing a cricket bat is easier when you look beyond a handful of reviews. For 
 
 ## 1. SG RSD Spark Cricket Bat
 
+<div class="product-bat-gallery" role="region" aria-label="SG RSD Spark Cricket Bat image gallery" tabindex="0" style="display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:8px 2px 16px;margin:14px 0 24px;-webkit-overflow-scrolling:touch;">
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272921/cricbreakdown/product-bats/sg-rsd-spark-1.jpg" alt="SG RSD Spark bat front view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272928/cricbreakdown/product-bats/sg-rsd-spark-2.jpg" alt="SG RSD Spark bat power profile" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272935/cricbreakdown/product-bats/sg-rsd-spark-3.jpg" alt="SG RSD Spark bat grip and weight distribution" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272941/cricbreakdown/product-bats/sg-rsd-spark-4.jpg" alt="SG RSD Spark bat handle construction" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+</div>
+
+<small style="display:block;color:#6b7280;margin-top:-18px;margin-bottom:22px;">Swipe or scroll horizontally to view all four images.</small>
+
+
 **Suitable for:** Adult beginners and recreational players using a leather ball.
 
 ### Features
@@ -34,9 +44,19 @@ Choosing a cricket bat is easier when you look beyond a handful of reviews. For 
 
 The SG RSD Spark is a practical option for adult players who want a full-size bat for recreational cricket. Its listed weight is worth checking in person if you prefer a lighter pickup.
 
-You can [buy the SG RSD Spark from the official SG store](https://shop.teamsg.in/products/rsd-spark). Check the selected size, delivery estimate, and exchange policy before placing an order.
+You can <a href="https://shop.teamsg.in/products/rsd-spark" rel="nofollow noopener noreferrer" target="_blank">buy the SG RSD Spark from the official SG store</a>. Check the selected size, delivery estimate, and exchange policy before placing an order.
 
 ## 2. SG Phoenix Xtreme Cricket Bat
+
+<div class="product-bat-gallery" role="region" aria-label="SG Phoenix Xtreme Cricket Bat image gallery" tabindex="0" style="display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:8px 2px 16px;margin:14px 0 24px;-webkit-overflow-scrolling:touch;">
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272948/cricbreakdown/product-bats/sg-phoenix-xtreme-1.jpg" alt="SG Phoenix Xtreme bat front view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272954/cricbreakdown/product-bats/sg-phoenix-xtreme-2.jpg" alt="SG Phoenix Xtreme bat power profile" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272960/cricbreakdown/product-bats/sg-phoenix-xtreme-3.jpg" alt="SG Phoenix Xtreme bat grip and weight distribution" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272966/cricbreakdown/product-bats/sg-phoenix-xtreme-4.jpg" alt="SG Phoenix Xtreme bat handle construction" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+</div>
+
+<small style="display:block;color:#6b7280;margin-top:-18px;margin-bottom:22px;">Swipe or scroll horizontally to view all four images.</small>
+
 
 **Suitable for:** Players aged 15 and above who play leather-ball cricket.
 
@@ -50,9 +70,19 @@ You can [buy the SG RSD Spark from the official SG store](https://shop.teamsg.in
 
 The Phoenix Xtreme is another full-size option for adult and older teen players. It is listed for leather-ball use, so confirm that the selected model and variant match your playing format.
 
-You can [view the SG Phoenix Xtreme on the official SG store](https://shop.teamsg.in/products/phoenix-xtreme). The displayed price and availability may vary by size or stock.
+You can <a href="https://shop.teamsg.in/products/phoenix-xtreme" rel="nofollow noopener noreferrer" target="_blank">view the SG Phoenix Xtreme on the official SG store</a>. The displayed price and availability may vary by size or stock.
 
 ## 3. JASPO Slog Cricket Bat
+
+<div class="product-bat-gallery" role="region" aria-label="JASPO Slog Cricket Bat image gallery" tabindex="0" style="display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:8px 2px 16px;margin:14px 0 24px;-webkit-overflow-scrolling:touch;">
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272996/cricbreakdown/product-bats/jaspo-carbonax-1.jpg" alt="JASPO Carbonax bat front view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272979/cricbreakdown/product-bats/jaspo-slog-2.jpg" alt="JASPO Slog bat reverse view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272984/cricbreakdown/product-bats/jaspo-slog-3.jpg" alt="JASPO Slog bat side profile" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272990/cricbreakdown/product-bats/jaspo-slog-4.jpg" alt="JASPO Slog bat alternate side view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+</div>
+
+<small style="display:block;color:#6b7280;margin-top:-18px;margin-bottom:22px;">Swipe or scroll horizontally to view all four images.</small>
+
 
 **Suitable for:** Tennis-ball and wind-ball cricket, casual games and beginners.
 
@@ -66,9 +96,19 @@ You can [view the SG Phoenix Xtreme on the official SG store](https://shop.teams
 
 The JASPO Slog is a budget-friendly option for street cricket, parks and casual games. The brand specifically says it is intended for tennis and wind balls, not leather or hard balls.
 
-You can [buy the JASPO Slog from the official JASPO store](https://jaspo.co.in/products/slog). Enter your PIN code on the product page to check delivery.
+You can <a href="https://jaspo.co.in/products/slog" rel="nofollow noopener noreferrer" target="_blank">buy the JASPO Slog from the official JASPO store</a>. Enter your PIN code on the product page to check delivery.
 
 ## 4. JASPO Carbonax Cricket Bat
+
+<div class="product-bat-gallery" role="region" aria-label="JASPO Carbonax Cricket Bat image gallery" tabindex="0" style="display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:8px 2px 16px;margin:14px 0 24px;-webkit-overflow-scrolling:touch;">
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793272996/cricbreakdown/product-bats/jaspo-carbonax-1.jpg" alt="JASPO Carbonax bat front view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793273003/cricbreakdown/product-bats/jaspo-carbonax-2.jpg" alt="JASPO Carbonax bat reverse view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793273009/cricbreakdown/product-bats/jaspo-carbonax-3.jpg" alt="JASPO Carbonax bat side profile" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+  <img src="https://res.cloudinary.com/g682uusu/image/upload/v1793273014/cricbreakdown/product-bats/jaspo-carbonax-4.jpg" alt="JASPO Carbonax bat alternate side view" loading="lazy" decoding="async" style="flex:0 0 min(78%, 340px);width:min(78%, 340px);height:340px;object-fit:contain;scroll-snap-align:start;border:1px solid #e5e7eb;border-radius:12px;background:#fff;padding:10px;" />
+</div>
+
+<small style="display:block;color:#6b7280;margin-top:-18px;margin-bottom:22px;">Swipe or scroll horizontally to view all four images.</small>
+
 
 **Suitable for:** Tennis-ball and wind-ball cricket, recreational play and beginners.
 
@@ -82,7 +122,7 @@ You can [buy the JASPO Slog from the official JASPO store](https://jaspo.co.in/p
 
 Carbonax is designed for easy handling during casual cricket. Like the Slog, it is intended for tennis and wind balls rather than leather or hard balls. The official product page does not provide a weight specification, so confirm this if weight is a deciding factor.
 
-You can [buy JASPO Carbonax directly from the official JASPO store](https://jaspo.co.in/products/carbonax). Check the delivery estimate and current availability before ordering.
+You can <a href="https://jaspo.co.in/products/carbonax" rel="nofollow noopener noreferrer" target="_blank">buy JASPO Carbonax directly from the official JASPO store</a>. Check the delivery estimate and current availability before ordering.
 
 ## How to choose the right cricket bat
 
