@@ -32,6 +32,8 @@ faq:
 
 This blog is your Pakistan ODI World Cup 2027 schedule guide. It covers all five Pakistan Group Stage matches with date, venue, and start time, plus the Super 7 fixtures if Pakistan qualify, and a look at how the Pakistan ODI team is shaping up.
 
+For the complete tournament overview, see the [ICC Men’s Cricket World Cup 2027 schedule](https://www.cricbreakdown.com/icc-mens-cricket-world-cup-2027-schedule) for the full list of fixtures, dates and venues.
+
 Let’s check each match in detail. Read the full preview for every Pakistan fixture in the table below.
 
 Pakistan are in Group A of the ICC Cricket World Cup 2027 and begin their campaign against Afghanistan at Centurion (Tshwane) on 8 October. They play five group games in all. A top-three finish in the group would send them into the Super 7 stage as the A3 seed.
