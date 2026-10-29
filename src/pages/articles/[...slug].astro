@@ -5,27 +5,15 @@ import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
-  return articles.map(article => ({
-    params: { slug: article.id },
-    props: { article },
-  }));
+  return articles.map(article => ({ params: { slug: article.id }, props: { article } }));
 }
-
 const { article } = Astro.props;
 const { Content } = await render(article);
-const allArticles = (await getCollection('articles')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const allArticles = (await getCollection('articles')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const recommendations = allArticles.filter(a => a.id !== article.id).slice(0, 3);
-
 const categoryLabels: Record<string, string> = {
-  ipl: 'IPL',
-  international: 'International',
-  stats: 'Stats',
-  history: 'Cricket Chronicles',
-  teams: 'Teams',
+  ipl: 'IPL', international: 'International', stats: 'Stats', history: 'Cricket Chronicles', teams: 'Teams', gear: 'Cricket Gear',
 };
-
 const siteUrl = 'https://www.cricbreakdown.com';
 const canonicalUrl = new URL(`/articles/${article.id}`, siteUrl).href;
 const authorUrl = `${siteUrl}/author/${article.data.authorSlug}`;
@@ -33,56 +21,29 @@ const formattedDate = article.data.pubDate.toLocaleDateString('en-US', { month: 
 const articleText = article.body ?? '';
 const readTime = Math.max(1, Math.ceil(articleText.split(/\s+/).filter(Boolean).length / 220));
 const faq = article.data.faq ?? [];
-
 const organizationId = `${siteUrl}/#organization`;
 const personId = `${authorUrl}#person`;
-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     { '@type': 'Organization', '@id': organizationId, name: 'CricBreakdown', url: siteUrl, logo: `${siteUrl}/images/logo.svg` },
     { '@type': 'Person', '@id': personId, name: article.data.author, url: authorUrl, worksFor: { '@id': organizationId } },
-    {
-      '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`, itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-        { '@type': 'ListItem', position: 2, name: categoryLabels[article.data.category] ?? article.data.category, item: `${siteUrl}/category/${article.data.category}` },
-        { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
-      ],
+    { '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`, itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: categoryLabels[article.data.category] ?? article.data.category, item: `${siteUrl}/category/${article.data.category}` },
+      { '@type': 'ListItem', position: 3, name: article.data.title, item: canonicalUrl },
+    ]},
+    { '@type': 'BlogPosting', '@id': `${canonicalUrl}#article`, headline: article.data.title, description: article.data.description, url: canonicalUrl, mainEntityOfPage: { '@id': canonicalUrl },
+      datePublished: article.data.pubDate.toISOString(), ...(article.data.updatedDate ? { dateModified: article.data.updatedDate.toISOString() } : {}),
+      author: { '@id': personId }, publisher: { '@id': organizationId }, articleSection: categoryLabels[article.data.category] ?? article.data.category,
+      keywords: article.data.tags, inLanguage: 'en', ...(article.data.cover ? { image: article.data.cover } : {}),
     },
-    {
-      '@type': 'BlogPosting', '@id': `${canonicalUrl}#article`, headline: article.data.title,
-      description: article.data.description, url: canonicalUrl, mainEntityOfPage: { '@id': canonicalUrl },
-      datePublished: article.data.pubDate.toISOString(),
-      ...(article.data.updatedDate ? { dateModified: article.data.updatedDate.toISOString() } : {}),
-      author: { '@id': personId }, publisher: { '@id': organizationId },
-      articleSection: categoryLabels[article.data.category] ?? article.data.category,
-      keywords: article.data.tags, inLanguage: 'en',
-      ...(article.data.cover ? { image: article.data.cover } : {}),
-    },
-    ...(faq.length > 0 ? [{
-      '@type': 'FAQPage', '@id': `${canonicalUrl}#faq`,
-      mainEntity: faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })),
-    }] : []),
+    ...(faq.length > 0 ? [{ '@type': 'FAQPage', '@id': `${canonicalUrl}#faq`, mainEntity: faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
   ],
 };
 ---
-<Layout
-  title={article.data.metaTitle ?? article.data.title}
-  description={article.data.metaDescription ?? article.data.description}
-  canonical={canonicalUrl}
-  type="article"
-  author={article.data.author}
-  authorUrl={authorUrl}
-  publishedTime={article.data.pubDate.toISOString()}
-  modifiedTime={article.data.updatedDate?.toISOString()}
-  category={categoryLabels[article.data.category] ?? article.data.category}
-  keywords={article.data.tags}
-  image={article.data.cover}
-  imageAlt={article.data.coverAlt}
-  readTime={readTime}
->
+<Layout title={article.data.metaTitle ?? article.data.title} description={article.data.metaDescription ?? article.data.description} canonical={canonicalUrl} type="article" author={article.data.author} authorUrl={authorUrl} publishedTime={article.data.pubDate.toISOString()} modifiedTime={article.data.updatedDate?.toISOString()} category={categoryLabels[article.data.category] ?? article.data.category} keywords={article.data.tags} image={article.data.cover} imageAlt={article.data.coverAlt} readTime={readTime}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-
   <article class="max-w-3xl mx-auto px-5 md:px-8 pt-10 pb-20" itemscope itemtype="https://schema.org/BlogPosting">
     <header>
       <nav aria-label="Breadcrumb" class="mb-5 text-xs text-ink/50">
@@ -102,45 +63,9 @@ const jsonLd = {
       <div class="seam mb-10" aria-hidden="true"></div>
       {article.data.cover && <ArticleCover src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} />}
     </header>
-
-    <div class="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-pitch prose-a:text-leather prose-strong:text-pitch" itemprop="articleBody">
-      <Content />
-    </div>
-
-    {faq.length > 0 && (
-      <section class="blog-faq" aria-labelledby="faq-heading">
-        <h2 id="faq-heading" class="blog-faq-title">FAQs</h2>
-        {faq.map(item => (
-          <details class="blog-faq-item">
-            <summary><span>{item.question}</span><span class="faq-arrow" aria-hidden="true">&#9662;</span></summary>
-            <p>{item.answer}</p>
-          </details>
-        ))}
-      </section>
-    )}
-
-    <footer class="mt-14 pt-8 border-t border-pitch-2/10">
-      <ul class="flex flex-wrap gap-2" aria-label="Article tags">
-        {article.data.tags.map(tag => <li><span class="text-xs text-ink/50 bg-pitch-2/5 px-3 py-1 rounded-full">{tag}</span></li>)}
-      </ul>
-    </footer>
+    <div class="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-pitch prose-a:text-leather prose-strong:text-pitch" itemprop="articleBody"><Content /></div>
+    {faq.length > 0 && <section class="blog-faq" aria-labelledby="faq-heading"><h2 id="faq-heading" class="blog-faq-title">FAQs</h2>{faq.map(item => <details class="blog-faq-item"><summary><span>{item.question}</span><span class="faq-arrow" aria-hidden="true">&#9662;</span></summary><p>{item.answer}</p></details>)}</section>}
+    <footer class="mt-14 pt-8 border-t border-pitch-2/10"><ul class="flex flex-wrap gap-2" aria-label="Article tags">{article.data.tags.map(tag => <li><span class="text-xs text-ink/50 bg-pitch-2/5 px-3 py-1 rounded-full">{tag}</span></li>)}</ul></footer>
   </article>
-
-  {recommendations.length > 0 && (
-    <section style="background:#F8F9FA;" class="border-t border-gray-200 py-12">
-      <div class="max-w-3xl mx-auto px-4 md:px-8">
-        <h2 class="font-display font-semibold text-xl text-[#1A1A2E] mb-6">You might also like</h2>
-        <div class="rec-carousel">
-          {recommendations.map(rec => (
-            <a href={`/articles/${rec.id}`} class="rec-card">
-              <span class={`stat-chip text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold mb-2 inline-block badge-${rec.data.category}`}>{categoryLabels[rec.data.category] ?? rec.data.category}</span>
-              <h3 class="font-display font-semibold text-[#1A1A2E] text-base leading-snug mt-1 mb-2">{rec.data.title}</h3>
-              <p class="text-xs text-gray-500 leading-relaxed">{rec.data.description}</p>
-              <span class="inline-block mt-3 text-xs font-semibold" style="color:#E94560;">Read →</span>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+  {recommendations.length > 0 && <section style="background:#F8F9FA;" class="border-t border-gray-200 py-12"><div class="max-w-3xl mx-auto px-4 md:px-8"><h2 class="font-display font-semibold text-xl text-[#1A1A2E] mb-6">You might also like</h2><div class="rec-carousel">{recommendations.map(rec => <a href={`/articles/${rec.id}`} class="rec-card"><span class={`stat-chip text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold mb-2 inline-block badge-${rec.data.category}`}>{categoryLabels[rec.data.category] ?? rec.data.category}</span><h3 class="font-display font-semibold text-[#1A1A2E] text-base leading-snug mt-1 mb-2">{rec.data.title}</h3><p class="text-xs text-gray-500 leading-relaxed">{rec.data.description}</p><span class="inline-block mt-3 text-xs font-semibold" style="color:#E94560;">Read →</span></a>)}</div></div></section>}
 </Layout>
