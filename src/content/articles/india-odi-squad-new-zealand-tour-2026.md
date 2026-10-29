@@ -50,7 +50,7 @@ For the **fourth and fifth ODIs**, Shreyas Iyer will captain India, with Ishan K
 ### Squad Lists at a Glance
 
 **First three ODIs**
-Shubman Gill (Captain), Shreyas Iyer (Vice-captain), Rohit Sharma, Virat Kohli, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, Prasidh Krishna and Kuldeep Yadav.
+Shubman Gill (Captain), Shreyas Iyer (Vice-captain), Rohit Sharma, Virat Kohli, KL Rahul, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Anshul Kamboj, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Ishan Kishan, Mohammed Siraj, **<span style="color:#dc2626;">Prasidh Krishna — 🔴 INJURED / RULED OUT</span>** and Kuldeep Yadav.
 
 **Fourth and fifth ODIs**
 Shreyas Iyer (Captain), Ishan Kishan (Vice-captain and wicketkeeper), Rohit Sharma, Virat Kohli, Tilak Varma, Nitish Kumar Reddy, Axar Patel, Naman Dhir, Auqib Nabi, Gurnoor Brar, Ruturaj Gaikwad, Arshdeep Singh, Kumar Kushagra, Mohammed Siraj, Yash Thakur and Kuldeep Yadav.
