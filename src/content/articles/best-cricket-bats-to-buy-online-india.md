@@ -14,6 +14,8 @@ featured: false
 metaTitle: "4 Cricket Bats with 200+ Reviews in India"
 metaDescription: "Explore four cricket bats with 4+ star ratings and over 200 marketplace ratings or reviews. Compare suitability, weight, size, prices and official brand websites."
 categoryLabel: "Cricket Gear"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/v1793338751/cricbreakdown/covers/vct5s0ium8s9s1zjwlu7.png"
+coverAlt: "Best cricket bats to buy online in India"
 ---
 
 Choosing a cricket bat is easier when you look beyond a handful of reviews. For this updated guide, we prioritised bats with a marketplace rating of at least 4 out of 5 and more than 200 customer ratings or reviews. Product ratings and counts can differ by size, seller and listing, so check the latest details before ordering.
