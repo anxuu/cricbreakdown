@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1478" height="656" viewBox="0 0 1478 656" role="img" aria-labelledby="title desc">
+<title id="title">South Africa vs Australia third Test, Newlands 2026</title>
+<desc id="desc">A dramatic illustrated Test cricket scene at Newlands, Cape Town, with mountain silhouettes, a South African batter, an Australian bowler and a red cricket ball.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b1a"/><stop offset=".55" stop-color="#0c3931"/><stop offset="1" stop-color="#122c2a"/></linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b66a" stop-opacity=".42"/><stop offset="1" stop-color="#d9b66a" stop-opacity="0"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d78a"/><stop offset="1" stop-color="#b78a39"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7eee5"/><stop offset=".55" stop-color="#d7e0d4"/><stop offset="1" stop-color="#94b09a"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1478" height="656" fill="url(#bg)"/>
+<circle cx="1120" cy="118" r="150" fill="url(#sun)"/>
+<path d="M0 255 145 143 252 213 382 86 514 197 660 78 799 188 940 94 1090 205 1218 114 1478 247V430H0Z" fill="#172f2d"/>
+<path d="M0 300 190 202 306 254 450 159 578 265 735 150 900 264 1055 172 1195 262 1336 180 1478 258V448H0Z" fill="#24413a"/>
+<path d="M0 368Q250 324 480 360T940 350T1478 342V656H0Z" fill="#0a211d"/>
+<path d="M0 440Q360 380 700 425T1478 412V656H0Z" fill="#163c2d"/>
+<path d="M0 545Q420 460 760 515T1478 500V656H0Z" fill="#23583a"/>
+<g opacity=".38" fill="#9db59b"><path d="M0 375h1478v7H0z"/><path d="M70 345h4v95h-4zM140 345h4v95h-4zM210 345h4v95h-4zM280 345h4v95h-4zM350 345h4v95h-4zM420 345h4v95h-4zM490 345h4v95h-4zM560 345h4v95h-4zM630 345h4v95h-4zM700 345h4v95h-4zM770 345h4v95h-4zM840 345h4v95h-4zM910 345h4v95h-4zM980 345h4v95h-4zM1050 345h4v95h-4zM1120 345h4v95h-4zM1190 345h4v95h-4zM1260 345h4v95h-4zM1330 345h4v95h-4zM1400 345h4v95h-4z"/></g>
+<g fill="#d5bd82" opacity=".7"><circle cx="98" cy="405" r="3"/><circle cx="125" cy="397" r="2"/><circle cx="185" cy="411" r="3"/><circle cx="244" cy="398" r="2"/><circle cx="320" cy="409" r="3"/><circle cx="402" cy="397" r="2"/><circle cx="488" cy="410" r="3"/><circle cx="572" cy="399" r="2"/><circle cx="648" cy="409" r="3"/><circle cx="734" cy="398" r="2"/><circle cx="818" cy="410" r="3"/><circle cx="904" cy="398" r="2"/><circle cx="988" cy="409" r="3"/><circle cx="1072" cy="398" r="2"/></g>
+<g transform="translate(970 240)">
+  <path d="M66 70q40 2 57 40l-10 76-68-4-12-68z" fill="#f0d27d"/>
+  <path d="M70 72 42 112l-35 57 18 12 54-45 29-36z" fill="#d8b25d"/>
+  <path d="M83 65q-7-34 22-43 27 4 25 34l-15 19-27 1z" fill="#d5c7a4"/>
+  <path d="M102 26q12-23 33-7l5 18-49 4z" fill="#b58a38"/>
+  <path d="M49 179 31 258l24 5 42-72 16-6z" fill="#e8e3d1"/>
+  <path d="M99 183 110 260l22-3 8-83z" fill="#eee8d9"/>
+  <path d="M30 257h32v10H26zM108 257h34v10h-37z" fill="#d5bd82"/>
+</g>
+<g transform="translate(670 185)">
+  <path d="M100 70q-15-42 20-65 44-15 65 25l-6 32-50 23z" fill="#0b251e"/>
+  <path d="M119 20q36-33 68 5l-7 22-65 1z" fill="#154b35"/>
+  <path d="M128 68q-51 5-69 64l-23 110 92 36 65-104-4-74q-18-35-61-32z" fill="url(#green)"/>
+  <path d="M67 105 20 187l18 17 73-65z" fill="#dbe4d8"/>
+  <path d="M162 105 210 171l-18 22-58-58z" fill="#dbe4d8"/>
+  <path d="M79 229 64 355l42 4 45-119z" fill="#dce5d9"/>
+  <path d="M151 229 183 347l-39 10-45-116z" fill="#c5d5c6"/>
+  <path d="M56 351h52v16H52zM139 350h49v16h-53z" fill="#182a22"/>
+  <path d="M198 145 265 235 243 251 171 170z" fill="#b88749"/>
+  <path d="M249 235 287 281" stroke="#d9b46d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M286 281 305 304" stroke="#d9b46d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M111 89q24 7 44-2" stroke="#9eb9a4" stroke-width="7" fill="none"/>
+</g>
+<g transform="translate(0 0)"><circle cx="932" cy="395" r="13" fill="#b9362c"/><path d="M923 386q10 8 18 18M928 383q-4 14 8 24" stroke="#f2b7a2" stroke-width="2" fill="none"/></g>
+<g opacity=".7" fill="#f1d78d"><path d="M1300 115h5v125h-5zM1290 125h25v5h-25z"/><path d="M1360 145h5v100h-5zM1350 155h25v5h-25z"/></g>
+<rect x="0" y="0" width="760" height="656" fill="#061b1a" opacity=".36"/>
+<text x="78" y="92" fill="#e7c77e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="5">CRICBREAKDOWN  /  TEST ANALYSIS</text>
+<text x="78" y="190" fill="#f4f1e8" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="800" letter-spacing="-1">SOUTH AFRICA</text>
+<text x="78" y="257" fill="#f4f1e8" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="800" letter-spacing="-1">VS AUSTRALIA</text>
+<rect x="80" y="292" width="8" height="68" rx="4" fill="url(#gold)"/>
+<text x="111" y="333" fill="#f2d48a" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700">3RD TEST  •  2026</text>
+<text x="80" y="402" fill="#d6e0d5" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="1">NEWLANDS, CAPE TOWN</text>
+<path d="M80 445H505" stroke="#a98a4e" stroke-width="2" opacity=".8"/>
+<text x="80" y="490" fill="#f4f1e8" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700">SOUTH AFRICA WON BY 176 RUNS</text>
+<text x="80" y="534" fill="#c6d5c9" font-family="Arial,Helvetica,sans-serif" font-size="20">SERIES VICTORY  •  2–1</text>
+<text x="80" y="610" fill="#9fb5a5" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="3">27–31 OCTOBER 2026</text>
+</svg>
