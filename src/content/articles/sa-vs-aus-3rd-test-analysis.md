@@ -68,6 +68,11 @@ South Africa's opening innings was built around contributions from Aiden Markram
 
 Ackerman's aggressive 95 was particularly important, with his scoring rate of 101.06 providing momentum. Markram offered stability, while Bedingham's half-century helped consolidate the innings.
 
+![David Bedingham batting during the South Africa vs Australia Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793471842/cricbreakdown/match-photos/sa-aus-3rd-test-david-bedingham.jpg)
+
+<small>Photo: David Bedingham during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_1-07.jpg).</small>
+
+
 However, South Africa lost their final four wickets for just one run, an important phase that prevented them from reaching a significantly higher total.
 
 **Australian bowling assessment:**
@@ -81,6 +86,11 @@ Australia responded strongly, taking a 100-run lead.
 Key contributions:
 
 - Matt Renshaw – 74 (139)
+
+![Matt Renshaw batting during the South Africa vs Australia Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793471860/cricbreakdown/match-photos/sa-aus-3rd-test-matt-renshaw.jpg)
+
+<small>Photo: Matt Renshaw during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_1-63.jpg).</small>
+
 - Cameron Green – 65 (110)
 - Josh Inglis – 102 (135)
 - Alex Carey – 80 (168)
@@ -112,10 +122,6 @@ Their centuries transformed a vulnerable position into a match-winning opportuni
 
 The innings lasted 134.4 overs, demonstrating the amount of time South Africa invested in reversing the momentum.
 
-![David Bedingham batting during the South Africa vs Australia Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793471842/cricbreakdown/match-photos/sa-aus-3rd-test-david-bedingham.jpg)
-
-<small>Photo: David Bedingham during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_1-07.jpg).</small>
-
 **Australian bowling assessment:**
 
 Pat Cummins took 2/71, while Mitchell Starc finished with 3/65. However, Australia struggled to break the Rickelton–Mulder resistance quickly enough.
@@ -140,10 +146,6 @@ Harmer finished with remarkable figures of 6/16, dismantling the Australian batt
 
 Australia were eventually dismissed for 111, giving South Africa a convincing victory.
 
-![Matt Renshaw batting during the South Africa vs Australia Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793471860/cricbreakdown/match-photos/sa-aus-3rd-test-matt-renshaw.jpg)
-
-<small>Photo: Matt Renshaw during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_1-63.jpg).</small>
-
 ## 3. KEY TURNING POINTS
 
 1. **Australia's first-innings lead**
@@ -157,6 +159,11 @@ Australia were eventually dismissed for 111, giving South Africa a convincing vi
 3. **Rabada's opening burst**
 
    Rabada's early breakthroughs on the final morning prevented Australia from establishing a partnership and immediately increased the pressure on the middle order.
+
+![Kagiso Rabada during the South Africa vs Australia third Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793472666/cricbreakdown/match-photos/sa-aus-3rd-test-kagiso-rabada.jpg)
+
+<small>Photo: Kagiso Rabada during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_2_-_Kagiso_Rabada.jpg).</small>
+
 
 4. **Harmer's six-wicket spell**
 
@@ -208,6 +215,11 @@ South Africa's 387 in the third innings was also particularly significant becaus
 
 Harmer's 6/16 was the standout individual bowling contribution. His spell turned South Africa's strong position into a decisive victory.
 
+![Simon Harmer during the South Africa vs Australia third Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793472661/cricbreakdown/match-photos/sa-aus-3rd-test-simon-harmer.jpg)
+
+<small>Photo: Simon Harmer during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_2_-_Simon_Harmer-1.jpg).</small>
+
+
 ### Wiaan Mulder – Crucial batting contribution
 
 Mulder's 115 was central to South Africa's recovery. His ability to remain at the crease for 221 deliveries helped establish a challenging target.
@@ -223,10 +235,6 @@ Inglis' 102 was a significant contribution in Australia's first innings and help
 ### Mitchell Starc – Australia's leading bowler
 
 Starc's 6/72 in the first innings demonstrated his wicket-taking ability, although Australia ultimately could not maintain that advantage.
-
-![Senuran Muthusamy during the South Africa vs Australia Test at Newlands](https://res.cloudinary.com/g682uusu/image/upload/v1793471888/cricbreakdown/match-photos/sa-aus-3rd-test-senuran-muthusamy.jpg)
-
-<small>Photo: Senuran Muthusamy during the Newlands Test. © EGilham, CC BY-SA 4.0. [Source and licence](https://commons.wikimedia.org/wiki/File:RSA_vs_AUS_Day_1_-_Senuran_Muthusamy.jpg).</small>
 
 ## 7. FINAL ANALYST ASSESSMENT
 
