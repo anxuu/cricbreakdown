@@ -11,6 +11,7 @@ tags:
   - "Simon Harmer 6/16"
   - "South Africa vs Australia"
 author: "S. Darshiel Bhat"
+authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-01
 updatedDate: 2026-11-01
 featured: false
