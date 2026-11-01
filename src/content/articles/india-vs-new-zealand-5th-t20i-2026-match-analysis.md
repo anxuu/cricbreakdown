@@ -166,7 +166,7 @@ The ability to maintain an attacking scoring rate without losing wickets regular
 <tr><td>Best bowling figures</td><td>Adam Milne – 4/19</td></tr>
 <tr><td>Best Indian bowling figures</td><td>Nitish Kumar Reddy – 1/19</td></tr>
 <tr><td>Biggest partnership for India</td><td>Ishan Kishan–Shreyas Iyer – 93</td></tr>
-<tr><td>Biggest partnership for New Zealand</td><td>Seifert–Mitchell – 73</td></tr>
+<tr><td>Biggest partnership for New Zealand</td><td>Seifert–Phillips – 86</td></tr>
 <tr><td>India powerplay</td><td>50/2</td></tr>
 <tr><td>New Zealand powerplay</td><td>59/1</td></tr>
 <tr><td>New Zealand's winning margin</td><td>7 wickets, 12 balls remaining</td></tr>
@@ -231,4 +231,4 @@ The most important difference between the two teams was their ability to maintai
 **Specialisation:** Cricket Match Analysis | Tactical Analysis | Statistical Analysis  
 **Report type:** Post-match analytical report
 
-**Source:** [Cricbuzz scorecard](https://www.cricbuzz.com/live-cricket-scorecard/india-vs-new-zealand-5th-t20i-2026)
+**Source:** [BCCI match centre](https://www.bcci.tv/matches/1a9b8029-81cd-493b-b66f-0adb2c9907b2/new-zealand-vs-india/match-details)
