@@ -60,7 +60,7 @@ The fifth T20I was a contest of contrasting momentum. India entered the match wi
 
 After winning the toss and electing to bowl, New Zealand made an immediate impact through Adam Milne. His four-wicket haul disrupted India's batting innings and restricted the visitors' scoring opportunities during crucial phases.
 
-India recovered from an early setback through Ishan Kishan and Shreyas Iyer. Their 93-run partnership gave India a platform for a competitive total of 191/8.\n\n![Ishan Kishan and Shreyas Iyer partnership during India vs New Zealand fifth T20I](/images/india-nz-5th-t20i-kishan-iyer-partnership.svg)\n\n<small>Illustrative match artwork: India’s 93-run partnership after the early wickets.</small>
+India recovered from an early setback through Ishan Kishan and Shreyas Iyer. Their 93-run partnership gave India a platform for a competitive total of 191/8.
 
 New Zealand's response was more aggressive. Tim Seifert's 93 and Glenn Phillips' unbeaten 65 guided the hosts to 195/3 in 18 overs. New Zealand completed the chase with two overs remaining, ending the series on a positive note even as India took the overall series 3–2.
 
@@ -93,7 +93,7 @@ However, both set batters were dismissed in quick succession. India moved from 1
 
 Naman Dhir and Nitish Kumar Reddy then added useful contributions. Their partnership helped India recover and push the total to 191/8, but New Zealand's bowlers prevented a late surge towards 200.
 
-**New Zealand bowling assessment:** Adam Milne was the standout bowler, finishing with 4/19 in four overs. Nathan Smith and Blair Tickner picked up two wickets each. Milne's early breakthroughs and ability to strike again later prevented India from building sustained momentum.\n\n![Adam Milne bowling during the fifth T20I](/images/india-nz-5th-t20i-adam-milne-bowling.svg)\n\n<small>Illustrative match artwork: Milne’s four-wicket spell disrupted India’s innings.</small>
+**New Zealand bowling assessment:** Adam Milne was the standout bowler, finishing with 4/19 in four overs. Nathan Smith and Blair Tickner picked up two wickets each. Milne's early breakthroughs and ability to strike again later prevented India from building sustained momentum.
 
 ### New Zealand – Second Innings: 195/3 (18 overs)
 
@@ -116,7 +116,7 @@ Seifert played an outstanding innings, scoring 93 at a strike rate of 186.00. Hi
 
 Varun Chakaravarthy dismissed Mitchell at 82/2, but India could not use that breakthrough to slow the chase. Glenn Phillips joined Seifert and continued the attacking approach. Their 86-run partnership from 42 deliveries effectively ended India's hopes of defending the total.
 
-Phillips remained unbeaten on 65 from 38 balls, striking eight fours and three sixes. Seifert was dismissed at 168/3, but New Zealand needed only 24 more runs. Phillips guided the hosts across the finish line in the 18th over.\n\n![Tim Seifert and Glenn Phillips batting during New Zealand's chase](/images/india-nz-5th-t20i-seifert-phillips-chase.svg)\n\n<small>Illustrative match artwork: Seifert and Phillips’ decisive 86-run partnership.</small>
+Phillips remained unbeaten on 65 from 38 balls, striking eight fours and three sixes. Seifert was dismissed at 168/3, but New Zealand needed only 24 more runs. Phillips guided the hosts across the finish line in the 18th over.
 
 **Indian bowling assessment:** Arshdeep Singh, Varun Chakaravarthy and Nitish Kumar Reddy took one wicket each. However, India's bowling attack struggled to contain the scoring rate. New Zealand scored at 10.83 runs per over, making the chase considerably more comfortable than India would have wanted.
 
