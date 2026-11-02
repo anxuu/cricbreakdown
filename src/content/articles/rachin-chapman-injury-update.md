@@ -20,8 +20,6 @@ metaDescription: "New Zealand suffer a major setback as Rachin Ravindra and Mark
 categoryLabel: "International"
 ---
 
-# New Zealand Injury Update: Rachin Ravindra and Mark Chapman Ruled Out of India ODI Series
-
 **NEW ZEALAND INJURY REPORT**
 
 India vs New Zealand – 5-Match ODI Series, November 2026
