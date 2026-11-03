@@ -33,6 +33,8 @@ faq:
 
 The **South Africa ODI World Cup 2027 schedule** includes five Group Stage matches, with each fixture's date, opponent and venue listed below. South Africa is part of the ICC Men's Cricket World Cup 2027 field, with the tournament running from **2 October to 21 November 2027**.
 
+For the complete tournament fixture list, use the [interactive ICC Men's Cricket World Cup 2027 schedule](/icc-mens-cricket-world-cup-2027-schedule), where you can filter matches by team, date, group, stage and venue.
+
 ## South Africa World Cup 2027 Schedule
 
 <div class="stats-table-wrapper">
