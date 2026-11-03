@@ -20,8 +20,6 @@ coverAlt: "Australia vs England ODI Series 2026 preview featuring both teams ahe
 categoryLabel: "International Cricket"
 ---
 
-# Australia vs England ODI Series 2026: Everything You Need to Know
-
 International cricket's oldest rivalry returns as Australia prepare to host England for a three-match ODI series beginning on November 13, 2026. The series will be played across Perth, Adelaide and Hobart, with both teams looking to strengthen their combinations and build towards the 2027 ICC Men's Cricket World Cup.
 
 The ODI series will be followed by a five-match T20I series, making this an important white-ball assignment for both sides.
