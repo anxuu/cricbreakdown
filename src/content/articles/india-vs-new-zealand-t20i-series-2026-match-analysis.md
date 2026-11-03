@@ -14,6 +14,8 @@ author: "S. Darshiel Bhat"
 authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-03
 featured: false
+cover: "https://res.cloudinary.com/g682uusu/image/upload/f_auto/q_auto/India_vs_New_Zealand__T20I_Series_Analysis.png"
+coverAlt: "India vs New Zealand T20I Series 2026 analysis, featuring the 3-2 series result and Glenn Phillips"
 metaTitle: "India vs New Zealand T20I Series 2026: Full Match Analysis"
 metaDescription: "Read the India vs New Zealand 2026 T20I series analysis, including the 3-2 result, match results, Glenn Phillips' 341 runs, key performances and turning points."
 categoryLabel: "International Cricket"
