@@ -33,6 +33,8 @@ faq:
 
 The fifth T20I between India and New Zealand at Seddon Park, Hamilton, ended with a seven-wicket victory for the hosts. India had already secured the series lead, but New Zealand finished the five-match contest strongly, chasing 192 with 12 balls to spare.
 
+For the complete five-match series breakdown, including all match results, team performances and Glenn Phillips' record-breaking 341 runs, read our [India vs New Zealand T20I Series 2026 analysis](/articles/india-vs-new-zealand-t20i-series-2026-match-analysis).
+
 Adam Milne set the tone with an outstanding 4/19, restricting India to 191/8. Ishan Kishan and Shreyas Iyer rebuilt the innings with a rapid partnership, but Tim Seifert and Glenn Phillips produced a commanding response to take New Zealand home.
 
 ## India vs New Zealand 5th T20I 2026: Match Summary
