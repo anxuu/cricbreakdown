@@ -1,5 +1,5 @@
 ---
-title: "India vs New Zealand T20I Series 2026: Match Analysis Report"
+title: "India vs New Zealand T20I Series 2026 Analysis"
 description: "A match-by-match and statistical analysis of India's 3-2 T20I series win over New Zealand, including Glenn Phillips' record-breaking 341 runs and key turning points."
 category: "international"
 tags:
