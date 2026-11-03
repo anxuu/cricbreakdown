@@ -15,6 +15,8 @@ featured: false
 metaTitle: "Glenn Maxwell Retires: The Big Show's International Career"
 metaDescription: "Glenn Maxwell announces international retirement. Revisit the Big Show's remarkable Australia career, 2015 and 2023 World Cups, and unforgettable 201."
 categoryLabel: "International"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/f_auto/q_auto/Glenn_Maxwell__The_Big_Show_s_Farewell.png"
+coverAlt: "Glenn Maxwell tribute cover celebrating The Big Show and his Australia cricket career"
 ---
 
 Some cricketers are remembered for their records. Some are remembered for their trophies. And then there are cricketers who are remembered for making the impossible look ridiculously possible.
@@ -118,6 +120,8 @@ Across formats, Maxwell established himself as a player capable of changing the 
 His career featured explosive batting, exceptional fielding, useful off-spin and some of the most memorable individual performances of his generation.
 
 ## THE FINAL CHAPTER: THE BIG SHOW TAKES HIS FINAL BOW
+
+![Glenn Maxwell walks off the field as Australia teammates applaud him under the stadium lights](https://res.cloudinary.com/g682uusu/image/upload/f_auto/q_auto/Screenshot_2026-11-03_103144.png)
 
 On November 3, 2026, Glenn Maxwell announced his retirement from international cricket, bringing an extraordinary chapter of Australian cricket to its conclusion.
 
