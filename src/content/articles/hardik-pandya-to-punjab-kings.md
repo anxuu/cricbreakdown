@@ -1,5 +1,5 @@
 ---
-title: "Hardik Pandya to Punjab Kings? MI-PBKS Trade Rumour Explained"
+title: "Hardik Pandya to Punjab Kings?"
 description: "Hardik Pandya is reportedly close to a move from Mumbai Indians to Punjab Kings in a swap involving Arshdeep Singh and Vishnu Vinod. Here is what the reported IPL trade could mean for both teams."
 category: "ipl"
 tags:
@@ -16,7 +16,7 @@ author: "Ansar"
 authorSlug: "ansar"
 pubDate: 2026-11-03
 featured: false
-metaTitle: "Hardik Pandya to Punjab Kings? Latest MI-PBKS Trade News"
+metaTitle: "Hardik Pandya to Punjab Kings?"
 metaDescription: "Is Hardik Pandya joining Punjab Kings? A reported MI-PBKS swap involving Arshdeep Singh and Vishnu Vinod could reshape both teams ahead of IPL retentions."
 categoryLabel: "IPL"
 faq:
@@ -29,8 +29,6 @@ faq:
   - question: "Will Hardik Pandya play for Punjab Kings in IPL 2027?"
     answer: "That depends on whether the reported trade is completed and officially registered before the relevant IPL retention and trading deadlines. There is no confirmed change to his team yet."
 ---
-
-## Hardik Pandya to Punjab Kings?
 
 Hardik Pandya is likely to join Punjab Kings very soon. This news came as a shock because, until now, speculation suggested Hardik Pandya might be traded to CSK, KKR, or RR. PBKS was nowhere in the picture.
 
@@ -82,6 +80,8 @@ However, PBKS would surely lack bowling strength without Arshdeep, as he was the
 - Lockie Ferguson
 
 None of them looks like a proven match-winner with the ball. Punjab might struggle to defend totals and bowl at the death without Arshdeep. In the auction, they may look to buy some good pacers.
+
+Punjab Kings are keen to bring Mohsin Khan in to strengthen their bowling if Arshdeep Singh leaves for Mumbai Indians as part of a trade involving Hardik Pandya. This remains a reported possibility, not a confirmed move.
 
 ### Will Shreyas Iyer Captain PBKS?
 
