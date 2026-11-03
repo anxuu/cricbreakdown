@@ -37,6 +37,8 @@ faq:
 
 Hardik Pandya’s future with Mumbai Indians has become a major talking point ahead of the upcoming IPL season, with **KKR, CSK, DC, RR and LSG** reportedly linked with the all-rounder. However, **MI are yet to decide whether Hardik will be made available for trade**, meaning there is no confirmed deal at this stage.
 
+A new report has now linked him with Punjab Kings in a possible swap involving Arshdeep Singh and Vishnu Vinod. Read our latest update on the [Hardik Pandya to Punjab Kings trade rumour](/articles/hardik-pandya-to-punjab-kings).
+
 Hardik’s spokesperson has also clarified that the player has **not directly spoken to any franchise** regarding a transfer or trade. Any approach, if made, would have to go through Mumbai Indians.
 
 Despite this, several **trade and swap possibilities are being discussed by cricket experts and in reports**. Since franchises generally avoid revealing their plans too early, these remain rumours for now. Let’s look at the major **Hardik Pandya trade possibilities** and what each deal could look like.
