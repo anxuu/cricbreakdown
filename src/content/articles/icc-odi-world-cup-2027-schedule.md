@@ -33,6 +33,8 @@ The **ICC Men’s ODI World Cup 2027** will be played from **October 2 to Novemb
 
 India are in **Group A** alongside Australia, Pakistan, Afghanistan, Zimbabwe and Qualifier A. India will begin their campaign against **Australia on October 7 in Cape Town**, followed by the highly anticipated **India vs Pakistan match on October 10 in Johannesburg**.
 
+For the complete tournament fixture list, use the [interactive ICC Men's Cricket World Cup 2027 schedule](/icc-mens-cricket-world-cup-2027-schedule), where you can filter matches by team, date, group, stage and venue.
+
 ## ICC ODI World Cup 2027 Schedule
 
 The 2027 ODI World Cup begins with a three-team **Super Series in Windhoek, Namibia**, from October 2 to October 6. The winner of the Super Series will take the final Group Stage position.
