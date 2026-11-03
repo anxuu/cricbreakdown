@@ -34,6 +34,8 @@ This blog is your guide to the **India ODI World Cup 2027 schedule**. It covers 
 
 Let's check each match in detail. Read the full preview for every India fixture below.
 
+For the complete tournament fixture list, use the [interactive ICC Men's Cricket World Cup 2027 schedule](/icc-mens-cricket-world-cup-2027-schedule), where you can filter matches by team, date, group, stage and venue.
+
 ## India World Cup 2027 Schedule
 
 <div class="stats-table-wrapper">
