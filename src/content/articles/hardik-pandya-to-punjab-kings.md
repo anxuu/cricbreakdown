@@ -19,6 +19,8 @@ featured: false
 metaTitle: "Hardik Pandya to Punjab Kings?"
 metaDescription: "Is Hardik Pandya joining Punjab Kings? A reported MI-PBKS swap involving Arshdeep Singh and Vishnu Vinod could reshape both teams ahead of IPL retentions."
 categoryLabel: "IPL"
+cover: "https://res.cloudinary.com/g682uusu/image/upload/f_auto/q_auto/Hardik_Pandya_Reported_Trade_to_Punjab_Kings.png"
+coverAlt: "Hardik Pandya to Punjab Kings reported trade thumbnail"
 faq:
   - question: "Is Hardik Pandya joining Punjab Kings?"
     answer: "A report attributed to The Hindu says a trade involving Hardik Pandya and Punjab Kings is at an advanced stage. However, the franchises have not officially confirmed the deal."
