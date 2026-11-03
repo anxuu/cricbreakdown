@@ -33,6 +33,8 @@ faq:
 
 The **New Zealand ODI World Cup 2027 schedule** includes five Group Stage matches, with each fixture's date, opponent and venue listed below. New Zealand is part of the ICC Men's Cricket World Cup 2027 field, with the tournament running from **2 October to 21 November 2027**.
 
+For the complete tournament fixture list, use the [interactive ICC Men's Cricket World Cup 2027 schedule](/icc-mens-cricket-world-cup-2027-schedule), where you can filter matches by team, date, group, stage and venue.
+
 ## New Zealand World Cup 2027 Schedule
 
 <div class="stats-table-wrapper">
