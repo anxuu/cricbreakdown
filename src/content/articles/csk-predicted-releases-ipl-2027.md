@@ -16,6 +16,8 @@ featured: false
 metaTitle: "CSK Predicted Releases 2027: Players Chennai May Release"
 metaDescription: "Which players could CSK release ahead of IPL 2027? Check predicted releases, retained players, estimated auction purse and Chennai's key targets."
 categoryLabel: "IPL"
+cover: "/images/CSK%20Set%20to%20Release%20Players.png"
+coverAlt: "Chennai Super Kings predicted player releases ahead of IPL 2027"
 ---
 
 Chennai Super Kings enter IPL 2027 with key decisions on their squad, player retentions, and auction strategy. After a disappointing IPL 2026 season, CSK will rebuild their squad and build a stronger base for next season.
@@ -93,6 +95,8 @@ Alongside Noor Ahmad, Hosein provides CSK with a quality spin combination. His p
 
 ## The Prashant Veer Retention Debate
 
+![Prashant Veer in Chennai Super Kings colours, predicted to be released ahead of IPL 2027](/images/Prashant%20Veer%20Set%20to%20Be%20Released.png)
+
 Prashant Veer is one of CSK's biggest retention questions after being acquired for ₹14.2 crore.
 
 He scored 90 runs in six matches during IPL 2026 but failed to take a wicket. Considering his price and limited impact, CSK could reconsider retaining him at the same valuation.
@@ -114,3 +118,5 @@ Kartik Sharma, meanwhile, scored 295 runs in 11 matches and has a stronger case 
 ## My Final Prediction
 
 CSK should retain their core, back young Indian talents, and release expensive underperformers. With a reliable death bowler and strong all-rounders, Chennai can build a balanced squad. It could challenge for the IPL 2027 title.
+
+For another franchise’s plans, read our [RCB IPL 2027 auction strategy and squad analysis](/articles/rcb-ipl-2027-auction-strategy).
