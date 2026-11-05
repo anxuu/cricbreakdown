@@ -9,8 +9,8 @@ tags:
   - "CSK retained players 2027"
   - "IPL 2027 auction"
   - "CSK auction purse"
-author: "Ansar"
-authorSlug: "ansar"
+author: "S. Darshiel Bhat"
+authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-05
 featured: false
 metaTitle: "CSK Predicted Releases 2027: Players Chennai May Release"
@@ -18,6 +18,24 @@ metaDescription: "Which players could CSK release ahead of IPL 2027? Check predi
 categoryLabel: "IPL"
 cover: "/images/CSK%20Set%20to%20Release%20Players.png"
 coverAlt: "Chennai Super Kings predicted player releases ahead of IPL 2027"
+---
+
+## Recent Update: CSK and SRH Complete a Four-Player Trade
+
+<text>**Updated: 5 November 2026**</text>
+
+CSK and Sunrisers Hyderabad (SRH) have completed a four-player trade ahead of IPL 2027.
+
+**Chennai Super Kings receive:**
+
+- Liam Livingstone (₹6 crore)
+- Jack Edwards (₹3 crore)
+
+**Sunrisers Hyderabad receive:**
+
+- Khaleel Ahmed (₹4.8 crore)
+- Nathan Ellis (₹2 crore)
+
 ---
 
 Chennai Super Kings enter IPL 2027 with key decisions on their squad, player retentions, and auction strategy. After a disappointing IPL 2026 season, CSK will rebuild their squad and build a stronger base for next season.
