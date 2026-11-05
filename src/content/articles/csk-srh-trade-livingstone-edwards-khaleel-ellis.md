@@ -19,6 +19,8 @@ featured: false
 metaTitle: "CSK Trade Ellis, Khaleel for SRH’s Livingstone and Edwards"
 metaDescription: "CSK and SRH complete a four-player IPL trade. Check the players moving in and out, contract values and what the exchange means for both teams."
 categoryLabel: "IPL"
+cover: "/images/CSK-SRH%20Player%20Swap%20News%20Graphic.png"
+coverAlt: "CSK and SRH four-player trade graphic featuring Liam Livingstone, Jack Edwards, Khaleel Ahmed and Nathan Ellis"
 ---
 
 The IPL 2026 trade window has witnessed a significant development, with Chennai Super Kings and Sunrisers Hyderabad completing a four-player exchange ahead of the upcoming season. The trade sees both franchises reshaping their squad combinations, addressing specific requirements while bringing fresh options into their respective setups.
