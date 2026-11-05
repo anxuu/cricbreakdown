@@ -22,7 +22,7 @@ coverAlt: "Chennai Super Kings predicted player releases ahead of IPL 2027"
 
 ## Recent Update: CSK and SRH Complete a Four-Player Trade
 
-<text>**Updated: 5 November 2026**</text>
+**Updated: 5 November 2026**
 
 CSK and Sunrisers Hyderabad (SRH) have completed a four-player trade ahead of IPL 2027.
 
