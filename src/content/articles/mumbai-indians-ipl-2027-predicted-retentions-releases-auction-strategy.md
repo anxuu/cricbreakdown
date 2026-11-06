@@ -17,6 +17,9 @@ featured: false
 metaTitle: "Mumbai Indians IPL 2027: Predicted Retentions, Releases & Auction"
 metaDescription: "Check Mumbai Indians' predicted IPL 2027 retentions, releases, Hardik Pandya trade scenarios, estimated auction purse and key auction targets."
 categoryLabel: "IPL"
+updatedDate: 2026-11-06
+cover: "/images/Mumbai%20Indians%202027%20Squad%20Predictions.png"
+coverAlt: "Mumbai Indians squad players in blue and gold ahead of the IPL 2027 season"
 ---
 
 Mumbai Indians enter IPL 2027 with crucial squad decisions ahead. Their retentions, overseas combinations and Hardik Pandya's future could significantly shape their upcoming campaign.
