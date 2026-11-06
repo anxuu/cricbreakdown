@@ -17,6 +17,9 @@ featured: false
 metaTitle: "India vs New Zealand ODI: Kohli Leads India to Auckland Win"
 metaDescription: "India beat New Zealand by five wickets in Auckland after bowling them out for 185. Virat Kohli scored 74 off 51, while Anshul Kamboj took 2/22."
 categoryLabel: "International"
+updatedDate: 2026-11-06
+cover: "/images/India%20vs%20New%20Zealand%20Post-Match%20Analysis.png"
+coverAlt: "Virat Kohli celebrating in India’s blue jersey after a match-winning innings"
 ---
 
 ## Match Overview
