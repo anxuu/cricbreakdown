@@ -13,6 +13,8 @@ author: "Ansar"
 pubDate: 2026-11-08
 updatedDate: 2026-11-08
 featured: false
+cover: "/images/Focused%20Cricketer%20in%20LSG%20Jersey.png"
+coverAlt: "Suryakumar Yadav in an LSG jersey"
 metaTitle: "MI Rejects KKR, LSG for Surya; Rohit Returns as Captain"
 metaDescription: "Suryakumar Yadav stays, and Rohit Sharma returns as captain. See Mumbai Indians’ big plan, the Tilak Varma angle, and what comes next."
 categoryLabel: "IPL"
@@ -27,6 +29,8 @@ Right after the Hardik deal, KKR and LSG reportedly approached Mumbai about Sury
 This is smart. Losing Surya and Hardik in the same window would have been a mistake. After a poor season and being dropped from the national team, Surya looks hungry to prove himself. Teams that were hoping to pick him up will have to look elsewhere.
 
 ## Rohit Sharma Set to Captain Mumbai Again
+
+![Rohit Sharma set to captain Mumbai Indians again](/images/Rohit%20Sharma%20Captains%20Mumbai%20Again.png)
 
 Rohit Sharma is now likely to return as Mumbai Indians captain for IPL 2027. The Indian Express reported that the franchise wanted him to take charge again and that Rohit initially suggested Tilak Varma as a long-term leadership option. The management, however, requested Rohit to take the captaincy himself, and he has agreed, according to the report.
 
