@@ -37,7 +37,7 @@ The combined contract value moving to CSK is ₹9 crore, while SRH take on ₹6.
 
 **The overseas combination is not straightforward.** Livingstone, Overton and Noor Ahmad could all be in contention for overseas places, depending on form and conditions. That may make it difficult to fit every overseas recruit into the XI. Livingstone’s ability to contribute with off-spin and leg-spin gives the management flexibility, but it does not automatically replace specialist pace bowling.
 
-**What exactly is the role for the incoming players?** Livingstone brings explosive batting and useful spin, but his IPL 2026 season with SRH was limited to two appearances. Edwards is a seam-bowling all-rounder who missed the entire 2026 season with a foot injury and is yet to make his IPL debut. Both could prove valuable, but neither is a guaranteed starter.
+**What exactly is the role for the incoming players?** Livingstone was passed over by teams for two seasons, did not play last season, and was the weakest link at RCB before that. Edwards is a seam-bowling all-rounder who missed the entire 2026 season with a foot injury and is yet to make his IPL debut. Both could prove valuable, but neither is a guaranteed starter.
 
 The trade may be a calculated attempt to fix Chennai’s middle-order power and all-rounder balance. Still, giving up two specialist quicks in the same transaction creates a bowling problem that CSK must address before the season begins.
 
