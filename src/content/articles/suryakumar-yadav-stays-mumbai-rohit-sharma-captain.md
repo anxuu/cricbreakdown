@@ -28,13 +28,11 @@ This is smart. Losing Surya and Hardik in the same window would have been a mist
 
 ## Rohit Sharma Set to Captain Mumbai Again
 
-Mumbai reportedly told Rohit to take full control from next season. He replied that Tilak Varma should be the long-term captain, with Rohit overseeing things from above. Mumbai pushed back: if he is going to be involved anyway, he should hold the captaincy himself, with full freedom.
+Rohit Sharma is now likely to return as Mumbai Indians captain for IPL 2027. The Indian Express reported that the franchise wanted him to take charge again and that Rohit initially suggested Tilak Varma as a long-term leadership option. The management, however, requested Rohit to take the captaincy himself, and he has agreed, according to the report.
 
-That is almost done, and the signs are already visible in the coaching department. But Mumbai are in no rush to announce it:
+That would bring Mumbai back to the captain who led them to five IPL titles. It also gives the franchise an experienced leader as they reshape the squad following a difficult 2026 season.
 
-- It could come around the retention deadline
-- It could come after the auction
-- Most likely, we celebrate around December
+The appointment has been widely reported, but the franchise has not yet made a formal public announcement. The timing of the announcement could depend on the retention process and the team's preparations for the auction.
 
 ### What It Means
 
