@@ -13,6 +13,8 @@ author: "Ansar"
 pubDate: 2026-11-08
 updatedDate: 2026-11-08
 featured: false
+cover: "/images/Jaiswal%E2%80%99s%20KKR%20Move_.png"
+coverAlt: "Yashasvi Jaiswal KKR trade watch graphic"
 metaTitle: "Jaiswal to KKR? The Trade That Could Save Their Auction"
 metaDescription: "Jaiswal is on the trade market, and KKR cannot miss out twice. Read why he is the captain they need and who will lead RR next."
 categoryLabel: "IPL"
@@ -39,6 +41,8 @@ Jaiswal is a Test regular, a future white-ball star, and a captaincy candidate. 
 If KKR must choose, Jaiswal is the stronger pick.
 
 ## Rajasthan Royals Need a New Captain?
+
+![Rinku Singh KKR captaincy buzz](/images/Rinku%20Singh%20KKR%20Captaincy%20Buzz.png)
 
 Riyan Parag is almost certainly stepping down. The two names in the race:
 
