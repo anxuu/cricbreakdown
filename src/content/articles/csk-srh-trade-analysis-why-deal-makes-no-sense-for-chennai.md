@@ -15,6 +15,8 @@ author: "Ansar"
 pubDate: 2026-11-08
 updatedDate: 2026-11-08
 featured: false
+cover: "/images/CSK-SRH%20Trade%20Analysis.png"
+coverAlt: "CSK-SRH trade analysis graphic"
 metaTitle: "CSK-SRH Trade: Why Chennai Could Regret the Deal"
 metaDescription: "Let’s analyse the CSK-SRH trade: how Ellis and Khaleel’s exit hurts CSK, why SRH got stronger, and why Prashant Veer may be released."
 categoryLabel: "IPL"
@@ -42,6 +44,8 @@ The combined contract value moving to CSK is ₹9 crore, while SRH take on ₹6.
 The trade may be a calculated attempt to fix Chennai’s middle-order power and all-rounder balance. Still, giving up two specialist quicks in the same transaction creates a bowling problem that CSK must address before the season begins.
 
 ## SRH’s Bowling Attack Is Getting Stronger
+
+![SRH bowling attack gets stronger](/images/SRH%20Bowling%20Attack%20Gets%20Stronger.png)
 
 SRH have added two different pace options. Khaleel provides left-arm variety and has already delivered a 15-wicket IPL season for CSK in 2025. Ellis offers slower balls, cutters and death-over experience. Alongside options such as T Natarajan, Ishan Malinga, Pat Cummins and Nitish Kumar Reddy, the attack looks more varied on paper.
 
