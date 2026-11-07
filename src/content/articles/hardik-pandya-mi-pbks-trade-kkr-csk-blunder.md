@@ -19,7 +19,6 @@ metaDescription: "How did KKR and CSK blunder the Hardik Pandya deal? Read why t
 categoryLabel: "IPL"
 ---
 
-# How KKR and CSK Blundered the Hardik Pandya Deal
 
 Hardik Pandya's move out of Mumbai Indians now looks increasingly likely. Reports from The Indian Express, Cricbuzz and other outlets indicate that Mumbai Indians and Punjab Kings have reached an agreement in principle, with the remaining formalities and approvals still to be completed.
 
