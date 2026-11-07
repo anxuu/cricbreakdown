@@ -17,6 +17,8 @@ featured: false
 metaTitle: "Mohammed Shami Retires From Test Cricket After 13 Years"
 metaDescription: "Mohammed Shami retires from Test cricket after 13 years. Check his career record, 229 wickets, memorable spells and what comes next."
 categoryLabel: "International Cricket"
+cover: "/images/file_000000007e148211ad170ebd55aea989.png"
+coverAlt: "Mohammed Shami celebrates in front of a glowing exit doorway with Thank You Shami text"
 ---
 
 Indian cricket has witnessed the end of another remarkable chapter as veteran fast bowler Mohammed Shami announced his retirement from Test cricket on November 6, 2026, bringing an end to his 13-year journey in the longest format of the game.
@@ -34,6 +36,8 @@ Under the guidance of coach Badruddin Siddique, Shami began developing his fast-
 His early days in Kolkata involved financial struggles and playing in local club competitions. Gradually, his performances attracted attention, and he earned opportunities with Bengal in domestic cricket.
 
 His impressive performances in the Ranji Trophy and India A cricket eventually opened the doors to international cricket. What began as a young boy's dream in a small village eventually turned into an opportunity to represent India at the highest level.
+
+![Virat Kohli and Mohammed Shami share a moment on the field with the words End of an Era](/images/file_0000000016dc8211ad30252daca66bcd.png)
 
 ## Mohammed Shami's Test Career: Numbers That Define His Legacy
 
