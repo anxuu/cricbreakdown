@@ -35,14 +35,14 @@ Jaiswal is a Test regular, a future white-ball star, and a captaincy candidate. 
 
 ## Jaiswal or Rinku Singh as KKR Captain?
 
+![Rinku Singh KKR captaincy buzz](/images/Rinku%20Singh%20KKR%20Captaincy%20Buzz.png)
+
 - **Rinku Singh:** Has captained at the domestic level and won trophies. But he is nowhere close to the India setup right now.
 - **Jaiswal:** Far more long-term promise, with a longer India career ahead.
 
 If KKR must choose, Jaiswal is the stronger pick.
 
 ## Rajasthan Royals Need a New Captain?
-
-![Rinku Singh KKR captaincy buzz](/images/Rinku%20Singh%20KKR%20Captaincy%20Buzz.png)
 
 Riyan Parag is almost certainly stepping down. The two names in the race:
 
