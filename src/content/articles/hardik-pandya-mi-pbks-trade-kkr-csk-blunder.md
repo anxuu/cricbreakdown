@@ -14,6 +14,8 @@ author: "Ansar"
 pubDate: 2026-11-08
 updatedDate: 2026-11-08
 featured: false
+cover: "/images/KKR%20and%20CSK%E2%80%99s%20Hardik%20Deal%20Blunder.png"
+coverAlt: "KKR and CSK logos in a dark studio-style graphic for the Hardik Pandya trade analysis"
 metaTitle: "How KKR and CSK Blundered the Hardik Pandya Deal"
 metaDescription: "How did KKR and CSK blunder the Hardik Pandya deal? Read why their trade talks fell through and how Punjab Kings moved ahead of the rivals."
 categoryLabel: "IPL"
@@ -39,6 +41,8 @@ And this is where it hurts. KKR has finished in the bottom three, and you still 
 Some fans are calling it a "small-club mentality," and honestly, it is hard to argue. This deal came and went out of your hands, and all you did was spectate while Punjab moved ahead.
 
 ## Why GT-Hardik Trade Deal Fell Through
+
+![Hardik Pandya in a Gujarat Titans jersey with the headline GT-Hardik trade possible](/images/Hardik%20Pandya%20GT%20Trade%20Possible_.png)
 
 Gujarat Titans were reportedly Hardik's first preference after leaving Mumbai. He initially wanted to return as captain. GT declined, so he offered to come back as a player only. Talks continued, but Mumbai reportedly asked for Kagiso Rabada and GT refused.
 
