@@ -18,9 +18,7 @@ metaDescription: "Suryakumar Yadav stays, and Rohit Sharma returns as captain. S
 categoryLabel: "IPL"
 ---
 
-Mumbai Indians are preparing for a major reset ahead of IPL 2027. With Hardik Pandya reportedly heading to Punjab Kings, the franchise are determined to hold on to Suryakumar Yadav and are also set to bring Rohit Sharma back as captain.
-
-In this article, we look at why MI are not willing to trade Surya, how Rohit’s return came about, and where Tilak Varma fits into the team's long-term leadership plans.
+In this blog, we'll discuss why Mumbai Indians rejected every offer for Suryakumar Yadav and how Rohit Sharma is set to return as captain. We will also look at the Tilak Varma plan and what this means for MI going into the auction.
 
 ## Suryakumar Yadav Is Not Leaving Mumbai
 
