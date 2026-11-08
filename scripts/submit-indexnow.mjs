@@ -3,11 +3,11 @@ import path from 'node:path';
 
 const site = 'https://www.cricbreakdown.com';
 const distDir = path.resolve('dist');
-const key = 'ad83a1ce58dcd70d0abfb903ecf28b78';
+const key = '5f94f1c8dd164fceb616943af67b67f2';
 const keyLocation = `${site}/${key}.txt`;
 
 function getLocs(xml) {
-  return [...xml.matchAll(/<loc>(.*?)<\\/loc>/gs)].map((match) =>
+  return [...xml.matchAll(/<loc>(.*?)<[/]loc>/gs)].map((match) =>
     match[1].trim().replaceAll('&amp;', '&')
   );
 }
