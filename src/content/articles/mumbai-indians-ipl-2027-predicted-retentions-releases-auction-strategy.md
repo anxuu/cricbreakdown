@@ -121,4 +121,6 @@ MI should retain their experienced core, back promising Indian youngsters and st
 
 The Hardik trade could define their IPL 2027 campaign. With Pollard's coaching, a settled leadership structure and the right auction additions, Mumbai Indians could once again challenge for the title.
 
+Want to compare Mumbai's plans with the defending champions? Read our [RCB IPL 2027 auction strategy and squad analysis](/articles/rcb-ipl-2027-auction-strategy) to see where Bengaluru may need to strengthen their title-winning squad.
+
 All retentions and releases listed above are predictions. Prices represent contract values from IPL 2026, not official IPL 2027 retention announcements. The predicted purse excludes any new IPL 2027 purse increase or trade adjustments.
