@@ -137,4 +137,4 @@ Kartik Sharma, meanwhile, scored 295 runs in 11 matches and has a stronger case 
 
 CSK should retain their core, back young Indian talents, and release expensive underperformers. With a reliable death bowler and strong all-rounders, Chennai can build a balanced squad. It could challenge for the IPL 2027 title.
 
-For another franchise’s plans, read our [RCB IPL 2027 auction strategy and squad analysis](/articles/rcb-ipl-2027-auction-strategy).
+Can RCB win a third consecutive IPL title in 2027? [Read our RCB IPL 2027 auction strategy and threepeat analysis](/articles/rcb-ipl-2027-auction-strategy) to see whether the defending champions have the squad to make it three in a row.
