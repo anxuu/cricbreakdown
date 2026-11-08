@@ -65,7 +65,7 @@ RCB could release 10 players to create additional squad flexibility and identify
 | Jordan Cox | ₹75 LAKH |
 | Mangesh Yadav | ₹5.20 CR |
 
-**Total Released Salary: ₹11.45 Crore**
+**Total Released Salary: ₹11.05 Crore**
 
 The RCB released players list includes overseas options and domestic players who could be replaced by more specialised additions. These releases would allow the franchise to reassess its squad balance ahead of IPL 2027.
 
