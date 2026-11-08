@@ -22,6 +22,8 @@ categoryLabel: "IPL"
 
 Let’s discuss why KKR must go all in for Yashasvi Jaiswal after missing out on Hardik Pandya. We will also look at the Jaiswal vs Dhruv Jurel race for the Rajasthan Royals captaincy.
 
+Mumbai have also made it clear that Suryakumar Yadav is not available for a trade after interest from KKR and LSG. Read our [Suryakumar Yadav and Rohit Sharma Mumbai Indians update](/articles/suryakumar-yadav-stays-mumbai-rohit-sharma-captain) for the full picture.
+
 ## Why KKR Needs Jaiswal
 
 - They missed out on Hardik.
