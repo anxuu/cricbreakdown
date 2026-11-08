@@ -22,7 +22,7 @@ categoryLabel: "IPL"
 ---
 
 
-Hardik Pandya's move out of Mumbai Indians now looks increasingly likely. Reports from The Indian Express, Cricbuzz and other outlets indicate that Mumbai Indians and Punjab Kings have reached an agreement in principle, with the remaining formalities and approvals still to be completed.
+Hardik Pandya's move out of Mumbai Indians now looks increasingly likely. Reports from [The Indian Express](https://indianexpress.com/article/sports/cricket/ipl-2027-trade-talks-hardik-pandya-mi-pbks-arshdeep-singh-10949809/lite/) and [Cricbuzz](https://www.cricbuzz.com/cricket-news/140825/hardik-arshdeep-trade-nears-completion-formalities-remain), along with other outlets, indicate that Mumbai Indians and Punjab Kings have reached an agreement in principle, with the remaining formalities and approvals still to be completed.
 
 The trade news broke on a match day, which is why coverage came a little later. Here's why three other franchises' deals reportedly fell through, and why Punjab Kings emerged as the likely destination.
 
@@ -62,6 +62,8 @@ Interestingly, Mumbai approached several franchises while exploring a trade for 
 Cricbuzz has also reported discussions around a possible Punjab Kings-Lucknow Super Giants swap, with Marcus Stoinis potentially moving in exchange for Mohsin Khan.
 
 The Hardik-Arshdeep trade is expected to be formally confirmed once the remaining approvals and player formalities are completed.
+
+For a closer look at the reported move and what it could mean for Punjab Kings, read our [Hardik Pandya to Punjab Kings trade update](/articles/hardik-pandya-to-punjab-kings).
 
 ### Who Wins the MI-PBKS Trade?
 
