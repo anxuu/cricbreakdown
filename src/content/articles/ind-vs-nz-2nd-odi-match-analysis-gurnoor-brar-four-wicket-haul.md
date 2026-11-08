@@ -18,8 +18,6 @@ metaDescription: "India beat New Zealand by four runs via DLS in the Wellington 
 categoryLabel: "Cricket"
 ---
 
-# IND vs NZ 2nd ODI Match Analysis: Gurnoor Brar's Four-Wicket Haul Headlines India's Victory
-
 India secured a thrilling four-run victory over New Zealand via the Duckworth-Lewis-Stern (DLS) method in the second ODI at Hnry Stadium, Wellington, on November 7, 2026. Gurnoor Brar led India's bowling attack with an outstanding four-wicket haul, while KL Rahul and Shreyas Iyer played important roles during a difficult chase.
 
 New Zealand were bowled out for 134 in 41 overs. India reached 113/7 in 26 overs before rain stopped play. With India marginally ahead on the DLS par score, the visitors were awarded a four-run win and took a 2-0 lead in the five-match series.
