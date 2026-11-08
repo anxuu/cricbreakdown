@@ -1,7 +1,7 @@
 ---
 title: "IND vs NZ 2nd ODI Match Analysis: Gurnoor Brar's Four-Wicket Haul Headlines India's Victory"
 description: "India beat New Zealand by four runs via the DLS method in the Wellington 2nd ODI. Gurnoor Brar starred with 4/30 as rain brought a tense contest to an end."
-category: "cricket"
+category: "international"
 tags:
   - India vs New Zealand
   - IND vs NZ 2nd ODI
