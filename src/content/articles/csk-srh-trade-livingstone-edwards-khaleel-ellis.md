@@ -59,3 +59,5 @@ For Chennai Super Kings, Livingstone strengthens their batting while Edwards add
 The exchange highlights two different squad-building priorities. Chennai Super Kings strengthen their batting resources with Livingstone and Edwards, while Sunrisers Hyderabad focus on improving their pace-bowling depth through Khaleel and Ellis.
 
 With IPL 2026 approaching, the success of this exchange will depend on how effectively both franchises integrate their new acquisitions into their playing combinations.
+
+For a deeper look at the new SRH combinations, how their squad strength has improved, and why the deal could leave CSK short in key areas, read our [CSK-SRH trade analysis: why the deal makes no sense for Chennai](/articles/csk-srh-trade-analysis-why-deal-makes-no-sense-for-chennai).
