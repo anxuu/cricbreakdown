@@ -22,6 +22,8 @@ categoryLabel: "IPL"
 
 In this blog, we'll discuss why Mumbai Indians rejected every offer for Suryakumar Yadav and how Rohit Sharma is set to return as captain. We will also look at the Tilak Varma plan and what this means for MI going into the auction.
 
+For a wider look at Mumbai's squad decisions, including their predicted retentions, releases and auction plans, read our [Mumbai Indians IPL 2027 squad and auction strategy](/articles/mumbai-indians-ipl-2027-predicted-retentions-releases-auction-strategy).
+
 ## Suryakumar Yadav Is Not Leaving Mumbai
 
 Right after the Hardik deal, KKR and LSG reportedly approached Mumbai about Suryakumar Yadav. Mumbai put out an official statement: no offer, no player package, nothing will move them. Cricbuzz reports Rohit Sharma played a big part in convincing the team to keep him.
