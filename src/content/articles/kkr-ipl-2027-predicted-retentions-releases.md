@@ -23,7 +23,9 @@ Kolkata Knight Riders enter IPL 2027 with several important squad decisions ahea
 
 This **KKR IPL 2027 retention prediction** blog explores the Kolkata Knight Riders' predicted retentions, released players, player prices, auction purse and potential recruitment strategy ahead of the IPL 2027 mini-auction.
 
-## KKR IPL 2027 RETAINED PLAYERS LIST WITH PRICES
+Is Yashasvi Jaiswal going to KKR for IPL 2027? The possibility has sparked interest among fans, and we have explored the proposed move in detail in our [Yashasvi Jaiswal to KKR trade report](https://www.cricbreakdown.com/articles/yashasvi-jaiswal-kkr-trade).
+
+## KKR IPL 2027 Predicted RETAINED PLAYERS LIST WITH PRICES
 
 Kolkata Knight Riders could retain 16 players heading into IPL 2027, continuing to back their established Indian core alongside their experienced overseas players.
 
@@ -61,7 +63,7 @@ Matheesha Pathirana could be an important retention for KKR ahead of IPL 2027 be
 
 At ₹18 crore, Pathirana represents a significant investment, but his specialist bowling role could justify his retention.
 
-## KKR IPL 2027 RELEASED PLAYERS LIST WITH PRICES
+## KKR IPL 2027 Predicted RELEASED PLAYERS LIST WITH PRICES
 
 Kolkata Knight Riders could release nine players to create additional squad flexibility and identify new options during the IPL 2027 auction.
 
