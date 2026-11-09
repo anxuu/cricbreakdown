@@ -65,3 +65,7 @@ Jaiswal is the clear choice. A player cannot be vice-captain forever, and overlo
 ### The Twist
 
 If RR give Jaiswal the captaincy, a trade becomes unlikely. If they do not, he is on the market, and KKR will be waiting. Either way, this is the story to watch before the auction.
+
+## Know More: KKR IPL 2027 Predicted Retentions, Releases & Auction Strategy
+
+Read our [KKR IPL 2027: Predicted Retentions, Releases & Auction Strategy](https://www.cricbreakdown.com/articles/kkr-ipl-2027-predicted-retentions-releases) for the predicted retained players, possible releases, player prices and auction plans.
