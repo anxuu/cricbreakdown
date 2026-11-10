@@ -21,6 +21,8 @@ categoryLabel: "IPL"
 
 Gujarat Titans enter IPL 2027 with an established squad featuring a strong Indian batting core, experienced overseas players and a quality bowling attack. Ahead of the IPL 2027 mini-auction, GT could look to maintain their established combination while improving their backup options.
 
+For a comparison with another franchise's squad plans, read our [Delhi Capitals IPL 2027 predicted retentions, releases and auction strategy](https://www.cricbreakdown.com/articles/dc-ipl-2027-predicted-retentions-releases-auction-strategy).
+
 This **Gujarat Titans IPL 2027 retention prediction** explores GT's predicted retentions, predicted released players, player prices, auction purse and potential recruitment strategy ahead of the IPL 2027 mini-auction.
 
 ## GUJARAT TITANS IPL 2027 PREDICTED RETAINED PLAYERS LIST WITH PRICES
