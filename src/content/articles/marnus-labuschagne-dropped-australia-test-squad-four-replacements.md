@@ -11,7 +11,8 @@ tags:
   - Kurtis Patterson
   - Nathan McSweeney
   - Jack Clayton
-author: "Ansar"
+author: "S. Darshiel Bhat"
+authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-12
 updatedDate: 2026-11-12
 featured: false
@@ -180,3 +181,5 @@ Whether Australia invest in the youth of Sam Konstas, the experience of Kurtis P
 For Labuschagne, the next few months could determine whether this becomes another successful comeback story or a defining turning point in his international career.
 
 The former No. 1 is down, but is he out? Australia's next selection decision could decide the future of both Marnus Labuschagne and the next generation of Australian Test batting.
+
+For more on Australia's upcoming international cricket schedule, read our [Australia vs England ODI Series 2026 preview](https://www.cricbreakdown.com/articles/australia-vs-england-odi-series-2026).
