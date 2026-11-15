@@ -1,13 +1,98 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const authorName = 'Ansar Bagwan';
+const linkedInUrl = 'https://www.linkedin.com/in/ansar-bagwan/';
+const articles = (await getCollection('articles', article => article.data.authorSlug === 'ansar'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const bio = 'I have five years of content-writing experience and three years of experience in SEO, content strategy and website growth. I have helped scale traffic from zero to 300,000+ across six websites, combining search-focused content with practical SEO and development insights.';
+
+const cricketFocus = 'A cricket enthusiast, I cover match and series analysis, player performances, squad selections, team combinations, IPL team strategies, retention and release predictions, and major tournaments. I aim to go beyond the scorecard and bring out the details that are often missed. My work has also been referenced by sports websites and cited in Wikipedia articles.';
 ---
-<Layout title="Ansar" description="Ansar writes stat-led cricket breakdowns for CricBreakdown.">
-  <main class="max-w-3xl mx-auto px-5 md:px-8 pt-14 pb-20">
-    <article>
-      <header class="mb-8">
-        <h1 class="font-display font-bold text-4xl text-pitch">Ansar</h1>
-      </header>
-      <p class="text-lg text-ink/70 leading-relaxed">Ansar writes stat-led cricket breakdowns for CricBreakdown.</p>
-    </article>
+<Layout title="Ansar Bagwan | Cricket Writer & SEO Specialist" description="Meet Ansar Bagwan, a cricket writer and SEO specialist with five years of content experience, helping scale traffic across six websites." canonical="https://www.cricbreakdown.com/author/ansar">
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    name: 'Ansar Bagwan - Author Profile',
+    url: 'https://www.cricbreakdown.com/author/ansar',
+    mainEntity: {
+      '@type': 'Person',
+      name: authorName,
+      url: linkedInUrl,
+      jobTitle: 'Cricket Writer and SEO Specialist',
+      description: bio + ' ' + cricketFocus,
+      worksFor: { '@type': 'Organization', name: 'CricBreakdown', url: 'https://www.cricbreakdown.com' },
+      knowsAbout: ['Cricket analysis', 'IPL', 'Player performance analysis', 'SEO', 'Content strategy', 'Website growth']
+    }
+  })} />
+  <main class="max-w-5xl mx-auto px-5 md:px-8 pt-12 md:pt-16 pb-20">
+    <nav aria-label="Breadcrumb" class="mb-8 text-xs text-ink/50">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-leather">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="text-ink/70">Author</li>
+      </ol>
+    </nav>
+
+    <section class="rounded-2xl border border-pitch-2/10 bg-white/70 p-6 md:p-10">
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 md:gap-8">
+        <div class="shrink-0 w-28 h-28 md:w-32 md:h-32 rounded-full bg-pitch flex items-center justify-center ring-4 ring-[#E94560]/15" role="img" aria-label="Ansar Bagwan profile icon">
+          <svg viewBox="0 0 96 96" class="w-20 h-20 md:w-24 md:h-24" fill="none" aria-hidden="true">
+            <circle cx="48" cy="34" r="17" fill="#F8F9FA"/>
+            <path d="M17 82c2-17 14-27 31-27s29 10 31 27" fill="#F8F9FA"/>
+            <circle cx="48" cy="48" r="43" stroke="#E94560" stroke-width="2" opacity=".85"/>
+          </svg>
+        </div>
+        <div class="text-center sm:text-left flex-1">
+          <span class="stat-chip inline-flex text-[11px] uppercase tracking-widest text-[#E94560]">CricBreakdown Founder & Author</span>
+          <h1 class="font-display font-bold text-3xl md:text-4xl text-pitch mt-3">{authorName}</h1>
+          <p class="text-ink/60 mt-2 text-base md:text-lg">Cricket Analyst · Content Strategist · SEO Specialist</p>
+          <div class="flex flex-wrap justify-center sm:justify-start gap-2 mt-5">
+            {['Cricket Analysis', 'SEO & Content Strategy', 'IPL Coverage', 'Website Growth'].map(item => (
+              <span class="text-xs font-medium text-pitch/75 bg-pitch-2/5 border border-pitch-2/10 rounded-full px-3 py-1.5">{item}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div class="seam my-8" aria-hidden="true"></div>
+
+      <div class="max-w-3xl space-y-5">
+        <div>
+          <h2 class="font-display font-semibold text-xl text-pitch mb-3">About</h2>
+          <p class="text-ink/75 leading-8">{bio}</p>
+        </div>
+        <div>
+          <h2 class="font-display font-semibold text-xl text-pitch mb-3">Cricket & analysis</h2>
+          <p class="text-ink/75 leading-8">{cricketFocus}</p>
+        </div>
+        <div class="rounded-xl bg-pitch/[0.04] border border-pitch-2/10 p-5">
+          <h2 class="font-display font-semibold text-lg text-pitch mb-2">Get in touch</h2>
+          <p class="text-ink/70 leading-7">You can contact me through <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" class="font-semibold text-[#0A66C2] underline underline-offset-4 hover:opacity-80">LinkedIn</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-12" aria-labelledby="author-articles">
+      <div class="flex flex-wrap items-end justify-between gap-3 mb-6">
+        <div>
+          <span class="stat-chip text-[11px] uppercase tracking-widest text-[#E94560]">By {authorName}</span>
+          <h2 id="author-articles" class="font-display font-bold text-2xl md:text-3xl text-pitch mt-2">Articles by Ansar</h2>
+        </div>
+        <span class="text-sm text-ink/50">{articles.length} {articles.length === 1 ? 'article' : 'articles'} published</span>
+      </div>
+      {articles.length > 0 ? (
+        <div class="grid md:grid-cols-2 gap-5">
+          {articles.map(article => (
+            <ArticleCard slug={article.id} title={article.data.title} description={article.data.description} category={article.data.category} pubDate={article.data.pubDate} cover={article.data.cover} coverAlt={article.data.coverAlt} />
+          ))}
+        </div>
+      ) : (
+        <p class="text-ink/55 rounded-xl border border-pitch-2/10 p-6">Articles by this author will appear here as they are published.</p>
+      )}
+    </section>
   </main>
 </Layout>
