@@ -14,7 +14,7 @@ tags:
 author: "Ansar"
 authorSlug: "ansar"
 pubDate: 2026-10-17
-updatedDate: 2026-10-18
+updatedDate: 2026-11-15
 featured: false
 cover: "https://res.cloudinary.com/g682uusu/image/upload/v1792581556/cricbreakdown/covers/ls212nqveftbddrsqu9e.png"
 coverAlt: "India Test squad for the New Zealand tour 2026"
@@ -29,12 +29,14 @@ faq:
   - question: "How many Tests will India play in New Zealand in 2026?"
     answer: "India are scheduled to play two Tests, in Wellington from 19 to 23 November and Christchurch from 27 November to 1 December."
   - question: "Who are India's main fast-bowling options for the New Zealand Tests?"
-    answer: "The squad includes Jasprit Bumrah, Mohammed Siraj, Prasidh Krishna, Akash Deep and Anshul Kamboj, with Nitish Kumar Reddy providing a seam-bowling all-round option."
+    answer: "The updated squad includes Jasprit Bumrah, Mohammed Siraj, Prasidh Krishna, Akash Deep, Anshul Kamboj and Gurnoor Brar, with Nitish Kumar Reddy providing a seam-bowling all-round option. Kuldeep Yadav has been rested to play domestic cricket."
   - question: "Why has Manav Suthar's omission been discussed?"
     answer: "Suthar's performances in the previous away series against Sri Lanka have prompted discussion about whether India could have included another left-arm spin option."
 ---
 
 India are heading into another overseas Test challenge after getting back on track following the home-series defeat to South Africa, which included a heavy 408-run loss. The conditions in New Zealand will be a different test: Wellington and Christchurch can offer seam movement and assistance for fast bowlers, so India's success will depend on how well the batters handle the new ball and how effectively the pace attack uses the conditions.
+
+**Late squad update (November 15):** Kuldeep Yadav has been rested from the New Zealand Test squad to play domestic cricket, and fast bowler Gurnoor Brar has been added in his place. The decision has sparked debate because Kuldeep is a specialist spinner, while Brar is a pace bowler rather than a like-for-like replacement. Some observers may question whether the change reflects the team management’s selection preferences under head coach Gautam Gambhir. However, claims of favouritism are opinion and should not be treated as an established fact; the official update states that Kuldeep has been released to play domestic cricket.
 
 The squad has a blend of established performers and less experienced options. Shubman Gill will lead the side, KL Rahul is vice-captain, and Jasprit Bumrah adds quality to the pace group. Rishabh Pant's availability remains subject to fitness clearance.
 
@@ -62,7 +64,7 @@ Let's look at the squad, assess the batting and bowling combinations, and consid
 <tr><td>Sai Sudharsan</td><td>Batter</td></tr>
 <tr><td>Nitish Kumar Reddy</td><td>Seam-bowling all-rounder</td></tr>
 <tr><td>Washington Sundar</td><td>Spin-bowling all-rounder</td></tr>
-<tr><td>Kuldeep Yadav</td><td>Spinner</td></tr>
+<tr><td>Gurnoor Brar</td><td>Fast bowler (added to squad)</td></tr>
 <tr><td>Mohammed Siraj</td><td>Fast bowler</td></tr>
 </tbody>
 </table>
@@ -134,7 +136,7 @@ Control will be crucial. If Prasidh and Nitish can keep the scoring rate in chec
 
 Jadeja may not be India's first-choice wicket-taking option if the conditions strongly favour pace, especially early in a match. Still, his value should not be judged only by wickets. He can control an end, contribute with the bat and become more important as a Test progresses and the surface changes.
 
-Kuldeep Yadav and Washington Sundar give India further spin options. Akash Deep and Anshul Kamboj add pace depth, although selecting the right combination will be a balance between experience, current form and the conditions on the day.
+With Kuldeep Yadav rested to play domestic cricket, Ravindra Jadeja and Washington Sundar are the specialist spin options in the updated squad. Gurnoor Brar adds another pace option alongside Akash Deep and Anshul Kamboj. Selecting the right combination will require a balance between experience, current form and the conditions on the day.
 
 ## Notable omissions: Sarfaraz Khan and Manav Suthar
 
@@ -146,7 +148,7 @@ Sarfaraz's omission may surprise fans who want another proven domestic run-score
 
 Manav Suthar's omission is another talking point. In India's previous away Test series against Sri Lanka, he took **16 wickets in four innings at an average of 21**, according to the figures provided for this analysis. That is a strong return and a reason to consider whether he deserved a place in the squad.
 
-His left-arm spin could have offered a different option from the bowlers selected. With Jadeja and Kuldeep in the squad, the selectors have backed their existing spin options, but Suthar's omission is still worth discussing. A young player who has produced those numbers could arguably have been given a longer run at this level.
+His left-arm spin could have offered a different option from the bowlers selected. With Kuldeep rested for domestic cricket, Jadeja and Washington Sundar remain the spin options in the updated squad. Suthar's omission is still worth discussing, particularly given the value another specialist left-arm spinner could have offered. A young player who has produced those numbers could arguably have been given a longer run at this level.
 
 Former India spinner Ravichandran Ashwin also questioned Suthar's omission, pointing to the young left-arm spinner's strong returns and suggesting he could have been considered for the tour. That adds weight to the debate over whether India should have taken another specialist spin option.
 
