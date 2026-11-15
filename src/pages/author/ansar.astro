@@ -8,9 +8,9 @@ const linkedInUrl = 'https://www.linkedin.com/in/ansar-bagwan/';
 const articles = (await getCollection('articles', article => article.data.authorSlug === 'ansar'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const bio = 'I have five years of content-writing experience and three years of experience in SEO, content strategy and website growth. I have helped scale traffic from zero to 300,000+ across six websites, combining search-focused content with practical SEO and development insights.';
+const bio = 'Ansar has five years of content-writing experience and three years of experience in SEO, content strategy and website growth. He has helped scale traffic from zero to 300,000+ across six websites, combining search-focused content with practical SEO and development insights.';
 
-const cricketFocus = 'A cricket enthusiast, I cover match and series analysis, player performances, squad selections, team combinations, IPL team strategies, retention and release predictions, and major tournaments. I aim to go beyond the scorecard and bring out the details that are often missed. My work has also been referenced by sports websites and cited in Wikipedia articles.';
+const cricketFocus = 'A cricket enthusiast, Ansar covers match and series analysis, player performances, squad selections, team combinations, IPL team strategies, retention and release predictions, and major tournaments. His aim is to go beyond the scorecard and bring out the details that are often missed. His work has also been referenced by sports websites and cited in Wikipedia articles.';
 ---
 <Layout title="Ansar Bagwan | Cricket Writer & SEO Specialist" description="Meet Ansar Bagwan, a cricket writer and SEO specialist with five years of content experience, helping scale traffic across six websites." canonical="https://www.cricbreakdown.com/author/ansar">
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -71,7 +71,7 @@ const cricketFocus = 'A cricket enthusiast, I cover match and series analysis, p
         </div>
         <div class="rounded-xl bg-pitch/[0.04] border border-pitch-2/10 p-5">
           <h2 class="font-display font-semibold text-lg text-pitch mb-2">Get in touch</h2>
-          <p class="text-ink/70 leading-7">You can contact me through <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" class="font-semibold text-[#0A66C2] underline underline-offset-4 hover:opacity-80">LinkedIn</a>.</p>
+          <p class="text-ink/70 leading-7">You can contact him through <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" class="font-semibold text-[#0A66C2] underline underline-offset-4 hover:opacity-80">LinkedIn</a>.</p>
         </div>
       </div>
     </section>
