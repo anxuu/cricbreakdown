@@ -1,13 +1,87 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const authorName = 'S. Darshiel Bhat';
+const articles = (await getCollection('articles', article => article.data.authorSlug === 's-darshiel-bhat'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const bio = "Darshiel Bhat is a sports enthusiast and writer with over 2–3 years of experience in sports content writing. His primary interest lies in cricket, and he enjoys covering international and domestic matches, analysing player performances, exploring team combinations, and writing match previews, post-match reports and detailed statistical breakdowns. Over the years, he has developed a keen understanding of the game and enjoys looking beyond the scorecard to bring out the finer details of cricket.";
+
+const approach = "Through his writing, Darshiel aims to deliver informative, engaging and easy-to-understand sports content. He also focuses on incorporating SEO techniques to make his articles more discoverable and reach a wider audience. For him, sports journalism is not just about reporting scores and results; it is about telling the stories behind the game, presenting meaningful insights and making every article an interesting read for sports enthusiasts.";
 ---
-<Layout title="S. Darshiel Bhat" description="S. Darshiel Bhat writes cricket match analysis, tactical analysis and statistical analysis for CricBreakdown.">
-  <main class="max-w-3xl mx-auto px-5 md:px-8 pt-14 pb-20">
-    <article>
-      <header class="mb-8">
-        <h1 class="font-display font-bold text-4xl text-pitch">S. Darshiel Bhat</h1>
-      </header>
-      <p class="text-lg text-ink/70 leading-relaxed">S. Darshiel Bhat contributes cricket match analysis, tactical analysis and statistical analysis to CricBreakdown.</p>
-    </article>
+<Layout title="S. Darshiel Bhat | Cricket Writer at CricBreakdown" description="Read the author profile of S. Darshiel Bhat, a cricket writer covering international and domestic cricket, match analysis, player performances and statistical breakdowns." canonical="https://www.cricbreakdown.com/author/s-darshiel-bhat">
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    name: 'S. Darshiel Bhat - Author Profile',
+    url: 'https://www.cricbreakdown.com/author/s-darshiel-bhat',
+    mainEntity: {
+      '@type': 'Person',
+      name: authorName,
+      jobTitle: 'Sports Writer',
+      description: bio + ' ' + approach,
+      worksFor: { '@type': 'Organization', name: 'CricBreakdown', url: 'https://www.cricbreakdown.com' },
+      knowsAbout: ['Cricket', 'International cricket', 'Domestic cricket', 'Match analysis', 'Player statistics', 'Sports journalism']
+    }
+  })} />
+  <main class="max-w-5xl mx-auto px-5 md:px-8 pt-12 md:pt-16 pb-20">
+    <nav aria-label="Breadcrumb" class="mb-8 text-xs text-ink/50">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-leather">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="text-ink/70">Author</li>
+      </ol>
+    </nav>
+
+    <section class="rounded-2xl border border-pitch-2/10 bg-white/70 p-6 md:p-10">
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 md:gap-8">
+        <div class="shrink-0 w-28 h-28 md:w-32 md:h-32 rounded-full bg-pitch flex items-center justify-center ring-4 ring-[#E94560]/15" role="img" aria-label="Author profile icon">
+          <svg viewBox="0 0 96 96" class="w-20 h-20 md:w-24 md:h-24" fill="none" aria-hidden="true">
+            <circle cx="48" cy="34" r="17" fill="#F8F9FA"/>
+            <path d="M17 82c2-17 14-27 31-27s29 10 31 27" fill="#F8F9FA"/>
+            <circle cx="48" cy="48" r="43" stroke="#E94560" stroke-width="2" opacity=".85"/>
+          </svg>
+        </div>
+        <div class="text-center sm:text-left flex-1">
+          <span class="stat-chip inline-flex text-[11px] uppercase tracking-widest text-[#E94560]">CricBreakdown Author</span>
+          <h1 class="font-display font-bold text-3xl md:text-4xl text-pitch mt-3">{authorName}</h1>
+          <p class="text-ink/60 mt-2 text-base md:text-lg">Cricket Writer · Sports Enthusiast</p>
+          <div class="flex flex-wrap justify-center sm:justify-start gap-2 mt-5">
+            {['International Cricket', 'Domestic Cricket', 'Match Analysis', 'Player Statistics'].map(item => (
+              <span class="text-xs font-medium text-pitch/75 bg-pitch-2/5 border border-pitch-2/10 rounded-full px-3 py-1.5">{item}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div class="seam my-8" aria-hidden="true"></div>
+
+      <div class="max-w-3xl">
+        <h2 class="font-display font-semibold text-xl text-pitch mb-3">About the author</h2>
+        <p class="text-ink/75 leading-8">{bio}</p>
+        <p class="text-ink/75 leading-8 mt-5">{approach}</p>
+      </div>
+    </section>
+
+    <section class="pt-12" aria-labelledby="author-articles">
+      <div class="flex flex-wrap items-end justify-between gap-3 mb-6">
+        <div>
+          <span class="stat-chip text-[11px] uppercase tracking-widest text-[#E94560]">By {authorName}</span>
+          <h2 id="author-articles" class="font-display font-bold text-2xl md:text-3xl text-pitch mt-2">Articles by S. Darshiel Bhat</h2>
+        </div>
+        <span class="text-sm text-ink/50">{articles.length} {articles.length === 1 ? 'article' : 'articles'} published</span>
+      </div>
+      {articles.length > 0 ? (
+        <div class="grid md:grid-cols-2 gap-5">
+          {articles.map(article => (
+            <ArticleCard slug={article.id} title={article.data.title} description={article.data.description} category={article.data.category} pubDate={article.data.pubDate} cover={article.data.cover} coverAlt={article.data.coverAlt} />
+          ))}
+        </div>
+      ) : (
+        <p class="text-ink/55 rounded-xl border border-pitch-2/10 p-6">Articles by this author will appear here as they are published.</p>
+      )}
+    </section>
   </main>
 </Layout>
