@@ -4,7 +4,8 @@ description: "Australia vs England 1st ODI 2026 full scorecard: England were bow
 metaTitle: "Australia vs England 1st ODI 2026 Full Scorecard: Beardman 6/24"
 metaDescription: "View the Australia vs England 1st ODI 2026 full scorecard, complete batting and bowling figures, Mahli Beardman's 6/24 and Australia's seven-wicket win in Perth."
 category: "international"
-author: "Ansar"
+author: "S. Darshiel Bhat"
+authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-14
 updatedDate: 2026-11-14
 ---
