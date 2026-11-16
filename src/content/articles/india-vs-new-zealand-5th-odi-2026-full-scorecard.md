@@ -4,7 +4,8 @@ description: "India vs New Zealand 5th ODI 2026 full scorecard: India defended 2
 metaTitle: "India vs New Zealand 5th ODI 2026 Full Scorecard: IND Win by 22 Runs"
 metaDescription: "Check the India vs New Zealand 5th ODI 2026 full scorecard, complete batting and bowling figures, fall of wickets, Arshdeep Singh's 3/30 and India's 3-1 series win."
 category: "international"
-author: "Ansar"
+author: "S. Darshiel Bhat"
+authorSlug: "s-darshiel-bhat"
 pubDate: 2026-11-16
 updatedDate: 2026-11-16
 ---
